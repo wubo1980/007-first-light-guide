@@ -7,7 +7,7 @@
   slogan: "Earn Your License to Kill",
   heroSubtitle:
     "Master 007 First Light — S-Rank Routes, Gadget Builds & TacSim Strategies",
-  discordUrl: "https://discord.gg/firstlightintel",
+  discordUrl: "https://discord.gg/mTn9ZRGRgm",
   redditLinks: [
     "https://www.reddit.com/r/JamesBond/",
     "https://www.reddit.com/r/stealthgames/",
