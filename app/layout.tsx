@@ -28,6 +28,9 @@ export const metadata: Metadata = buildMetadata({
     "TacSim guide",
     "gadget builds",
   ],
+  other: {
+    "google-site-verification": "N21K5VoxWUyIIwGf5NZjvhvU2Ty_JC2EoVhMWPL-iro",
+  },
 });
 
 /**
