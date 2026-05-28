@@ -7,6 +7,7 @@ export interface MetadataInput {
   description: string;
   path?: string;
   keywords?: string[];
+  other?: Record<string, string>;
 }
 
 /**
@@ -17,6 +18,7 @@ export function buildMetadata({
   description,
   path = "/",
   keywords = [],
+  other,
 }: MetadataInput): Metadata {
   const url = new URL(path, siteMeta.baseUrl).toString();
 
@@ -24,6 +26,7 @@ export function buildMetadata({
     title,
     description,
     keywords,
+    ...(other ? { other } : {}),
     alternates: {
       canonical: url,
     },
