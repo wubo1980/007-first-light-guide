@@ -631,7 +631,7 @@ export const guides: GuideArticle[] = [
           "No, but they should stop treating takedowns as the default solution. Many rooms are better solved through timing and pathing.",
       },
     ],
-  },,
+  },
 
   {
     slug: "first-light-patch-101-and-sales",
