@@ -2,12 +2,10 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 
-import { SiteFooter } from "@/components/layout/site-footer";
-import { SiteHeader } from "@/components/layout/site-header";
-import { siteMeta } from "@/data/site-meta";
-import { buildMetadata } from "@/lib/seo";
+import Script from "next/script";
 
-import "./globals.css";
+
+
 
 const bodyFont = Inter({
   variable: "--font-body",
@@ -45,6 +43,15 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${bodyFont.variable} ${displayFont.variable}`}>
       <body className="min-h-screen bg-[var(--color-background)] text-[var(--color-cream)] antialiased">
+        <Script src={"https://www.googletagmanager.com/gtag/js?id=G-GY6J90DB6S"} strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag("js", new Date());
+            gtag("config", "G-GY6J90DB6S");
+          `}
+        </Script>
         <div className="site-grid" />
         <div className="relative flex min-h-screen flex-col">
           <SiteHeader />
