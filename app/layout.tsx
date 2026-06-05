@@ -4,6 +4,11 @@ import { Analytics } from "@vercel/analytics/next";
 
 import Script from "next/script";
 
+import { buildMetadata } from "@/lib/seo";
+import { siteMeta } from "@/data/site-meta";
+import { SiteHeader } from "@/components/layout/site-header";
+import { SiteFooter } from "@/components/layout/site-footer";
+
 
 
 
