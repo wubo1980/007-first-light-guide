@@ -3,7 +3,7 @@
   shortName: "First Light Guide",
   description:
     "Master 007 First Light with S-Rank routes, gadget builds, mission breakdowns, and TacSim leaderboard strategies.",
-  baseUrl: "https://007firstlightguide.com",
+  baseUrl: "https://007-first-light-guide.vercel.app",
   slogan: "Earn Your License to Kill",
   heroSubtitle:
     "Master 007 First Light — S-Rank Routes, Gadget Builds & TacSim Strategies",
