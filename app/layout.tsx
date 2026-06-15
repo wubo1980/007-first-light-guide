@@ -42,10 +42,8 @@ export default function RootLayout({
       lang="en"
       className={`${bodyFont.variable} ${displayFont.variable}`}
     >
-      <head>
+      <head><link rel="stylesheet" href="/tailwind.css" /></head><body className="min-h-screen bg-[var(--color-background)] text-[var(--color-cream)] antialiased">
         <link rel="stylesheet" href="/tailwind.css" />
-      </head>
-      <body className="min-h-screen bg-[var(--color-background)] text-[var(--color-cream)] antialiased">
         <Analytics />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${siteMeta.ga4Id}`}
