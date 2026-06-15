@@ -9,9 +9,6 @@ import { siteMeta } from "@/data/site-meta";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
 
-
-
-
 const bodyFont = Inter({
   variable: "--font-body",
   subsets: ["latin"],
@@ -28,33 +25,38 @@ export const metadata: Metadata = buildMetadata({
   path: "/",
   keywords: [
     "007 First Light guide",
-    "S-Rank routes",
-    "TacSim guide",
-    "gadget builds",
+    "007 First Light walkthrough",
+    "007 First Light missions",
+    "James Bond game tips",
+    "stealth game guide",
   ],
-  other: {
-    "google-site-verification": "N21K5VoxWUyIIwGf5NZjvhvU2Ty_JC2EoVhMWPL-iro",
-  },
 });
 
-/**
- * 渲染根布局，挂载字体、全站导航、页脚和页面主体容器。
- */
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${bodyFont.variable} ${displayFont.variable}`}>
+    <html
+      lang="en"
+      className={`${bodyFont.variable} ${displayFont.variable}`}
+    >
+      <head>
+        <link rel="stylesheet" href="/tailwind.css" />
+      </head>
       <body className="min-h-screen bg-[var(--color-background)] text-[var(--color-cream)] antialiased">
-        <Script src={"https://www.googletagmanager.com/gtag/js?id=G-GY6J90DB6S"} strategy="afterInteractive" />
+        <Analytics />
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${siteMeta.ga4Id}`}
+          strategy="afterInteractive"
+        />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag("js", new Date());
-            gtag("config", "G-GY6J90DB6S");
+            gtag("config", "${siteMeta.ga4Id}");
           `}
         </Script>
         <div className="site-grid" />
@@ -63,7 +65,6 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <SiteFooter />
         </div>
-        <Analytics mode="production" />
       </body>
     </html>
   );

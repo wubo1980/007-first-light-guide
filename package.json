@@ -11,14 +11,15 @@
     "test": "node --import tsx --test tests/**/*.test.ts"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.0",
     "lucide-react": "^0.553.0",
     "next": "16.2.6",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "schema-dts": "^1.1.5",
-    "@vercel/analytics": "^2.0.0"
+    "schema-dts": "^1.1.5"
   },
   "devDependencies": {
+    "@tailwindcss/cli": "^4.3.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
@@ -30,9 +31,9 @@
     "typescript": "^5"
   },
   "optionalDependencies": {
-    "lightningcss-linux-x64-gnu": "^1.32.0",
-    "lightningcss-darwin-arm64": "^1.32.0",
+    "@tailwindcss/oxide-darwin-arm64": "^4",
     "@tailwindcss/oxide-linux-x64-gnu": "^4",
-    "@tailwindcss/oxide-darwin-arm64": "^4"
+    "lightningcss-darwin-arm64": "^1.32.0",
+    "lightningcss-linux-x64-gnu": "^1.32.0"
   }
 }
