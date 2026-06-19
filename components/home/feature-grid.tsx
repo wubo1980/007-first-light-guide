@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { BookOpen, BriefcaseBusiness, Cpu, Trophy } from "lucide-react";
 
 import { SectionHeading } from "@/components/ui/section-heading";

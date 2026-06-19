@@ -1,4 +1,4 @@
-﻿import type { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
 
 import { getAllGuides } from "@/lib/guides";
 import { siteMeta } from "@/data/site-meta";

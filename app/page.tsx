@@ -1,4 +1,4 @@
-﻿import { DiscordCta } from "@/components/ui/discord-cta";
+import { DiscordCta } from "@/components/ui/discord-cta";
 import { FeatureGrid } from "@/components/home/feature-grid";
 import { GameInfoPanel } from "@/components/home/game-info-panel";
 import { HeroSection } from "@/components/home/hero-section";

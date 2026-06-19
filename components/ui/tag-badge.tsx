@@ -1,4 +1,4 @@
-﻿interface TagBadgeProps {
+interface TagBadgeProps {
   children: string;
 }
 

@@ -1,4 +1,4 @@
-﻿import { siteMeta } from "@/data/site-meta";
+import { siteMeta } from "@/data/site-meta";
 import { SectionHeading } from "@/components/ui/section-heading";
 
 const infoRows = [

@@ -1,4 +1,4 @@
-﻿export const navigationItems = [
+export const navigationItems = [
   { label: "Guides", href: "/guides" },
   { label: "Gadgets", href: "/gadgets" },
   { label: "Missions", href: "/missions" },

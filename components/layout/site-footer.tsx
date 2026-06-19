@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 import { navigationItems } from "@/data/navigation";
 import { siteMeta } from "@/data/site-meta";

@@ -1,4 +1,4 @@
-﻿export const siteMeta = {
+export const siteMeta = {
   ga4Id: "G-GY6J90DB6S",
   name: "007 First Light Guide",
   shortName: "First Light Guide",

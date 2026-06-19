@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 import { CategoryOverview } from "@/components/ui/category-overview";
 import { DiscordCta } from "@/components/ui/discord-cta";

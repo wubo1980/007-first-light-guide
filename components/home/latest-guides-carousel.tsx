@@ -1,4 +1,4 @@
-﻿import { GuideCard } from "@/components/ui/guide-card";
+import { GuideCard } from "@/components/ui/guide-card";
 import { SectionHeading } from "@/components/ui/section-heading";
 import type { GuideArticle } from "@/data/guides";
 

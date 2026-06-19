@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { Menu, Shield } from "lucide-react";
 
 import { navigationItems } from "@/data/navigation";

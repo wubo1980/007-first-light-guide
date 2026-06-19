@@ -1,4 +1,4 @@
-﻿interface CalloutBoxProps {
+interface CalloutBoxProps {
   title: string;
   content: string;
   tone: "info" | "warning" | "success";

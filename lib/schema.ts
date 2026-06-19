@@ -1,4 +1,4 @@
-﻿import type { FAQPage, VideoGame, WithContext } from "schema-dts";
+import type { FAQPage, VideoGame, WithContext } from "schema-dts";
 
 import type { GuideArticle } from "@/data/guides";
 import { siteMeta } from "@/data/site-meta";

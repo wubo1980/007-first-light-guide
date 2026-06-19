@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { ArrowRight, Crosshair, Radar, ShieldCheck } from "lucide-react";
 
 import { siteMeta } from "@/data/site-meta";
