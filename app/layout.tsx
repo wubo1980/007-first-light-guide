@@ -19,18 +19,33 @@ const displayFont = Playfair_Display({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = buildMetadata({
-  title: siteMeta.name,
-  description: siteMeta.description,
-  path: "/",
-  keywords: [
-    "007 First Light guide",
-    "007 First Light walkthrough",
-    "007 First Light missions",
-    "James Bond game tips",
-    "stealth game guide",
-  ],
-});
+export const metadata: Metadata = {
+  ...buildMetadata({
+    title: siteMeta.name,
+    description: siteMeta.description,
+    path: "/",
+    keywords: [
+      "007 First Light guide",
+      "007 First Light walkthrough",
+      "007 First Light missions",
+      "James Bond game tips",
+      "stealth game guide",
+    ],
+  }),
+  openGraph: {
+    title: siteMeta.name,
+    description: siteMeta.description,
+    url: "https://007-first-light-guide.vercel.app/",
+    siteName: siteMeta.name,
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteMeta.name,
+    description: siteMeta.description,
+  },
+};
 
 export default function RootLayout({
   children,
