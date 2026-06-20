@@ -21,7 +21,7 @@ const displayFont = Playfair_Display({
 
 export const metadata: Metadata = {
   ...buildMetadata({
-    title: siteMeta.name,
+    title: "007 First Light Guide: S-Rank Routes &amp; Gadget Builds",
     description: siteMeta.description,
     path: "/",
     keywords: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     ],
   }),
   openGraph: {
-    title: siteMeta.name,
+    title: "007 First Light Guide: S-Rank Routes &amp; Gadget Builds",
     description: siteMeta.description,
     url: "https://007-first-light-guide.vercel.app/",
     siteName: siteMeta.name,
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: siteMeta.name,
+    title: "007 First Light Guide: S-Rank Routes &amp; Gadget Builds",
     description: siteMeta.description,
   },
 };
