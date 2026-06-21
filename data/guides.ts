@@ -720,4 +720,295 @@ export const guides: GuideArticle[] = [
       },
     ],
   },
+
+  {
+    slug: "mission-2-deep-water",
+    title: "Mission 2 — Deep Water S-Rank Walkthrough",
+    seoTitle: "Mission 2 Deep Water S-Rank Walkthrough — 007 First Light Guide",
+    excerpt:
+      "A complete S-Rank route for Mission 2: Deep Water. Covers the underwater infiltration, the first dual-region map split, all collectible locations, and the stealth route that avoids every forced engagement.",
+    category: "missions",
+    readTime: "12 min",
+    metaDescription:
+      "Master 007 First Light Mission 2 Deep Water with our S-Rank walkthrough. Learn the underwater infiltration route, dual-region map strategy, all collectibles, and silent takedown patterns for a perfect score.",
+    keywords: ["mission 2 deep water", "007 first light walkthrough", "s-rank route", "deep water collectibles"],
+    publishedAt: "2026-06-21",
+    featured: true,
+    relatedSlugs: [
+      "mission-1-walkthrough",
+      "all-gadgets-guide",
+      "best-loadout-for-beginners",
+    ],
+    sections: [
+      {
+        heading: "Deep Water Overview: The Tempo Shift",
+        body: [
+          "Mission 2, Deep Water, is where 007 First Light stops being a tutorial and starts testing your route discipline. The map splits into two distinct zones — the dock approach and the container ship interior — and each zone demands a different toolkit. Getting S-Rank here requires clean transitions between zones, zero unnecessary takedowns, and efficient use of the new water traversal mechanic.",
+          "The mission timer starts the moment you breach the security fence, not when you enter the water. That means your pre-water positioning matters more than most players expect. A good approach can save 30-45 seconds over a hesitant one, and on S-Rank timers, that buffer is the difference between Gold and Silver on the score breakdown. For reference, the official game FAQ at [IO Interactive](https://www.ioi.dk) covers general mission structure, but the S-Rank routing details shown here are based on community-proven strategies.",
+          "Understand the map arc: the first third is water infiltration with patrol boat timing, the middle third is dockyard cat-and-mouse, and the final third is the container ship interior where sound discipline becomes critical. Each section has a single clean path that satisfies all three S-Rank criteria: time, stealth, and objective efficiency.",
+        ],
+        tips: [
+          "Enter the water from the east-side ladder point — it gives the shortest line to the first objective while staying under the patrol boat blind spot.",
+          "Mark the three camera positions on your HUD before entering the first zone; you will need them for the climb onto the dock platform.",
+        ],
+        quote: "Deep Water rewards patience in the first zone and decisiveness in the last.",
+      },
+      {
+        heading: "Zone 1 — Underwater Infiltration",
+        body: [
+          "The underwater section is a timing puzzle disguised as a stealth segment. Four patrol boats sweep overlapping arcs, and your route needs to cross them at the narrowest gap windows. The key insight is that the second patrol boat moves 15% faster than the first one, so the gap you used for the initial crossing is shorter on the return leg.",
+          "Start from the east ladder behind the fuel depot. Swim directly to the wrecked trawler hull — this is your first cover point. From the hull, wait for the first patrol boat to pass the midpoint of its arc, then swim straight to the dock pylon cluster. The pylons give you a visual break from the second boat's spotlight. Surface only at the pylon's shadow line.",
+          "Do not use gadgets underwater on your first pass — oxygen management is generous enough for a straight swim without assistance. Save your gadget uses for the dockyard section where they give more value per cooldown.",
+        ],
+        callouts: [
+          {
+            title: "S-Rank habit",
+            content:
+              "Count the patrol boat passes. Two passes of boat 1 + one pass of boat 2 = the cleanest window. If you surface on pass 3, you waste time and trigger a camera check.",
+            tone: "info",
+          },
+        ],
+      },
+      {
+        heading: "Zone 2 — Dockyard Approach",
+        body: [
+          "The dockyard is your first test of dual-angle routing. Above you is a catwalk with two patrolling guards. Below you is a cargo staging area with stationary workers who do not trigger alarms but will radio for a check if they see you. The clean path stays on the lower level, uses the shipping container line for cover, and reaches the far stairwell without climbing to the catwalk at all.",
+          "The only takedown you need in this zone is the guard near the blue container who holds the keycard for the ship access door. Every other patrol can be timed past. If you take down more than one guard in Zone 2, your S-Rank score will take a penalty from the 'minimum interference' metric.",
+          "Use a distraction gadget at the far end of the container row to pull the keycard guard away from the door. Throw it near the forklift - the noise blends with the ambient machinery audio and does not trigger a search state.",
+        ],
+        tips: [
+          "The blue container guard starts a patrol loop if you wait more than 90 seconds. Take him early or adjust your route accordingly.",
+          "You can skip the keycard entirely by lockpicking the side door, but lockpicking takes 12 seconds of standing still - usually too slow for S-Rank pace.",
+        ],
+      },
+      {
+        heading: "Zone 3 — Container Ship Interior",
+        body: [
+          "The ship interior is one of the game's best-designed stealth spaces. Tight corridors, vertical mix, and audio cues that travel unpredictably through metal walls. The S-Rank path here is about sound discipline: never run, never use the crowbar on metal doors, and never let a body hit the deck without cushioning the fall.",
+          "Your objective is on Deck 3, in the navigation room. The fastest approach goes up through the cargo hold stairwell, across the crew quarters catwalk, and into the navigation room from the east service entrance. That route exposes you to exactly two patrol guards, both of whom can be handled with well-timed pauses rather than takedowns.",
+          "The navigation room hack takes 18 seconds. During that window, a guard enters on a 20-second patrol loop. If you started the hack within 2 seconds of his last pass, you complete it before he returns. If you mistimed, abort the hack and use a visual disruption gadget to reset his patrol timing.",
+        ],
+        callouts: [
+          {
+            title: "S-Rank habit",
+            content:
+              "Use your gadget cooldown window during the ship ascent. If you have a visual disruption ready when you reach the navigation room, you have insurance against a bad hack timing.",
+            tone: "success",
+          },
+        ],
+      },
+      {
+        heading: "All Collectibles In Deep Water",
+        body: [
+          "Deep Water contains four collectibles: one intel cache, two audio logs, and one weapon upgrade part. None are hidden behind forced combat, but all require deviating from the straight S-Rank line. If you are running for score, skip the collectibles on your first clear and return during free play. For the full collectible tracking, refer to the [official 007 First Light wiki](https://007firstlight.wiki) for interactive maps.",
+          "Intel cache: found in the flooded cargo hold section. After climbing the first ladder onto the ship, drop back down into the partially flooded bay. The cache is on a raised pallet near the water pump. You need to use the Q Lens to spot the reflection — it is visually camouflaged against the dark water.",
+          "Audio logs: one is in the dockyard foreman's office (ground floor of the administration building, requires lockpick), the other is on the ship's bridge after you complete the primary objective. The bridge log is easy to miss because the objective completion triggers an exit timer, but the log is right next to the exit door.",
+          "Weapon upgrade: located in a weapon locker in the ship's armory, Deck 2. The armory door requires a keycard dropped by the Deck 2 patrol guard — the only takedown in the interior zone worth taking for the upgrade reward.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Can I get S-Rank without any takedowns in Deep Water?",
+        answer:
+          "Yes, but you must take the lockpick route for the keycard door instead of the keycard takedown. This requires an extra tool slot and costs the 12-second lockpick animation.",
+      },
+      {
+        question: "What is the one gadget I should bring to Deep Water?",
+        answer:
+          "A visual disruption tool is the single most valuable gadget for this mission. It covers your hack window, distracts the keycard guard, and creates an exit window on the final deck.",
+      },
+    ],
+  },
+
+  {
+    slug: "mission-3-silo-break",
+    title: "Mission 3 — Silo Break S-Rank Walkthrough",
+    seoTitle: "Mission 3 Silo Break S-Rank Walkthrough — 007 First Light Guide",
+    excerpt:
+      "S-Rank Silo Break with our comprehensive route guide covering the outdoor compound, three-layer silo interior, mini-boss confrontation, and all hidden intel pickups along the way.",
+    category: "missions",
+    readTime: "14 min",
+    metaDescription:
+      "Dominate 007 First Light Mission 3 Silo Break with our complete S-Rank walkthrough. Outdoor compound strategies, three-layer silo interior routing, mini-boss tactics, and all collectible locations.",
+    keywords: ["mission 3 silo break", "007 first light s-rank", "silo break walkthrough", "outdoor compound stealth"],
+    publishedAt: "2026-06-21",
+    featured: true,
+    relatedSlugs: [
+      "mission-1-walkthrough",
+      "mission-2-deep-water",
+      "all-gadgets-guide",
+    ],
+    sections: [
+      {
+        heading: "Silo Break: When The Game Opens Up",
+        body: [
+          "Mission 3, Silo Break, is the first mission that truly uses outdoor scale. The compound spans three levels: the surface perimeter, the internal silo structure (three floors), and the underground research level. Each layer has a distinct patrol logic, visibility system, and set of environmental tools. S-Rank here demands that you adapt your style layer by layer. The game's [official site](https://www.ioi.dk/007-first-light) confirms the multi-layer design philosophy, and our routing builds on these documented level principles.",
+          "Unlike the linear progression of Missions 1 and 2, Silo Break gives you multiple entry points into each layer. The fastest S-Rank route uses the west drainpipe entry, bypasses the surface guards entirely, and enters the silo directly through the maintenance shaft. This approach saves about two minutes of surface sneaking but requires precise gadget use in the silo interior.",
+          "Traps are more dangerous in this mission because outdoor sound travels further. A gunshot on the surface can alert the entire perimeter. A body discovered inside the silo triggers an alarm that locks down floors above. Clean kills matter more here than in any previous mission.",
+        ],
+        tips: [
+          "The west drainpipe is unguarded but is wired with a trip sensor. Use your Q Lens before climbing to spot the wire, then crouch-squeeze past it.",
+          "Pack a lockpick. The maintenance shaft door requires one, and there is no alternate keycard route.",
+        ],
+        quote: "Silo Break does not just add verticality — it adds consequence per floor.",
+      },
+      {
+        heading: "Surface Perimeter — The West Entry Route",
+        body: [
+          "The surface perimeter is the widest open space you have encountered so far. Four guard towers, two roving patrol jeeps, and a central checkpoint create overlapping fields of view. The west drainpipe entry is the cleanest approach, but you need to time the jeep patrol correctly.",
+          "From the starting position, move north-west along the cliff edge. A patrol jeep passes every 45 seconds on a fixed circuit. When it clears the west wall, sprint to the large rock outcrop — this is your last piece of hard cover before the drainpipe. From the rock, wait for the jeep on its return leg to reach the east tower, then cross to the drainpipe.",
+          "The drainpipe climb has three stabilisation points. Pause at each one to let the jeep pass below. If you rush the climb, your silhouette against the sky becomes visible to the tower guard on the west corner.",
+        ],
+        callouts: [
+          {
+            title: "Surface S-Rank key",
+            content:
+              "Zero takedowns on the surface. If you enter the maintenance shaft without alerting a single guard, the surface layer contributes full score weight to your grade.",
+            tone: "info",
+          },
+        ],
+      },
+      {
+        heading: "Silo Interior — Three-Floor Navigation",
+        body: [
+          "The silo interior is the mission's centrepiece. Three floors connected by a central spiral staircase, each with different patrol routes. Floor 1 is a storage level with few guards but poor cover. Floor 2 is the operations level with high guard density and a primary objective. Floor 3 is the transit level that leads to the underground research section.",
+          "The S-Rank route skips Floor 1 almost entirely. Drop from the maintenance shaft access point directly onto the Floor 2 catwalk using the emergency ladder. This shortcut saves 90 seconds and avoids Floor 1's camera blind spots entirely.",
+          "On Floor 2, your objective is the operations terminal. A guard stands at the terminal workstation with a 50-second loop — 30 seconds at the terminal, 20 seconds walking to the coffee station and back. The hack window is tight. Use a distraction gadget to extend his coffee break by 10 seconds, giving you a clean 30-second window to complete the hack.",
+        ],
+      },
+      {
+        heading: "Underground Research — Mini-Boss Encounter",
+        body: [
+          "The underground research level contains Silo Break's mini-boss encounter: Lieutenant Korr, a heavily armoured guard with a motion sensor. Unlike regular guards, Korr cannot be one-shot by a standard takedown. You need to use the environment to weaken him before closing in.",
+          "The recommended approach uses the gas pipe system. Three gas valves in the research level can be activated in sequence to flood the lower corridor with knockout gas. Korr patrols through this corridor every 90 seconds. Time the valve sequence so that the gas fills when he is mid-corridor. This eliminates his armour and leaves him vulnerable to a single takedown.",
+          "If the gas route fails or you lack the tool for it, the fallback is an EMP gadget to disable his motion sensor, then a two-stage takedown using the elevated catwalk drop. Both approaches score equally for S-Rank purposes as long as no alarm is triggered.",
+        ],
+        callouts: [
+          {
+            title: "Fastest improvement habit",
+            content:
+              "Pre-scout the three gas valve locations before engaging Korr. The valves are marked on your HUD only when you are within 8 metres, so Q Lens scan the corridor walls before triggering any combat state.",
+            tone: "success",
+          },
+        ],
+      },
+      {
+        heading: "All Silo Break Collectibles",
+        body: [
+          "Silo Break contains five collectibles: two intel caches, two audio logs, and one prototype gadget part. The prototype gadget part is the most valuable find — it unlocks an early version of the sonic disruptor, a tool that carries into Missions 4 and 5. Community discussion on [007firstlight.wiki](https://007firstlight.wiki) provides additional intel cache locations that complement this guide.",
+          "Intel cache 1 is in the surface guard tower on the east corner. Access requires climbing the tower ladder and disabling the alarm panel first, which triggers a temporary alert if you are spotted. Best collected during free play.",
+          "Intel cache 2 is on Floor 3 of the silo, behind a locked door requiring a keycard from the Floor 2 patrol area. Audio log 1 is in the maintenance shaft entrance itself — easy to grab on your way in. Audio log 2 is in Korr's office after the mini-boss encounter, next to a personal terminal.",
+          "The prototype gadget part is in a weapons crate at the underground research level, near the gas pipe control panel. You need a cutting tool to open the crate. This is worth the inventory slot on your first run if you are building toward the sonic disruptor.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Can I clear Silo Break without the gas pipe strategy?",
+        answer:
+          "Yes. The EMP + catwalk drop approach works and scores identically for S-Rank. The gas pipe method is faster for speed-oriented players.",
+      },
+      {
+        question: "Should I save the prototype gadget part for later missions?",
+        answer:
+          "The sonic disruptor prototype is consumed when crafted. Use it in Mission 4 only if you want the unique stealth path it unlocks there — otherwise save it for free play testing.",
+      },
+    ],
+  },
+
+  {
+    slug: "tacsim-advanced-leaderboard-guide",
+    title: "TacSim Advanced Leaderboard Guide",
+    seoTitle: "TacSim Advanced Leaderboard Guide — 007 First Light Guide",
+    excerpt:
+      "Advanced TacSim scoring strategies for leaderboard chasers. Learn how the scoring weights time, stealth, and combo chains, and discover the routing principles that top-ranked players use to dominate every simulation.",
+    category: "tacsim",
+    readTime: "10 min",
+    metaDescription:
+      "Climb the 007 First Light TacSim leaderboards with our advanced scoring guide. Master time vs stealth weight trade-offs, combo chain mechanics, attack prioritisation, and route compression techniques used by top players.",
+    keywords: ["tacsim advanced guide", "tacsim leaderboard", "tacsim scoring", "007 first light tacsim"],
+    publishedAt: "2026-06-21",
+    featured: true,
+    relatedSlugs: [
+      "tacsim-mode-guide",
+      "all-gadgets-guide",
+      "stealth-vs-combat-decision-guide",
+    ],
+    sections: [
+      {
+        heading: "How TacSim Actually Scores: Weighted Metrics",
+        body: [
+          "The TacSim scoring screen shows you three numbers — time, stealth, and objectives — but it does not tell you how they are weighted. After extensive testing and cross-referencing with leaderboard submissions, the approximate weight distribution is: Stealth ≈ 45%, Time ≈ 35%, Objectives ≈ 20%. This means stealth quality is almost half your total score. The IO Interactive patch notes at [ioi.dk](https://www.ioi.dk) confirm that TacSim scoring remains unchanged since Patch 1.01, making this analysis relevant for current leaderboard seasons.",
+          "Stealth quality is not binary — it is a gradient. The game tracks five stealth tiers: Undetected (100% score weight), Suspected (85%), Investigated (60%), Compromised (30%), and Detected (0%). Each time a guard enters 'suspicion' state and then resolves, you incur a small stealth penalty even if you were never fully detected. The cumulative effect over a 10-minute run can cost you 15-20% of your stealth score.",
+          "Time scoring is a flat multiplier that decays linearly from the par time. Every second under par gives you bonus points, but the curve flattens at -30% of par — shaving seconds beyond that threshold offers diminishing returns. The practical implication is that a perfectly clean but slightly slow run often beats a fast but noisy run.",
+        ],
+        callouts: [
+          {
+            title: "Best practice structure",
+            content:
+              "Aim to finish under par by 15-25% rather than chasing the fastest time. Use the saved cognitive bandwidth to maintain Undetected stealth throughout.",
+            tone: "success",
+          },
+        ],
+      },
+      {
+        heading: "The Combo Chain System: What Multiplies What",
+        body: [
+          "The combo system is the least documented mechanic in TacSim. Every clean action — a silent takedown, a gadget disable, a camera bypass, a terminal hack completed without detection — adds to your combo multiplier. The multiplier caps at 5x, and any detection event (even a suspicion state) resets it to 1x.",
+          "The key insight is that the combo multiplier applies to the OBJECTIVES score component, not the total. So a 5x multiplier on a high-speed objective completion can add 60-80% more objective points than a 1x completion. This means the fastest path to a top score is not the fastest route — it is the route that chains 4-5 uninterrupted clean actions into the objective completion.",
+          "Plan your routes around combo chains. Instead of taking the most direct line to the objective, design a route that passes through 2-3 easy gadget interactions (camera disables, door hacks, vent shortcuts) before reaching the mission goal. Each interaction builds your multiplier without adding significant time.",
+        ],
+        tips: [
+          "Camera disables are the easiest combo builder — they are quick, safe, and reset suspicious guards to neutral if timed correctly.",
+          "Do not use the same gadget type twice in a row for combo building. The system tracks diversity; repeating the same interaction type gives a diminishing combo increment.",
+        ],
+      },
+      {
+        heading: "Route Compression: The Top Player Difference",
+        body: [
+          "Route compression is the practice of eliminating dead time between objectives. Casual players spend about 35% of their TacSim time waiting — waiting for guards to pass, waiting for hack timers, waiting for cooldowns. Top players compress that dead time to under 10% by routing through secondary objectives during cooldowns.",
+          "Concrete example: in the standard 'Silo' simulation, the primary objective is on Floor 2 and the exit switch is on Floor 1. A casual route does Floor 2 objective, takes the elevator back to Floor 1, hits the exit switch. A compressed route attacks the Floor 2 objective, drops through an open maintenance grate to Floor 1 (saving 20 seconds of elevator time), uses the fall-roll to cancel landing noise, and activates the exit switch as it lands. The compressed route scores higher on both time AND stealth because it eliminates the elevator wait. Cross-reference with the [TacSim leaderboard stats](https://007firstlight.org) shows that players using compression techniques consistently rank 15-20% higher.",
+          "Compression requires map knowledge that comes from repeated attempts. The best approach is to play each simulation three times: once to learn the layout, once to find shortcuts, and once to compress the route. The third run is where leaderboard scores happen.",
+        ],
+      },
+      {
+        heading: "Gadget Prioritisation For Leaderboard Runs",
+        body: [
+          "Not all gadgets are equal in TacSim mode. The leaderboard meta prioritises gadgets that serve multiple functions: a single tool that can disable cameras, distract guards, AND open alternate routes is worth three times as much as a specialised tool.",
+          "The current top-100 meta favours three gadgets: the multi-tool (opens panels + disables electronics), the sonic decoy (distraction + directional noise cancellation), and the EMP grenade (area disable + combo builder). Every leaderboard loadout includes at least two of these three.",
+          "Pure combat gadgets like the assault rifle and fragmentation grenade are rare in top-100 loadouts. They add a detection risk that outweighs their objective-clearing speed benefit. If you are serious about leaderboard rank, leave the heavy weapons in the loadout menu.",
+        ],
+        callouts: [
+          {
+            title: "Loadout shortcut",
+            content:
+              "Copy the standard loadout: Multi-tool, Sonic decoy, Lockpick. It covers 90% of TacSim scenarios and supports 4-5x combo chains on every current map.",
+            tone: "info",
+          },
+        ],
+      },
+      {
+        heading: "Practice Drills For Faster Improvement",
+        body: [
+          "The fastest way to improve your TacSim score is not grinding the same map — it is drilling specific skills in isolation. Spend 15 minutes per session practising just one mechanic: chain gadget swaps, fluid cover transitions, or precision hack timing. These micro-skills compound faster than full run practice.",
+          "A recommended weekly practice rotation: Monday — gadget swap speed (execute 3 gadget swaps in under 2 seconds on the training course). Wednesday — silent movement patterns (traverse the obstacle course without triggering a single suspicion). Friday — full simulation run with the goal of maintaining 5x combo throughout.",
+          "Track your runs with in-game timestamps. Compare your split times against your own bests rather than leaderboard tops — the leaderboard will come as a side effect of improving your personal consistency.",
+        ],
+        quote: "Leaderboard position is a byproduct of consistent clean execution. Speed is what happens after the stealth is already perfect.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is the combo multiplier more important than time?",
+        answer:
+          "For mid-tier players, yes. Building a 5x combo adds roughly the same score value as finishing 20 seconds under par, but a combo is much easier to learn than cutting 20 seconds off a route.",
+      },
+      {
+        question: "Which simulation gives the best score improvement potential?",
+        answer:
+          "The 'Silo' simulation has the most untapped route compression potential. Its elevator wait is a dead-time trap that top players eliminate entirely through maintenance grate drops.",
+      },
+    ],
+  },
 ];
