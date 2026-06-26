@@ -2,13 +2,17 @@ import Link from "next/link";
 import { ArrowRight, Crosshair, Radar, ShieldCheck } from "lucide-react";
 
 import { siteMeta } from "@/data/site-meta";
+import { Spotlight } from "@/components/ui/aceternity-spotlight";
 
 /**
  * 渲染首页 Hero 区域，突出品牌、价值主张和关键入口。
+ * 集成了 Aceternity UI Spotlight 聚光灯扫射效果。
  */
 export function HeroSection() {
   return (
     <section className="relative overflow-hidden rounded-[36px] border border-white/10 bg-[radial-gradient(circle_at_top_left,rgba(212,168,67,0.16),transparent_32%),linear-gradient(160deg,rgba(16,20,31,0.98),rgba(6,8,14,0.92))] px-6 py-16 shadow-[0_40px_100px_rgba(0,0,0,0.38)] sm:px-10 lg:px-14">
+      {/* Aceternity UI Spotlight 聚光灯扫射效果 */}
+      <Spotlight className="left-0 top-0 hidden lg:block" fill="#d4a843" />
       <div className="absolute inset-0 opacity-35 [background-image:linear-gradient(rgba(212,168,67,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(212,168,67,0.08)_1px,transparent_1px)] [background-size:56px_56px]" />
       <div className="relative grid gap-10 lg:grid-cols-[1.3fr_0.7fr] lg:items-end">
         <div className="space-y-8">

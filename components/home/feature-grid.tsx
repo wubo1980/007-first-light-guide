@@ -2,6 +2,7 @@ import Link from "next/link";
 import { BookOpen, BriefcaseBusiness, Cpu, Trophy } from "lucide-react";
 
 import { SectionHeading } from "@/components/ui/section-heading";
+import { CardSpotlight } from "@/components/ui/aceternity-card-spotlight";
 
 const features = [
   {
@@ -46,19 +47,20 @@ export function FeatureGrid() {
           const Icon = feature.icon;
 
           return (
-            <Link
-              key={feature.title}
-              href={feature.href}
-              className="group rounded-[28px] border border-white/10 bg-white/[0.035] p-6 transition duration-300 hover:-translate-y-1 hover:border-[var(--color-gold)]/45 hover:bg-white/[0.06]"
-            >
-              <div className="flex size-12 items-center justify-center rounded-2xl border border-[var(--color-gold)]/30 bg-[rgba(212,168,67,0.08)] text-[var(--color-gold)]">
-                <Icon className="size-5" />
-              </div>
-              <h3 className="mt-6 font-display text-2xl text-white transition group-hover:text-[var(--color-gold)]">
-                {feature.title}
-              </h3>
-              <p className="mt-4 text-sm leading-7 text-white/65">{feature.description}</p>
-            </Link>
+            <CardSpotlight key={feature.title}>
+              <Link
+                href={feature.href}
+                className="group block rounded-[28px] border border-white/10 bg-white/[0.035] p-6 transition duration-300 hover:-translate-y-1 hover:border-[var(--color-gold)]/45 hover:bg-white/[0.06]"
+              >
+                <div className="flex size-12 items-center justify-center rounded-2xl border border-[var(--color-gold)]/30 bg-[rgba(212,168,67,0.08)] text-[var(--color-gold)]">
+                  <Icon className="size-5" />
+                </div>
+                <h3 className="mt-6 font-display text-2xl text-white transition group-hover:text-[var(--color-gold)]">
+                  {feature.title}
+                </h3>
+                <p className="mt-4 text-sm leading-7 text-white/65">{feature.description}</p>
+              </Link>
+            </CardSpotlight>
           );
         })}
       </div>
