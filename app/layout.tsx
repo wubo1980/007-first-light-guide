@@ -4,8 +4,6 @@ import { Analytics } from "@vercel/analytics/next";
 
 import Script from "next/script";
 
-import "./globals.css";
-
 import { buildMetadata } from "@/lib/seo";
 import { siteMeta } from "@/data/site-meta";
 import { SiteHeader } from "@/components/layout/site-header";
@@ -59,7 +57,20 @@ export default function RootLayout({
       lang="en"
       className={`${bodyFont.variable} ${displayFont.variable}`}
     >
-      <head></head><body className="min-h-screen bg-[var(--color-background)] text-[var(--color-cream)] antialiased">
+      <head>
+        <link rel="stylesheet" href="/tailwind.css" />
+        <style>{`
+          @keyframes spotlight {
+            0% { opacity: 0; transform: translate(-72%, -62%) scale(0.5); }
+            100% { opacity: 1; transform: translate(-50%, -40%) scale(1); }
+          }
+          .animate-spotlight {
+            animation: spotlight 2s ease 0.75s 1 forwards;
+          }
+        `}</style>
+      </head>
+      <body className="min-h-screen bg-[var(--color-background)] text-[var(--color-cream)] antialiased">
+        <link rel="stylesheet" href="/tailwind.css" />
         <Analytics />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${siteMeta.ga4Id}`}
