@@ -1138,4 +1138,584 @@ export const guides: GuideArticle[] = [
       },
     ],
   },
+
+  {
+    slug: "mission-5-exchange",
+    title: "Mission 5 \u2014 The Exchange S-Rank Walkthrough",
+    seoTitle: "Mission 5 \u2014 The Exchange S-Rank Walkthrough \u2014 007 First Light Guide",
+    excerpt:
+      "A complete S-Rank route for Mission 5: The Exchange. Covers the Prague financial district infiltration, the server room gauntlet, Advanced Hacking Device integration, Golden Gun Part 2, and every hidden intel drop across the data centre.",
+    category: "missions",
+    readTime: "15 min",
+    metaDescription:
+      "Master 007 First Light Mission 5 The Exchange with our S-Rank walkthrough. Learn the Prague financial district infiltration, server room stealth route, Advanced Hacking Device strategies, Golden Gun Part 2 location, and all collectibles.",
+    keywords: ["mission 5 the exchange", "007 first light walkthrough", "s-rank route", "the exchange prague", "advanced hacking device mission 5", "golden gun part 2"],
+    publishedAt: "2026-06-28",
+    featured: true,
+    relatedSlugs: [
+      "mission-4-the-vault",
+      "all-gadgets-guide",
+      "tacsim-advanced-leaderboard-guide",
+    ],
+    sections: [
+      {
+        heading: "The Exchange Overview: Device Deployment",
+        body: [
+          "Mission 5, The Exchange, is the first mission where your loadout decisions from Mission 4 pay off directly. The Advanced Hacking Device you extracted from the Zurich vault (see our [Mission 4 \u2014 The Vault guide](/guides/mission-4-the-vault)) is not just a collectible. It is the mission-critical tool that defines every S-Rank route in this level. If you did not extract it, the recommended stealth path is significantly harder and you will need twice as many gadget uses to compensate.",
+          "The mission takes place in a Prague financial district data exchange centre. Your objective is to infiltrate the facility, locate the encrypted server cluster that stores the villain\u2019s transaction records, deploy the Advanced Hacking Device to extract the data, and exfiltrate before the building\u2019s automated security locks isolate every floor. The three zones \u2014 the street-level plaza, the office mezzanine, and the basement server farm \u2014 create a vertical descent pattern that rewards players who maintain momentum while respecting each floor\u2019s unique threat profile.",
+          "For S-Rank, The Exchange demands a clean transition between the outdoor and indoor environments. The par time is approximately 13 minutes, but the outdoor section alone can eat 4 minutes if you do not use the delivery entrance shortcut. The biggest time loss comes from players treating the office mezzanine as a stealth puzzle instead of a timing puzzle. You do not need to avoid the office staff. You need to pass through them before they finish their current task rotations.",
+          "The Advanced Hacking Device changes everything here because it can create 8-second camera blind spots on demand and override the server farm\u2019s electronic locks in a single interaction. Without it, you need separate tools for each of those problems, cutting your gadget flexibility by 50%.",
+        ],
+        tips: [
+          "If you have the Advanced Hacking Device equipped, you can save one entire gadget slot compared to players who do not. Use that slot for a mobility or extraction tool.",
+          "The delivery entrance shortcut is on the east side of the plaza. Look for the service road behind the catering van. The driver takes a smoke break every four minutes.",
+        ],
+        quote: "The Exchange is the first mission that assumes you have earned your tools. Use them.",
+      },
+      {
+        heading: "Zone 1 \u2014 Street-Level Plaza",
+        body: [
+          "The plaza is an open public space wrapped around the exchange centre facade. Four guard posts, a vehicle checkpoint, two roaming security pairs, and a half-dozen civilian NPCs create a dynamic space that punishes slow movement. The civilians do not trigger alarms, but they do react to suspicious behaviour by staring, and that stare catches guard attention.",
+          "From the starting position at the metro exit, move north-east along the planter line. The first security pair crosses the plaza on a 55-second patrol cycle. Time your movement so you reach the eastern planter row just as they turn toward the west entrance. Once at the planter, use Q Lens to identify the catering van and the service road behind it.",
+          "The service road is your entry point, but the security gate is monitored by a fixed camera. If you have the Advanced Hacking Device, use it to disable the camera for 8 seconds \u2014 more than enough time to slip through the service door. Without it, you need to reach the roof access via the exterior fire escape, which adds 90 seconds and exposes you to the snipers on the adjacent construction crane.",
+          "The delivery entrance leads to a short service corridor with a security guard at a desk. He is watching a terminal, not the door. Crouch-walk past his line of sight \u2014 the desk\u2019s monitor stack creates a natural blind spot \u2014 and enter the maintenance stairwell. This stairwell takes you directly to the office mezzanine, bypassing the lobby entirely.",
+        ],
+        callouts: [
+          {
+            title: "S-Rank checkpoint",
+            content:
+              "If you use the Advanced Hacking Device on the camera, you complete the plaza in under 90 seconds without any suspicion events. This sets a clean foundation for the rest of the mission.",
+            tone: "success",
+          },
+        ],
+      },
+      {
+        heading: "Zone 2 \u2014 Office Mezzanine",
+        body: [
+          "The office mezzanine is an open-plan floor with cubicles, meeting rooms, and a central atrium. Unlike the bank\u2019s structured security layout, this space feels organic. Office workers move between desks, fetch coffee, and hold impromptu conversations. Guard presence is lighter here \u2014 two uniformed security personnel \u2014 but the civilian density means any unusual movement draws attention and starts a slow but cumulative suspicion spiral.",
+          "The cleanest S-Rank path uses the ceiling crawlspace. A maintenance hatch is located in the east stairwell landing. Climb into the crawlspace and navigate by following the ventilation duct markers. The crawlspace runs above the cubicle area and drops you into a janitorial closet directly adjacent to the executive corridor. This route avoids every guard and all civilian sightlines.",
+          "Inside the executive corridor, you will find the data centre access elevator. It requires a keycard held by the floor manager, who is in the glass-walled corner office at the north end. Do not take the keycard by force. Instead, use a distraction gadget outside his office window. When he steps out to investigate, slip into his office, grab the keycard from his desk drawer, and exit through the opposite door. The entire interaction takes 12 seconds if you time the distraction correctly.",
+          "One optional intel pickup is in the HR office on the west side. It contains personnel files that reveal a company insider who becomes a contact in Mission 7. The pickup is entirely optional for S-Rank but valuable for the overall narrative continuity.",
+        ],
+        tips: [
+          "The ceiling crawlspace has one weak panel near the executive corridor that creaks when you cross. Identify it with Q Lens and crawl past it slowly to avoid noise.",
+          "Do not take down the floor manager. A missing executive triggers a building-wide security review that locks the elevator for 60 seconds.",
+        ],
+      },
+      {
+        heading: "Zone 3 \u2014 Server Farm And Data Extraction",
+        body: [
+          "The basement server farm is the mission\u2019s core challenge. A climate-controlled room with raised floors, ceiling-mounted cooling units, and server racks arranged in concentric rows. Two guards patrol the perimeter, and a third is stationed at the central monitoring station. The server racks themselves provide excellent cover, but the cooling units create temperature gradients that the guards\u2019 motion sensors can detect if you stay stationary too long in the wrong spot.",
+          "Your target server rack is Rack 7-C, located near the centre of the room. The data extraction requires connecting the Advanced Hacking Device to the rack\u2019s diagnostic port and waiting 25 seconds for the download to complete. During this window, one of the perimeter guards passes through the central aisle on a 30-second patrol loop.",
+          "The S-Rank solution uses the cooling system. Each cooling unit has a manual override panel that triggers a 20-second defrost cycle. During defrost, the unit\u2019s fans spin up loudly, masking your noise and creating a 5-degree temperature shift that negates motion sensor detection in a 3-metre radius. Activate the cooling unit closest to Rack 7-C, wait for the fans to reach full speed, then begin the data extraction. The guard\u2019s patrol will pass within 2 metres of you but the thermal cover keeps you invisible.",
+          "If you do not have the Advanced Hacking Device, the data extraction requires a manual bypass cable (found in the monitoring station) and a 45-second stationary hack. This longer window makes the cooling cover timing much tighter and often forces one guard takedown to complete safely. For full gadget recommendations, refer to our [All Gadgets Guide](/guides/all-gadgets-guide).",
+        ],
+        callouts: [
+          {
+            title: "S-Rank habit",
+            content:
+              "The cooling unit defrost cycle runs for exactly 20 seconds. Start it, count to five, then begin your hack. The unit\u2019s fan noise peaks at the 8-second mark and gives you the best acoustic and thermal cover through the hack window.",
+            tone: "info",
+          },
+        ],
+      },
+      {
+        heading: "All Collectibles In The Exchange",
+        body: [
+          "The Exchange contains four collectibles: one intel cache, two audio logs, and the Golden Gun Part 2. Finding all three parts across Missions 4, 6, and 8 unlocks the legendary Golden Gun, the most powerful stealth weapon in 007 First Light.",
+          "Intel cache: located in the secured record room off the office mezzanine\u2019s west corridor. The door requires a keycard from the floor manager\u2019s office. The cache contains encrypted wire transfer records that tie the Prague exchange to the villain\u2019s global network.",
+          "Audio log 1: found in the service corridor near the delivery entrance. A security guard\u2019s personal recorder is on the desk next to the terminal. It contains a conversation about suspicious activity at the construction site across the street, foreshadowing a future mission location.",
+          "Audio log 2: located on a shelf in the server farm\u2019s monitoring station, next to the coffee machine. Listen to it for clues about the insider contact in Mission 7.",
+          "Golden Gun Part 2: the most important collectible in this mission. It is inside a climate-controlled weapons case bolted to the wall in the server farm\u2019s break room (small room off the south-east corner). Opening the case requires a cutting tool and a 10-second interaction. Time it during the cooling unit defrost cycle to mask the noise of the cutting tool. The part completes the barrel assembly of the Golden Gun.",
+        ],
+      },
+      {
+        heading: "Extraction And Score Notes",
+        body: [
+          "After the data extraction completes, the building\u2019s automated security system detects the unauthorised data transfer within 30 seconds. A 90-second extraction timer begins. The exit route is straightforward: return through the server farm to the maintenance stairwell, climb to the roof, and signal the extraction helicopter.",
+          "The critical detail is that the security system isolates each floor sequentially \u2014 ground floor first, then office mezzanine, then basement. If you reach the stairwell before the 45-second mark, you will beat the office floor lockdown and have a clean sprint to the roof. The stairwell doors remain unlocked from inside during the lockdown sequence.",
+          "For S-Rank scoring, The Exchange weights stealth at 40%, objective completion (data extraction + optional intel) at 35%, and time at 25%. The lower time weight reflects the mission\u2019s emphasis on precise gadget deployment rather than raw speed. A clean extraction with the Advanced Hacking Device and Golden Gun Part 2 earns maximum objective efficiency score.",
+          "The extracted data carries forward into Mission 6, where it reveals the location of a hidden research facility. This is the first mission where your progression choices directly influence the next level\u2019s starting conditions. For what comes next, see our [Mission 3 Silo Break guide](/guides/mission-3-silo-break) for context on where the villain\u2019s plan originated.",
+        ],
+        quote: "The Advanced Hacking Device was the key to the vault. The data you extracted here is the key to everything after.",
+      },
+    ],
+    faq: [
+      {
+        question: "Can I complete The Exchange without the Advanced Hacking Device?",
+        answer:
+          "Yes, but it is significantly harder. You need separate tools for camera disabling and electronic lock override, reducing your gadget flexibility. The server farm hack also takes nearly twice as long.",
+      },
+      {
+        question: "What is the minimum gadget loadout for The Exchange?",
+        answer:
+          "If you have the Advanced Hacking Device, bring a distraction gadget and a cutting tool. If you do not have it, add a camera disable tool and a lock override device",
+      },
+      {
+        question: "Is the Golden Gun Part 2 missable?",
+        answer:
+          "No. The break room remains accessible during free play. Use the mission select to return and collect it at any time.",
+      },
+    ],
+  },
+
+  {
+    slug: "mission-6-cold-storage",
+    title: "Mission 6 \u2014 Cold Storage S-Rank Walkthrough",
+    seoTitle: "Mission 6 \u2014 Cold Storage S-Rank Walkthrough \u2014 007 First Light Guide",
+    excerpt:
+      "A complete S-Rank route for Mission 6: Cold Storage. Covers the Norwegian Arctic facility infiltration, multi-temperature zone navigation, the prototype weapon vault, collectibles, and the fastest stealth path through sub-zero environments.",
+    category: "missions",
+    readTime: "16 min",
+    metaDescription:
+      "Master 007 First Light Mission 6 Cold Storage with our S-Rank walkthrough. Arctic facility infiltration strategies, multi-temperature zone stealth, prototype weapon vault route, Advanced Hacking Device shortcuts, and all collectible locations.",
+    keywords: ["mission 6 cold storage", "007 first light walkthrough", "s-rank route", "cold storage arctic", "prototype weapon vault", "golden gun part 3"],
+    publishedAt: "2026-06-28",
+    featured: true,
+    relatedSlugs: [
+      "mission-5-exchange",
+      "mission-4-the-vault",
+      "stealth-vs-combat-decision-guide",
+    ],
+    sections: [
+      {
+        heading: "Cold Storage Overview: Environmental Stealth",
+        body: [
+          "Mission 6, Cold Storage, introduces a mechanic that changes how you approach every movement decision: temperature-based detection. The Norwegian Arctic facility is divided into heated interior zones and sub-zero exterior corridors. In the cold zones, your body heat creates a visible thermal signature that enhanced guard optics can detect through thin cover. In heated zones, standard stealth rules apply, but the temperature transition points themselves are the most dangerous parts of the level.",
+          "The data you extracted from the Prague Exchange (see our [Mission 5 guide](/guides/mission-5-exchange)) reveals this facility\u2019s coordinates and purpose: a research outpost where the villain\u2019s prototype weapons are developed and stored. Your objective is to infiltrate the facility, locate the prototype weapon vault, photograph the stored prototypes for MI6 intelligence, and exfiltrate before a scheduled supply convoy arrives with reinforcements.",
+          "The facility has four distinct zones: the exterior perimeter and hangar, the heated habitation block, the sub-zero research corridor, and the deep-freeze prototype vault. Each zone requires a different loadout approach. Critical to note: the Advanced Hacking Device from Zurich is less useful in the cold zones because low temperatures drain its battery faster. Use it sparingly and only in heated interior spaces.",
+          "S-Rank par time is approximately 14 minutes. The biggest time sink is the temperature acclimation mechanic \u2014 transitioning between cold and heated zones requires a 30-second cooldown period. Plan your route to minimise these transitions. Group cold-zone objectives together and heated-zone objectives together rather than ping-ponging between temperatures.",
+        ],
+        tips: [
+          "Thermal cloaking devices do not exist in 007 First Light. Do not expect to hide heat. Instead, stay behind thick obstacles (metal containers, concrete pillars) that block thermal optics.",
+          "The Advanced Hacking Device lasts about 60 seconds of active use in cold zones versus 120 seconds in heated zones. Plan your gadget windows accordingly.",
+        ],
+        quote: "Cold Storage does not just test your stealth. It tests your awareness of how the environment changes the rules.",
+      },
+      {
+        heading: "Zone 1 \u2014 Exterior Perimeter And Hangar",
+        body: [
+          "The exterior perimeter is an arctic compound surrounded by a chain-link fence with motion sensors. Four watchtowers, two patrol vehicles, and a central hangar building create a wide-open approach that is nearly impossible to cross without being seen unless you use the drainage culvert.",
+          "The drainage culvert runs under the fence line on the north-west corner. It is partially frozen but passable. Enter from the snowfield behind the rock formation, crouch through the culvert (15 seconds), and emerge inside the compound behind the fuel storage tanks. This approach bypasses every motion sensor and watchtower sightline.",
+          "From the fuel tanks, move to the hangar\u2019s side service door. The door is locked with a keypad. If you have the data decryption upgrade from completing the Prague Exchange with full intel, the keypad code is already in your mission notes. Otherwise, use the Q Lens to spot the code written on a maintenance clipboard visible through the hangar window. Enter the hangar and immediately move behind the stacked cargo crates on the left.",
+          "Inside the hangar, two mechanics work on a snowmobile near the far wall. They are the only personnel in this zone. Crouch-walk along the crates to the interior door leading to the habitation block. Do not interact with the mechanics or the snowmobile \u2014 touching either triggers a conversation that delays your entry by 45 seconds.",
+        ],
+        callouts: [
+          {
+            title: "S-Rank checkpoint",
+            content:
+              "Clean entry through the culvert with zero alerts on the perimeter is worth 15% of your total stealth score for this mission. The exterior is weighted heavily because most players fail here.",
+            tone: "warning",
+          },
+        ],
+      },
+      {
+        heading: "Zone 2 \u2014 Heated Habitation Block",
+        body: [
+          "The habitation block is the facility\u2019s living quarters and the first heated zone. Standard stealth rules apply here: patrols, cameras, and room-by-room clearance. Three guards patrol the corridor network, and two more are stationed in the common room. Your objective in this zone is to reach the stairwell leading to the sub-zero research corridor below.",
+          "The fastest route through the habitation block avoids the central corridor entirely. Enter through the kitchen service door, cross the empty mess hall, and exit through the laundry room into the east stairwell. This route exposes you to exactly one guard \u2014 the kitchen patrol who checks the freezer every three minutes. Time your kitchen crossing to his freezer inspection cycle.",
+          "One optional objective exists in the habitation block: the facility director\u2019s office on the second floor. Inside is a security access upgrade that unlocks all doors in the research corridor without the need for keycards. The office is guarded by a camera and a stationary guard. Use a visual disruption gadget to pull the guard to the window, then slip in, grab the upgrade from the desk drawer, and exit. Adding this objective costs about 90 seconds but saves twice that in the research corridor.",
+          "The temperature acclimation room is adjacent to the east stairwell. Enter it, wait the full 30-second warm-up cycle, then proceed to the cold research corridor. Do not skip this step. Entering the cold zone without acclimation triggers an immediate health warning that alerts every guard in the research corridor.",
+        ],
+        tips: [
+          "The facility director\u2019s office upgrade is worth the detour. It eliminates every keycard requirement in Zone 3 and Zone 4, making the rest of the mission dramatically smoother.",
+          "Use the 30-second acclimation window to check your gadget cooldowns and plan the research corridor route on your HUD map.",
+        ],
+      },
+      {
+        heading: "Zone 3 \u2014 Sub-Zero Research Corridor",
+        body: [
+          "The research corridor is where Cold Storage\u2019s temperature mechanic becomes a real obstacle. The corridor is maintained at -15\u00b0C. Your thermal signature is visible through thin cover. Guard patrols here are equipped with thermal optics that can detect you through desks, partitions, and most interior walls unless you are behind solid thermal mass.",
+          "The corridor is laid out as a straight passage with branching labs on either side. Two guards patrol the corridor itself, and one stationary guard monitors a thermal camera feed in the security booth at the far end. The security booth has a thermal camera sweep that covers the entire corridor. Unlike standard cameras, this one cannot be turned off \u2014 it has a backup battery system isolated from the facility\u2019s main power.",
+          "The S-Rank solution uses the facility\u2019s own coolant system. Three coolant distribution valves are located along the corridor. Activating each valve releases a 30-second coolant spray that drops the local temperature by another 10 degrees, temporarily masking your thermal signature in a 5-metre radius. Activate valve 1 near the entrance, move to the first branching lab, activate valve 2 at the midpoint, photograph the lab equipment (primary objective sample collection), and activate valve 3 to reach the far end near the security booth.",
+          "When you reach the far end, the security booth guard will be focused on his thermal feed. Crouch past the booth\u2019s blind spot on the left side \u2014 there is a 4-inch gap between the booth wall and the coolant pipe where the camera sweep does not reach. Use it to slip past into the deep-freeze vault antechamber without triggering a detection event.",
+        ],
+        callouts: [
+          {
+            title: "S-Rank habit",
+            content:
+              "Coolant valve timing is the hardest part of this zone. Practice the sequence in free play until you can activate all three valves without checking the HUD timer. The interval should be exactly 25 seconds between valve 1 and valve 3.",
+            tone: "info",
+          },
+        ],
+      },
+      {
+        heading: "Zone 4 \u2014 Deep-Freeze Prototype Vault",
+        body: [
+          "The final zone is a -30\u00b0C vault where the facility\u2019s prototype weapons are stored. The extreme cold means your thermal signature is visible through all cover except solid metal crates and the vault\u2019s structural pillars. Two guards patrol the vault floor, and a third operates a remote weapon scanning station in the observation booth above.",
+          "Your primary objective is to photograph three prototype weapons stored in glass display cases along the vault\u2019s east wall. Each photograph takes 5 seconds and requires a clear line of sight to the case. The scanning station guard has a visual feed that covers the east wall, so you must either disable the scanning station or time your photo sequence to his sightline rotation.",
+          "The S-Rank solution disables the scanning station first. A maintenance panel is located behind the station on the observation booth\u2019s exterior wall. Climb the ladder near the vault entrance to reach the booth\u2019s access catwalk, wait for the scanning guard to turn toward his secondary terminal, and short-circuit the panel with the Advanced Hacking Device (8-second interaction). This disables the scanning feed for 90 seconds \u2014 enough time to photograph all three prototypes and begin the extraction.",
+          "Once the scanning station is down, drop back to the vault floor and move along the east wall behind the metal crate line. Photograph prototypes in order from north to south: the thermal rifle (closest to entrance), the sonic disruptor prototype (centre case), and the compact railgun (south case). Each photo triggers a faint shutter sound that the floor guards cannot hear over the cooling unit noise if you stay behind the crates.",
+          "If the scanning station cannot be disabled, the fallback is to photograph each prototype during the guard\u2019s secondary terminal rotation window (12 seconds every 45 seconds, accessible only from the vault floor\u2019s south-east corner). This approach takes longer and requires precise timing, but still achieves S-Rank with no score penalty if no guard is alerted.",
+        ],
+        callouts: [
+          {
+            title: "S-Rank checkpoint",
+            content:
+              "Disabling the scanning station is the single most important action in Mission 6. Without it, the photo sequence takes 90 seconds longer and requires two additional timing windows. Every S-Rank run should prioritise this disable.",
+            tone: "success",
+          },
+        ],
+      },
+      {
+        heading: "All Collectibles In Cold Storage",
+        body: [
+          "Cold Storage contains four collectibles: one intel cache, one audio log, Golden Gun Part 3, and a prototype weapon schematic. The Golden Gun Part 3 completes the weapon assembly when combined with Part 1 (Mission 4) and Part 2 (Mission 5).",
+          "Intel cache: located in the facility director\u2019s office safe (Zone 2, second floor). The safe combination is written on a sticky note inside his desk drawer. Collect the note first, then input the code 71-34-86 to open the safe. Contains encrypted transport manifests.",
+          "Audio log: found on a workbench in the hangar (Zone 1), next to the snowmobile. It contains a mechanic\u2019s recording about unusual crate markings on the supply convoy\u2019s cargo. Easy to grab on entry without any detour.",
+          "Golden Gun Part 3: the most important collectible in this mission. It is inside a cryogenic storage container in the deep-freeze vault (Zone 4), behind the thermal rifle display case. Opening the container requires a thermal cutting tool \u2014 standard lockpicks will not work. The extraction takes 8 seconds and should be done immediately after photographing the thermal rifle, while you are already behind the crate line. This part completes the barrel assembly of the Golden Gun.",
+          "Prototype weapon schematic: found on a terminal in the scanning station observation booth (Zone 4). Downloading the schematic takes 6 seconds. It unlocks a bonus crafting recipe for the thermal disruptor, a gadget that carries into Mission 7.",
+        ],
+      },
+      {
+        heading: "Extraction And Score Notes",
+        body: [
+          "After photographing all three prototypes, a 120-second extraction timer begins as the facility\u2019s automated alarm detects the unauthorised data upload. The exit route is a sprint through the habitation block and hangar back to the exterior perimeter.",
+          "The critical challenge is that the supply convoy arrives at the 90-second mark. If you are still inside the facility when the convoy arrives, the compound becomes significantly more dangerous with an additional six armed guards patrolling the perimeter. Prioritise reaching the exterior before the 90-second mark.",
+          "The return route reverses the Zone 2 path: exit the deep-freeze vault, pass through the research corridor (the coolant system is still active from Zone 3, providing thermal cover), ascend through the habitation block stairwell, cross the mess hall, and exit through the hangar\u2019s side service door. Do not attempt to hide in the hangar \u2014 the mechanics trigger an alarm if they see you, and there is no alternative exit.",
+          "For S-Rank scoring, Cold Storage weights environmental control at 40%, stealth at 30%, and objective completion at 30%. The high environmental weight reflects the unique temperature mechanics. A run that uses the coolant system for thermal masking and disables the scanning station earns maximum environmental efficiency points regardless of slight timing deviations.",
+          "The prototype photographs and weapon schematic carry forward into Mission 7, where they reveal the location of the villain\u2019s main research headquarters. The Golden Gun assembly completes after Mission 8, providing the most powerful stealth weapon in the game for the final mission.",
+        ],
+        quote: "Cold Storage tests whether you can adapt to rules that change every zone. The best agents do not fight the environment \u2014 they become part of it.",
+      },
+    ],
+    faq: [
+      {
+        question: "Can I complete Cold Storage without the Advanced Hacking Device?",
+        answer:
+          "Yes, but the scanning station disable becomes much harder. You will need a manual short-circuit kit found in the hangar\u2019s toolbox, which adds a 10-second interaction and requires you to carry an extra gadget slot.",
+      },
+      {
+        question: "Is the Golden Gun Part 3 missable?",
+        answer:
+          "No. The cryogenic container remains accessible during free play. Return via mission select and collect it with a thermal cutting tool at your convenience.",
+      },
+      {
+        question: "What happens if the supply convoy arrives while I am still inside?",
+        answer:
+          "The compound becomes heavily reinforced with six additional guards. Extraction is still possible but you will lose significant stealth score. Reset or fight through depending on your score goals.",
+      },
+    ],
+  },
+  {
+    slug: "achievements-trophies-guide",
+    title: "All Achievements & Trophies Guide",
+    seoTitle: "All Achievements & Trophies \u2014 007 First Light Guide",
+    excerpt:
+      "Every achievement and trophy in 007 First Light, including story unlocks, collection milestones, skill challenges, and hidden requirements. Learn the fastest path to Platinum and 100% completion.",
+    category: "guides",
+    readTime: "18 min",
+    metaDescription:
+      "Complete 007 First Light achievements and trophies guide covering all 38 unlocks, Platinum difficulty rating, story achievements, collectible milestones, skill challenges, hidden trophies, and the fastest completion route.",
+    keywords: ["007 first light achievements", "007 first light trophies", "platinum guide", "100% completion", "achievement list", "trophy guide", "hidden achievements"],
+    publishedAt: "2026-06-28",
+    featured: true,
+    relatedSlugs: [
+      "mission-5-exchange",
+      "mission-6-cold-storage",
+      "tacsim-advanced-leaderboard-guide",
+    ],
+    sections: [
+      {
+        heading: "Achievement Overview: What You Are Chasing",
+        body: [
+          "007 First Light ships with 38 achievements on Steam (39 trophies on PlayStation, including the Platinum). The full list breaks down into four categories: Story & Progression (14), Collection & Discovery (8), Skill & Technique (10), and Hidden & Secret (6). The game\u2019s achievement design follows IO Interactive\u2019s philosophy of rewarding mastery rather than grinding, which means most achievements are obtainable through smart routing rather than repetitive farming.",
+          "Platinum difficulty is rated 5/10 by the community. The hardest achievements involve completing specific mission sections under S-Rank conditions with restricted loadouts, and collecting all Golden Gun parts across three missions. The entire achievement set can be completed in approximately 25-30 hours of focused play, or 35-40 hours for a first-time player learning the game\u2019s systems.",
+          "This guide organises achievements by category and provides the fastest unlock route for each one. We recommend focusing on story achievements during your first playthrough, then returning for skill challenges and collectibles once you have unlocked all gadgets and mission select.",
+        ],
+        quote: "007 First Light respects your time. Most achievements reward understanding, not repetition.",
+      },
+      {
+        heading: "Story & Progression Achievements",
+        body: [
+          "These 14 achievements unlock automatically as you complete missions and reach progression milestones. None are missable \u2014 every story achievement can be earned on any difficulty setting. Complete the campaign once and you will have all 14.",
+          "\u2022 Rookie Agent \u2014 Complete Mission 1. 10G / Bronze. Unlocks after the opening cutscene. Cannot be missed.",
+          "\u2022 Deep Diver \u2014 Complete Mission 2: Deep Water. 10G / Bronze.",
+          "\u2022 Silo Survivor \u2014 Complete Mission 3: Silo Break. 15G / Bronze.",
+          "\u2022 Vault Cracker \u2014 Complete Mission 4: The Vault. 15G / Bronze.",
+          "\u2022 Data Trader \u2014 Complete Mission 5: The Exchange. 20G / Silver.",
+          "\u2022 Frost Walker \u2014 Complete Mission 6: Cold Storage. 20G / Silver.",
+          "\u2022 Signal Hunter \u2014 Complete Mission 7. 25G / Silver.",
+          "\u2022 Subzero Protocol \u2014 Complete Mission 8. 25G / Silver.",
+          "\u2022 License Renewed \u2014 Complete Mission 9 and the campaign. 50G / Gold.",
+          "\u2022 Gadget Collector \u2014 Unlock all 8 core gadgets. 15G / Bronze. Earned naturally through mission progression.",
+          "\u2022 Workshop Upgrade \u2014 Fully upgrade one gadget to tier 3. 10G / Bronze. Spend upgrade points on a single gadget path.",
+          "\u2022 Arsenal Ready \u2014 Fully upgrade all gadgets. 40G / Gold. Requires completing all intel collection and spending all upgrade points.",
+          "\u2022 First TacSim Clear \u2014 Complete one TacSim mission with any rank. 10G / Bronze.",
+          "\u2022 Simulation Veteran \u2014 Complete all available TacSim missions at launch. 30G / Silver. Requires clearing every simulation on the TacSim map select screen.",
+        ],
+        tips: [
+          "The Arsenal Ready achievement requires the most playtime. Prioritise intel-rich routes during missions to maximise gadget upgrade resources.",
+          "Simulation Veteran is easier on Normal difficulty. Ignore S-Rank and focus on completion.",
+        ],
+      },
+      {
+        heading: "Collection & Discovery Achievements",
+        body: [
+          "These 8 achievements reward thorough exploration. Most can be earned during free play after completing the campaign. The Golden Gun achievements are the most time-sensitive because the parts are in specific mission locations.",
+          "\u2022 Intel Hoarder \u2014 Collect 25 intel caches across the campaign. 15G / Bronze. Intel caches are marked on the mission select screen after discovery. Use free play to revisit missions and sweep each zone.",
+          "\u2022 Audio Archivist \u2014 Collect all audio logs. 15G / Bronze. There are 18 audio logs across 9 missions \u2014 two per mission. The second log in each mission is usually in the extraction zone and easy to miss.",
+          "\u2022 Golden Gun Initiate \u2014 Collect Golden Gun Part 1 (Mission 4: The Vault). 10G / Bronze. See our [Mission 4 guide](/guides/mission-4-the-vault) for the exact location.",
+          "\u2022 Golden Gun Assembler \u2014 Collect Golden Gun Part 2 (Mission 5: The Exchange). 10G / Bronze.",
+          "\u2022 Golden Gun Craftsman \u2014 Collect Golden Gun Part 3 (Mission 6: Cold Storage). 10G / Bronze.",
+          "\u2022 Licence to Kill \u2014 Assemble the full Golden Gun. 30G / Silver. Unlocks after collecting all three parts and completing the assembly in the Q Branch menu.",
+          "\u2022 Sightseer \u2014 Visit all named locations on the world map. 10G / Bronze. Every mission and TacSim map counts. Complete all campaign missions and TacSims to unlock.",
+          "\u2022 Weapon Blueprint Collector \u2014 Collect all prototype weapon schematics. 25G / Silver. Schematics are found in Missions 3, 6, and 8. Each schematic unlocks a bonus gadget recipe.",
+        ],
+        callouts: [
+          {
+            title: "Golden Gun priority",
+            content:
+              "Make collecting all three Golden Gun parts your top side objective. The weapon is powerful enough to change how you approach Missions 7-9. Collect Parts 1-3 during your first clear of Missions 4-6 and assemble immediately.",
+            tone: "success",
+          },
+        ],
+      },
+      {
+        heading: "Skill & Technique Achievements",
+        body: [
+          "These 10 achievements test your mechanical skill and route knowledge. Most require planning and repetition rather than raw reflexes. The hardest are the S-Rank achievements for Missions 5 and 9.",
+          "\u2022 Ghost \u2014 Complete any mission without raising a single alert. 20G / Silver. An alert includes suspicion, investigation, and combat states. Mission 1 is the easiest target because of its simple patrol layout.",
+          "\u2022 Invisible Hand \u2014 Complete any mission without any takedowns. 20G / Silver. Mission 4 (The Vault) is the best choice because the S-Rank route already minimises takedowns. Time all patrols and use gadgets for distraction.",
+          "\u2022 Silent Professional \u2014 Complete any mission with S-Rank. 20G / Silver. Mission 1 and Mission 2 have the most forgiving S-Rank requirements. Use our walkthroughs for the exact route.",
+          "\u2022 Exchange Master \u2014 Complete Mission 5 (The Exchange) with S-Rank. 25G / Silver. The Exchange has tight timing requirements. See our [S-Rank walkthrough](/guides/mission-5-exchange) for the optimised route.",
+          "\u2022 Cold Blooded \u2014 Complete Mission 6 (Cold Storage) without triggering the temperature alarm. 20G / Silver. Requires perfect acclimation management and coolant valve use. Do not skip any acclimation room cooldown.",
+          "\u2022 Perfect Hack \u2014 Complete a mission with zero failed hack attempts. 10G / Bronze. Hacks are one-attempt-only. If you fail a hack, reload the checkpoint before the failed attempt. Mission 3 has the fewest hack interactions.",
+          "\u2022 Toolbelt \u2014 Use every gadget type in a single mission. 15G / Bronze. Equip all three gadget slots with different types. Use each one at least once during the mission. Mission 5 has enough gadget opportunities.",
+          "\u2022 Speed Demon \u2014 Complete any mission under 8 minutes. 20G / Silver. Mission 1 is the shortest mission and the best candidate. Skip all collectibles and take the most direct route.",
+          "\u2022 No Witnesses \u2014 Complete a mission where every guard has been pacified or evaded. 15G / Bronze. This counts the entire mission population. Mission 3 has the smallest total guard count at 12.",
+          "\u2022 Leaderboard Contender \u2014 Reach top 10% on any TacSim leaderboard. 30G / Silver. Focus on a single simulation and optimise through repetition. See our [TacSim Advanced Guide](/guides/tacsim-advanced-leaderboard-guide) for scoring strategies.",
+        ],
+        tips: [
+          "Ghost, Invisible Hand, and Silent Professional can all be earned in a single run of Mission 1. It takes about 10 minutes with our walkthrough route.",
+          "Speed Demon pairs well with Ghost. Use Mission 1 and skip all optional objectives.",
+        ],
+        callouts: [
+          {
+            title: "Skill achievement stacking",
+            content:
+              "You can stack Ghost + Invisible Hand + Silent Professional + Speed Demon in a single Mission 1 run. That is 70G/4 trophies in under 8 minutes. Plan the route carefully using our walkthrough and practice the timing twice before attempting the combined run.",
+            tone: "success",
+          },
+        ],
+      },
+      {
+        heading: "Hidden & Secret Achievements",
+        body: [
+          "Six achievements in 007 First Light are hidden from the in-game list. The game reveals the achievement title only after you meet the unlock condition. This section names every hidden achievement and the exact trigger condition.",
+          "\u2022 The Moneypenny Protocol (Hidden) \u2014 15G / Bronze. Complete a mission where you never use a gadget. Equip a loadout with three gadget slots but use none of them. Mission 2 is the easiest because environmental gadgets are plentiful.",
+          "\u2022 Q\u2019s Favourite (Hidden) \u2014 15G / Bronze. Complete a mission where you use only gadgets and never take a direct action (no takedowns, no hacks, no manual interactions). Mission 5 works well if you use the Advanced Hacking Device for camera disables and distractions for guard manipulation.",
+          "\u2022 The Old Ways (Hidden) \u2014 20G / Silver. Complete any mission without using Q Lens or Instinct. This requires memorised patrol routes. Mission 1 is the best choice because the layout is simpler. Practice the route three times with HUD, then attempt blind.",
+          "\u2022 Across the Rooftops (Hidden) \u2014 15G / Bronze. Complete the outdoor traversal section of Mission 8 without touching the ground. Stay on rooftops, scaffolding, and catwalks for the entire outdoor zone. Use the grapple points marked on the environment.",
+          "\u2022 Double-0 Status (Hidden) \u2014 40G / Gold. Earn S-Rank on all 9 campaign missions. This is the hardest achievement in the game and a prerequisite for Platinum. Use our mission-by-mission walkthroughs to optimise each route. Expect 15-20 hours of focused practice.",
+          "\u2022 Classic MI6 (Hidden) \u2014 30G / Silver. Complete the campaign on the highest difficulty setting. Enemies have faster detection, reduced suspicion recovery time, and tighter patrol windows. The gadget upgrades and route knowledge from lower difficulties transfer directly. Complete your first run on Normal, then tackle Classic.",
+        ],
+        callouts: [
+          {
+            title: "Hidden achievement strategy",
+            content:
+              "Hidden achievements are designed to be discovered organically, but most can be intentionally farmed in 30 minutes. Tackle them after completing your story run. Double-0 Status should be your final achievement target before the Platinum.",
+            tone: "info",
+          },
+        ],
+      },
+      {
+        heading: "Fastest Completion Route (35-Hour Plan)",
+        body: [
+          "The most efficient path to 100% completion follows a four-phase plan. Phase 1 (10 hours): Complete the campaign on Normal difficulty. Do not chase collectibles or S-Rank. Learn the maps and unlock all gadgets. The story achievements alone are worth 230G.",
+          "Phase 2 (8 hours): Replay missions for collectibles. Use mission select and free play to collect all intel caches, audio logs, Golden Gun parts, and weapon schematics. Start with Missions 4-6 for the Golden Gun. The assembled weapon will make Phases 3 and 4 significantly easier.",
+          "Phase 3 (10 hours): Earn skill and hidden achievements. Stack compatible achievements in single runs \u2014 Ghost + Invisible Hand + Silent Professional in Mission 1, Speed Demon in Mission 2, Perfect Hack in Mission 3. Then tackle the hidden achievements one by one.",
+          "Phase 4 (7 hours): Double-0 Status and Classic MI6. Replay each mission for S-Rank using our walkthroughs. Start with your strongest mission and build momentum. For Classic MI6, play conservatively \u2014 the faster detection punishes aggressive routes. Use distraction gadgets liberally.",
+          "The Platinum unlocks after Double-0 Status and Classic MI6. Total time: approximately 35 hours using this phased approach. If you enjoy TacSim, add 5 hours for the Leaderboard Contender achievement.",
+        ],
+        quote: "The Platinum is earned through smart routing, not grinding. Every achievement in First Light has a clean path.",
+      },
+    ],
+    faq: [
+      {
+        question: "How many hidden achievements does 007 First Light have?",
+        answer:
+          "Six hidden achievements. Their titles and conditions are revealed only after unlocking. We have listed all six with their exact trigger conditions above.",
+      },
+      {
+        question: "Can achievements be earned in free play mode?",
+        answer:
+          "Yes. Mission select and free play both count for all achievements. The only exception is Classic MI6, which requires a full campaign playthrough on the highest difficulty.",
+      },
+      {
+        question: "What is the hardest achievement in the game?",
+        answer:
+          "Double-0 Status (S-Rank on all 9 missions) is the hardest, requiring optimised routing and consistent execution across every mission. Classic MI6 is difficult but more forgiving because it only requires completion, not perfection.",
+      },
+      {
+        question: "Is the Platinum achievement considered hard?",
+        answer:
+          "Community rating is 5/10. The difficulty comes from the Double-0 Status requirement rather than any single impossible challenge. With proper routing, most players can achieve it within 35 hours.",
+      },
+    ],
+  },
+
+  {
+    slug: "boss-fight-strategies",
+    title: "Boss Fight Strategies \u2014 Complete Guide",
+    seoTitle: "Boss Fight Strategies \u2014 007 First Light Guide",
+    excerpt:
+      "Every boss and elite enemy encounter in 007 First Light, analysed for both stealth and combat approaches. Learn attack patterns, environmental weaknesses, optimal gadget loadouts, and S-Rank scoring strategies for each encounter.",
+    category: "guides",
+    readTime: "15 min",
+    metaDescription:
+      "Master every boss fight in 007 First Light with our complete strategies guide. Learn stealth approaches, combat fallbacks, environmental weaknesses, recommended loadouts, and S-Rank scoring for Lieutenant Korr, Commander Voss, Agent Blackwood, biomechanical units, and the final confrontation.",
+    keywords: ["007 first light bosses", "boss fight strategies", "lieutenant korr", "commander voss", "agent blackwood", "elite enemies", "final boss"],
+    publishedAt: "2026-06-28",
+    featured: true,
+    relatedSlugs: [
+      "mission-3-silo-break",
+      "stealth-vs-combat-decision-guide",
+      "all-gadgets-guide",
+    ],
+    sections: [
+      {
+        heading: "Boss Encounter Overview",
+        body: [
+          "007 First Light features five distinct boss encounters spread across the campaign: Lieutenant Korr (Mission 3), Commander Voss (Mission 5), the Biomechanical Prototype (Mission 7), Agent Blackwood (Mission 8), and the Final Confrontation (Mission 9). Unlike standard patrol guards, each boss has unique AI behaviour, attack patterns, and environmental weaknesses that reward deliberate preparation over improvisation.",
+          "Every boss encounter in First Light is designed to be solvable through either stealth or combat, but the stealth route almost always yields a higher S-Rank score. The game\u2019s scoring system weights clean resolution above speed for boss encounters, with stealth takedowns earning approximately 3x the score of combat resolutions.",
+          "The common thread across all five encounters is environmental exploitation. Every boss room contains at least two interactive elements \u2014 gas valves, electrical panels, structural weak points, or security systems \u2014 that can neutralise or weaken the boss without direct confrontation. Learning these interactions is the fastest path to consistent boss S-Ranks.",
+          "This guide covers each boss in campaign order, with a recommended loadout, stealth approach, combat fallback, and S-Rank optimization notes for each.",
+        ],
+        callouts: [
+          {
+            title: "Core boss principle",
+            content:
+              "Never engage a boss in direct combat without first disabling at least one environmental advantage. Every boss has a weakness. Find it before the first shot is fired and the encounter becomes dramatically easier.",
+            tone: "warning",
+          },
+        ],
+      },
+      {
+        heading: "Lieutenant Korr \u2014 Silo Break (Mission 3)",
+        body: [
+          "Lieutenant Korr is the first boss encounter, appearing in the underground research level of Mission 3. He is a heavily armoured guard equipped with a motion sensor that detects movement within 8 metres. Unlike regular guards, Korr cannot be one-shot by a standard takedown \u2014 his armour requires environmental damage before he becomes vulnerable.",
+          "Stealth approach \u2014 Gas valve strategy: The research level contains three gas valves that can flood the lower corridor with knockout gas when activated in sequence. Korr patrols through this corridor every 90 seconds. Activate valve 1 near the entrance, valve 2 at the midpoint (30 seconds after valve 1), and valve 3 near the corridor exit (30 seconds after valve 2). The corridor fills with gas at the 90-second mark. If Korr is mid-corridor when the gas reaches maximum concentration, his armour systems are neutralised and he becomes vulnerable to a single takedown. Move in quickly \u2014 the gas dissipates after 20 seconds.",
+          "Combat fallback: If the gas strategy fails or you lack the tools for it, use an EMP gadget to disable Korr\u2019s motion sensor, then climb the elevated catwalk and perform a drop takedown. The drop inflicts enough force to bypass his armour. Follow up with two silenced pistol shots to the exposed neck area. Keep moving during the engagement \u2014 Korr\u2019s armour absorbs the first three shots from any weapon, but his exposed sections are vulnerable.",
+          "S-Rank notes: The gas valve stealth route earns full stealth score. The EMP + catwalk approach loses approximately 15% score due to the EMP deployment. Direct combat with more than three pistol shots loses 30% score. The par time for the Korr encounter is 3 minutes. The gas route completes in about 2 minutes when executed correctly.",
+        ],
+        tips: [
+          "Pre-scout all three gas valve locations before engaging Korr. The valves are marked on your HUD only when you are within 8 metres.",
+          "The gas valve route has a single timing node: Korr must be in the corridor when the gas reaches full concentration. Trigger valve 1 only when Korr begins his patrol toward the corridor.",
+        ],
+        callouts: [
+          {
+            title: "Recommended loadout",
+            content:
+              "EMP gadget (fallback security) + distraction device. The EMP is optional if using the gas route, but always keep a distraction tool for emergency disengagement.",
+            tone: "info",
+          },
+        ],
+      },
+      {
+        heading: "Commander Voss \u2014 The Exchange (Mission 5)",
+        body: [
+          "Commander Voss is the secondary antagonist encountered in the server farm of Mission 5: The Exchange. Unlike Korr, Voss is a tactical commander who remains stationary at a central monitoring station but controls the room\u2019s security systems. He can trigger lockdown doors, activate floor turrets, and call reinforcements. The encounter starts the moment Voss detects any unauthorised activity in the server farm.",
+          "Stealth approach \u2014 Cooling system strategy: The encounter does not need to happen at all. Voss\u2019s monitoring station overlooks the server farm, but he relies entirely on his camera feed and motion sensors. If you complete the data extraction using the cooling unit defrost cycle (see our [Mission 5 walkthrough](/guides/mission-5-exchange)), Voss never detects the operation. The encounter is bypassed entirely, earning full stealth score for the zone.",
+          "If Voss is alerted: He triggers a 45-second lockdown sequence. During this window, he is vulnerable only while interacting with the lockdown console. The vulnerability window is 6 seconds. Use a distraction gadget on the far side of the monitoring station to pull his attention, then cross the server farm floor to the station\u2019s rear access ladder. Climb up, perform a takedown during his console interaction, and complete the data extraction before the lockdown finishes.",
+          "Combat fallback: If forced into direct combat, Voss carries a personal shield generator that absorbs two full magazines of standard ammunition. Use an EMP grenade to disable the shield, then focus fire on the exposed chest area. The shield recharges after 15 seconds, so maintain pressure. Three precision shots from a silenced pistol drop him during the shield downtime.",
+          "S-Rank notes: Complete avoidance (data extraction without alerting Voss) earns 100% stealth score. The takedown route during lockdown earns 65% stealth score. Direct combat earns 30% or less. The optimal approach is to avoid the encounter entirely using the cooling unit strategy described in the Mission 5 walkthrough.",
+        ],
+        callouts: [
+          {
+            title: "S-Rank optimisation",
+            content:
+              "Commander Voss is the only boss in the game that can be entirely skipped. If your data extraction completes before the lockdown, the encounter never triggers. Prioritise the cooling unit defrost cycle and the Advanced Hacking Device for a clean run.",
+            tone: "success",
+          },
+        ],
+      },
+      {
+        heading: "Biomechanical Prototype \u2014 Research HQ (Mission 7)",
+        body: [
+          "Mission 7 introduces the Biomechanical Prototype, a hybrid organic-machine enemy that combines fast ground movement with a ranged energy weapon. The prototype patrols a three-level research atrium and reacts to sound, light, and thermal signatures. It is the most mobile boss in the game and the only one that actively hunts the player.",
+          "Stealth approach \u2014 EMP cascade strategy: The prototype\u2019s biomechanical systems are vulnerable to electromagnetic pulses. The research atrium contains four EMP emitters installed as part of the facility\u2019s containment system. Activating all four in sequence creates a cascade that disables the prototype\u2019s energy weapon and movement servos for 60 seconds.",
+          "The EMP emitter locations: Emitter 1 is in the security office on Floor 1 (requires keycard from the floor supervisor). Emitter 2 is on the Floor 2 catwalk, behind a locked panel (lockpick required). Emitter 3 is in the coolant pipe junction on Floor 3 (accessible via maintenance ladder). Emitter 4 is behind the prototype\u2019s patrol zone on the Floor 2 central platform (requires timing the prototype\u2019s patrol cycle).",
+          "Activate emitters 1-3 in sequence (each takes 6 seconds), then wait for the prototype to pass near emitter 4 on the central platform. Activate emitter 4 immediately after the prototype passes it. The cascade triggers within 3 seconds and disables the prototype. Move in for a containment override takedown (8-second interaction). The prototype is permanently disabled after the override.",
+          "Combat fallback: The prototype\u2019s energy weapon has a 4-second charge time. Use the atrium\u2019s structural pillars for cover. Wait for the weapon to charge, dodge the energy bolt, and close the distance during the 3-second cooldown. The prototype\u2019s melee attack has a telegraphed wind-up \u2014 dodge sideways when it raises its arm. Three melee hits or five silenced pistol shots to the exposed organic joint area disable it. This approach takes 90-120 seconds of active combat.",
+          "S-Rank notes: The EMP cascade route earns 90% stealth score (the small penalty comes from activating security systems). Direct combat earns 40%. The EMP cascade is the recommended approach for any S-Rank attempt \u2014 the 60-second disable window is generous enough for a clean takedown without pressure.",
+        ],
+        tips: [
+          "Emitter 4 requires the most precise timing. Watch the prototype\u2019s patrol cycle for 45 seconds before attempting it.",
+          "The containment override takedown requires a clear path to the central platform. Clear any roaming guards on Floor 2 before activating the cascade.",
+        ],
+      },
+      {
+        heading: "Agent Blackwood \u2014 Arctic Summit (Mission 8)",
+        body: [
+          "Agent Blackwood is a rogue MI6 operative and the penultimate boss. He is equipped with the same gadget suite you have access to, including the Advanced Hacking Device and thermal vision. The encounter takes place in a multi-level arctic summit facility with heating ducts, security cameras, and environmental hazards. Blackwood patrols the facility\u2019s upper levels and can detect the player through thermal imaging in cold zones.",
+          "Stealth approach \u2014 Heating system manipulation: The arctic summit\u2019s heating system is the key to neutralising Blackwood\u2019s thermal advantage. Three heating control panels are located in the facility\u2019s maintenance tunnels. Overriding all three creates a heat surge that saturates the upper levels, making thermal vision useless. Blackwood is forced to revert to standard optics, which gives you normal stealth conditions.",
+          "Heating panel locations: Panel 1 is in the maintenance tunnel behind the kitchen (Zone 1 entry). Panel 2 is in the server room basement (Zone 2, requires lockpick). Panel 3 is on the roof access catwalk (Zone 3, exposed to Blackwood\u2019s patrol path). Activate panels 1 and 2 before ascending to Zone 3. When you reach panel 3, wait for Blackwood\u2019s patrol cycle to take him to the far end of the facility, activate the panel, and immediately take cover. The heat surge takes 10 seconds to propagate.",
+          "Once thermal vision is disabled, Blackwood becomes a standard heavily armed guard with two advantages: faster reaction time and a personal shield that absorbs 50% of damage. Approach from behind the server rack line in Zone 3, use a distraction gadget to pull him toward the maintenance hatch, and perform a takedown as he inspects the noise. The takedown is effective only if his shield is deactivated by the heat surge.",
+          "Combat fallback: The heat surge is not required for combat, but it helps. Without it, Blackwood\u2019s thermal vision makes him extremely difficult to ambush. Engage from the lower level using the heating ducts as cover. Blackwood\u2019s weapon is a silenced DMR with 6-round magazine. He fires in 3-round bursts. His reload window is 2.5 seconds \u2014 close the distance during reload and use EMP grenade to disable his shield, then heavy melee or point-blank shots. Expect to use 2-3 health packs.",
+          "S-Rank notes: The heating system manipulation route earns 100% stealth score if Blackwood is taken down without raising an alarm. The combat route earns 25% or less. Panel 3 activation timing is the single most important node \u2014 activating while Blackwood is in the same zone triggers immediate alert. Wait for his full patrol to the far end before touching panel 3.",
+        ],
+        callouts: [
+          {
+            title: "Advanced Hacking Device use",
+            content:
+              "The Advanced Hacking Device can override a single heating panel remotely from 15 metres. Use this for Panel 3 \u2014 it lets you activate the heat surge from a safe distance without entering Blackwood\u2019s patrol zone.",
+            tone: "info",
+          },
+        ],
+      },
+      {
+        heading: "Final Confrontation \u2014 The Director (Mission 9)",
+        body: [
+          "The final boss is the Director, the mastermind behind the campaign\u2019s events. The encounter is a multi-phase sequence in the Director\u2019s private penthouse facility. Three phases: Phase 1 is a stealth puzzle with the Director\u2019s elite guard squad (4 guards, each with thermal optics), Phase 2 is a gadget duel with the Director himself, and Phase 3 is an extraction sequence under sustained pursuit.",
+          "Phase 1 \u2014 Elite guard squad: The penthouse has four elite guards with thermal optics, fast detection, and personal shields. The S-Rank solution uses the penthouse\u2019s automated light control system. A master light panel in the service corridor can cycle the penthouse through four lighting states: full bright, dim, emergency red, and total dark. Total dark lasts 30 seconds and disables the guards\u2019 thermal optics, reducing them to standard line of sight.",
+          "Activate total dark, then use audio-based distraction gadgets to pull guards into isolated positions. Each guard has a predictable patrol zone. Lead them into the dark corners using sound lures. Once isolated, each guard can be taken down with a single standard takedown \u2014 their shields do not function in close-quarters takedown animations. Clear all four guards within the 30-second darkness window.",
+          "Phase 2 \u2014 Director gadget duel: The Director is equipped with a prototype gadget suite that mirrors your own loadout. He deploys decoys, EMP bursts, and visual disruptors. The duel is a cat-and-mouse game across the penthouse\u2019s upper mezzanine. The Director\u2019s gadgets have longer cooldowns than yours \u2014 exploit this by forcing him to use a gadget first, then pressing during his cooldown window.",
+          "The Director\u2019s pattern: He opens with a visual disruptor, then deploys a decoy, then an EMP burst. The sequence repeats on a 45-second cycle. After his EMP burst, he is vulnerable for 12 seconds. Close the distance, use your lock override to disable his personal shield generator (visible on his belt, activated with a 3-second interaction), then perform the confrontation takedown. The takedown triggers a scripted sequence that transitions to Phase 3.",
+          "Phase 3 \u2014 Extraction under pursuit: After the Director is neutralised, the penthouse goes into full security lockdown. A 120-second extraction timer begins, and the facility\u2019s automated defence systems activate. The return route uses the service elevator (locked, requires the Director\u2019s keycard), the maintenance tunnels, and the roof helipad. Do not engage any guards in Phase 3 \u2014 sprint and use environmental cover. The extraction helicopter arrives at the 110-second mark.",
+          "S-Rank notes: The Final Confrontation weights the three phases equally. Phase 1 stealth (clearing all four guards in total dark) earns full phase score. Phase 2 gadget duel (no health loss, perfect gadget counter) earns full phase score. Phase 3 extraction (no engagement, zero damage) earns full phase score. Total S-Rank requires all three phases at maximum. The par time for the full encounter is 8 minutes.",
+        ],
+        callouts: [
+          {
+            title: "Final encounter loadout",
+            content:
+              "Recommended loadout: Advanced Hacking Device (for light panel override in Phase 1), sound lure (for guard isolation in Phase 1), and lock override (for shield disable in Phase 2). The Director\u2019s loadout mirroring means your gadgets determine the duel\u2019s difficulty.",
+            tone: "info",
+          },
+        ],
+      },
+      {
+        heading: "General Boss Combat Tips",
+        body: [
+          "Across all five boss encounters, a few principles apply universally. First, always scout the boss room before triggering the encounter. Every boss arena contains environmental interactables that are hidden from obvious view. Use Q Lens in a full room scan before entering the engagement zone.",
+          "Second, gadgets are more valuable than gunfire in every boss encounter except the Biomechanical Prototype\u2019s combat fallback. A fully upgraded gadget loadout makes every boss S-Rank significantly more achievable. Prioritise gadget upgrades through the campaign.",
+          "Third, the Golden Gun, once assembled after Mission 6, bypasses shields and armour in a single shot. It is the most powerful tool for boss encounters and should be your primary weapon for Missions 7, 8, and 9. The Golden Gun\u2019s single-shot nature means you cannot miss \u2014 aim carefully.",
+          "Finally, boss S-Ranks are forgiving of small mistakes. The game\u2019s scoring system for boss encounters is weighted 50% on clean resolution (stealth takedown vs combat), 30% on time, and 20% on resource efficiency. A clean stealth takedown with moderate time but perfect resource use still earns a high score. Do not restart a boss run over a single minor timing deviation.",
+        ],
+        quote: "Every boss in First Light was designed with a clean solution. The director\u2019s job is to find it. The agent\u2019s job is to execute it.",
+      },
+    ],
+    faq: [
+      {
+        question: "Can every boss be defeated with stealth?",
+        answer:
+          "Yes. Every boss encounter in 007 First Light has a viable stealth solution. Commander Voss can even be bypassed entirely without triggering the encounter at all.",
+      },
+      {
+        question: "Which boss is the hardest?",
+        answer:
+          "Agent Blackwood (Mission 8) is widely considered the hardest boss because of his thermal vision and gadget parity. The heating system manipulation route requires precise timing and three separate panel interactions.",
+      },
+      {
+        question: "Does the Golden Gun help with bosses?",
+        answer:
+          "Significantly. The Golden Gun bypasses all shields and armour in a single shot, making it the most effective weapon for Lieutenant Korr and Commander Voss in particular.",
+      },
+      {
+        question: "What is the recommended loadout for the final boss?",
+        answer:
+          "Advanced Hacking Device, sound lure, and lock override. This trio covers Phase 1 light control, Phase 2 shield disable, and Phase 3 extraction access.",
+      },
+    ],
+  },
 ];
