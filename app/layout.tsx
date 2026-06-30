@@ -58,6 +58,7 @@ export default function RootLayout({
       className={`${bodyFont.variable} ${displayFont.variable}`}
     >
       <head>
+        <meta name="google-site-verification" content="N21K5VoxWUyIIwGf5NZjvhvU2Ty_JC2EoVhMWPL-iro" />
         <link rel="stylesheet" href="/tailwind.css" />
         <style>{`
           @keyframes spotlight {
