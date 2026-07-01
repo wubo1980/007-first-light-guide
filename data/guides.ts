@@ -1717,6 +1717,7 @@ export const guides: GuideArticle[] = [
           "Advanced Hacking Device, sound lure, and lock override. This trio covers Phase 1 light control, Phase 2 shield disable, and Phase 3 extraction access.",
       },
     ],
+  },
   {
     slug: "mission-7-knightfall",
     title: "Mission 7 — Knightfall S-Rank Walkthrough",
