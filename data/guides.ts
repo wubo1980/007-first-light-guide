@@ -1898,4 +1898,184 @@ export const guides: GuideArticle[] = [
       },
     ],
   },
+  {
+    "slug": "mission-8-all-the-time-in-the-world",
+    "title": "Mission 8 — All the Time in the World S-Rank Walkthrough",
+    "seoTitle": "Mission 8 — All the Time in the World S-Rank Walkthrough — 007 First Light Guide",
+    "excerpt": "A complete S-Rank route for Mission 8: All the Time in the World. Covers the frozen Slovakia facility infiltration, thermal disruptor usage optimization, CPU vault heist, dual-floor security matrix bypass, Golden Gun Part 4 integration, and every hidden asset in the cold-storage complex.",
+    "category": "missions",
+    "readTime": "15 min",
+    "metaDescription": "Master 007 First Light Mission 8 All the Time in the World with our S-Rank walkthrough. Frozen Slovakia facility infiltration, CPU vault heist, dual-floor security bypass, thermal disruptor strategies, and all collectible locations.",
+    "keywords": ["mission 8 all the time in the world", "007 first light walkthrough", "s-rank route", "slovakia facility", "cpu vault heist", "golden gun part 4", "thermal disruptor"],
+    "publishedAt": "2026-07-04",
+    "featured": true,
+    "relatedSlugs": [
+      "mission-7-knightfall",
+      "boss-fight-strategies",
+      "all-gadgets-guide"
+    ],
+    "sections": [
+      {
+        "heading": "All the Time in the World Overview: The Frozen Fortress",
+        "body": [
+          "Mission 8, All the Time in the World, follows directly from the Knightfall data extraction. The transaction records recovered from the Kensington penthouse point to a single destination: a remote research facility buried in the Tatra Mountains of Slovakia. The facility is owned by a shell corporation linked to the villain's network, and the intel suggests it houses the CPU prototype that powers their global surveillance infrastructure. Your objective: infiltrate the facility, locate the CPU vault, extract the prototype core, and exfiltrate through the mountain transit system before the facility locks down.",
+          "The setting is a dramatic shift from the luxury of Knightfall. The Tatra Mountains facility is a Cold War-era bunker retrofitted with modern surveillance technology — concrete walls, exposed piping, dim industrial lighting, and exterior temperatures of minus 15 degrees Celsius. The cold environment introduces a survival mechanic: prolonged exposure to the open mountain exterior triggers a hypothermia meter that starts draining health after 90 seconds. This limits how long you can stay on the mountain approach and forces you to move through the facility's interior heating corridors between exterior sections.",
+          "The facility is structured as a dual-floor sprawl with a central CPU vault at its heart. The upper floor houses administrative offices, server rooms, and the security command centre. The lower floor contains the research labs, the cold-storage vaults, and the CPU vault access tunnel. Unlike previous missions with vertical progression, All the Time in the World asks you to navigate horizontally across two connected floors, managing three separate security zones that escalate independently. An alarm in the admin wing does not trigger the research labs, but it does lock the central stairwell connecting the two floors.",
+          "The mission's signature mechanic is the thermal disruptor upgrade you unlocked in Mission 7. If you collected the thermal disruptor upgrade chip from the Knightfall penthouse safe, the disruptor's extended duration mode (18 seconds instead of 10) is a near-requirement for the S-Rank route through the CPU vault's cryogenic security system. This is the first mission where a previous collectible creates a tangible alternative path — one more example of IO Interactive's commitment to rewarding thorough exploration.",
+          "For S-Rank, All the Time in the World weights objective efficiency at 35%, stealth quality at 30%, zone transitions at 20%, and time at 15%. The par time is approximately 16 minutes, with the longest single segment being the CPU vault heist itself. The thermal disruptor usage is tracked as a separate scoring category — using it optimally (exactly 3 uses, each covering a full cryo-lock cycle) adds 8% to the stealth quality score."
+        ],
+        "tips": [
+          "If you did not collect the thermal disruptor upgrade chip in Mission 7 Knightfall, the vault alternative route requires 3 standard lockpicks and an additional 45 seconds per lock — making S-Rank borderline impossible.",
+          "Wear the winter infiltration suit (unlocked after Mission 6) — it doubles the hypothermia timer from 90 to 180 seconds, giving you two full approach windows on the mountain exterior.",
+          "The facility's central stairwell is the only connection between floors. Memorise its position before committing to either wing."
+        ],
+        "callouts": [
+          {
+            "title": "S-Rank baseline",
+            "content": "A clean thermal disruptor sequence (3 uses, full cryo-lock cycles, no guard investigation) is worth 8% stealth score. One failed disruptor use drops this to 3%. Two failures means the vault section alone prevents S-Rank.",
+            "tone": "warning"
+          }
+        ]
+      },
+      {
+        "heading": "Phase 1 — Mountain Approach and Exterior Infiltration",
+        "body": [
+          "The mission begins at a frozen ridge 400 metres above the facility. You are equipped with the standard loadout plus a thermal disruptor (extended if upgraded) and a climbing harness. The approach has three viable paths: the southern cliff descent (direct, high exposure), the eastern ridge traverse (longer, partial cover), and the western maintenance tunnel (safe, requires access key). The S-Rank route uses the eastern ridge traverse with the winter infiltration suit.",
+          "The eastern ridge traverse takes 90 seconds of exterior movement with approximately 45 seconds of direct wind exposure. With the winter infiltration suit, your hypothermia timer is 180 seconds, so you reach the facility wall with 135 seconds of reserve — more than enough for the three exterior hacking stations you need to disable before entering. Each hacking station takes 8 seconds to disable and is covered by a rock outcropping that provides shelter from the wind. The stations are spaced 20 metres apart along the eastern wall. Disabling all three unlocks the emergency access hatch on the facility's east side, bypassing the main entrance's guard post entirely.",
+          "The southern cliff descent is 45 seconds faster but leaves you exposed to a patrol route used by two exterior guards who cycle the facility perimeter every 120 seconds. Engaging them costs stealth score unless you use a non-lethal takedown from behind (requires waiting for the staggered patrol pattern). The western maintenance tunnel is the safest route but requires a keycard found inside the facility — which means you need to enter through a different route first, making it useless for the initial approach.",
+          "For S-Rank, the eastern ridge traverse is the recommended route. It avoids all guard contact, preserves your stealth score for the facility interior, and provides the thermal disruptor with its first optimal use opportunity at the emergency hatch. The hatch's cryo-lock requires one thermal disruptor activation to melt the ice seal — if you have the extended duration upgrade, this uses only 8 of your 18 seconds, leaving 10 seconds for the next cryo-lock inside."
+        ],
+        "tips": [
+          "The three hacking stations must be disabled in order (south to north). Attempting them out of sequence triggers an alarm on the third station.",
+          "Crouch during ridge traversal — standing posture increases the wind-exposure meter by 1.5x.",
+          "You can spot the emergency hatch's location from the eastern ridge using Q Lens before dropping down."
+        ],
+        "quote": "The mountains do not forgive rushing. Every second spent planning the approach is a second the interior doesn't know you are coming."
+      },
+      {
+        "heading": "Phase 2 — Maintenance Corridor and Admin Floor Entry",
+        "body": [
+          "The emergency hatch opens into a maintenance corridor running beneath the facility's admin wing. The corridor is narrow, dimly lit, and filled with steam pipes that provide intermittent visual cover. Two maintenance workers patrol this section on a 90-second cycle. They are unarmed and can be avoided entirely by timing your movement between their patrol laps.",
+          "The corridor ends at a maintenance ladder leading up to the admin floor's janitorial closet. The closet door can be opened silently. This puts you in the administrative wing's rear corridor, adjacent to the server room that contains the facility's network hub. Your Phase 2 objective is to access this network hub and upload a data worm that will disable the facility's internal camera system for 180 seconds — long enough to cross the central atrium without being recorded.",
+          "The server room is guarded by a single security officer who performs a 45-second terminal check cycle. He spends 15 seconds at the terminal, then does a 30-second patrol loop around the room. Enter when he begins his patrol loop. The data worm upload takes 20 seconds at a side terminal. During the upload, the server room's ventilation system cycles on and off — the noise masks the terminal's beeping, but only during the first 10 seconds. Time your upload to start when the ventilation is active.",
+          "If the security officer returns during the upload, you can cancel and retry without triggering an alarm — but each cancelled upload costs 15 seconds and resets the terminal, adding to your total mission time. For S-Rank, you have exactly one cancellation tolerance (30 seconds of lost time). Two cancellations push your time beyond the S-Rank threshold of 16 minutes."
+        ],
+        "callouts": [
+          {
+            "title": "Time-critical sequence",
+            "content": "The camera blackout lasts exactly 180 seconds. From the moment the upload finishes, you have 3 minutes to cross the central atrium, reach the far stairwell, and descend to the research labs. Every second counts.",
+            "tone": "warning"
+          }
+        ]
+      },
+      {
+        "heading": "Phase 3 — Central Atrium Crossing and Research Lab Access",
+        "body": [
+          "The central atrium is the facility's primary circulation space — a two-storey open area with a glass ceiling, a central kiosk, and four corridor entrances (admin north, admin south, lab east, lab west). Two security officers patrol the atrium floor, and a third watches from a raised observation booth in the north-east corner. During the camera blackout, the observation booth guard relies on direct visual only, which means he cannot monitor both atrium entrances simultaneously.",
+          "The S-Rank crossing route enters from the admin south corridor, moves behind the central kiosk (providing cover from the observation booth), crosses to the lab east entrance via the kiosk's shadowed eastern side, and enters the lab corridor. Total atrium exposure: 12 seconds. The kiosk's western side has a 3-second open window where the patrol guard's route intersects — time your move to pass this point when the patrol guard is at the far end of the atrium (north entrance).",
+          "The lab east corridor leads to the research labs. Unlike the admin wing's carpeted offices, the lab wing has polished concrete floors that amplify footstep audio. Guards here have a 30% larger detection radius for running footsteps than admin guards. Walk (shift key) through the lab corridors — running adds unnecessary risk in a space where guard density is already high.",
+          "The research labs are a single large room with eight workstations arranged in a U-shape. Three scientists work at the stations, one security guard patrols the outer perimeter, and a locked door on the east wall leads to the cold-storage vaults. The security guard's patrol takes him past the east wall door every 75 seconds. The door requires a keycard that is held by the senior scientist, identifiable by the white lab coat (other scientists wear blue)."
+        ],
+        "tips": [
+          "Time your crossing at the 90-second mark of the camera blackout. This leaves exactly 90 seconds for the lab section before the cameras come back online.",
+          "Use Q Lens from the admin corridor entrance to tag the senior scientist before crossing. Losing visual in the atrium makes identification difficult.",
+          "The observation booth guard has a coffee thermos in his booth. If you have the distraction gadget, shooting the thermos creates a 15-second distraction window."
+        ]
+      },
+      {
+        "heading": "Phase 4 — Cold-Storage Vaults and CPU Vault Access",
+        "body": [
+          "The cold-storage vaults are the facility's most secure section. The area is maintained at 4 degrees Celsius, which is cold enough to reactivate the hypothermia timer if you spend more than 120 seconds here without thermal protection. Your thermal disruptor doubles as a personal heat source in this section — activating it in survival mode (hold the gadget button) warms you for 30 seconds, consuming the disruptor's charge. This creates a tension: use the disruptor for warmth and risk failing the vault's cryo-locks, or conserve disruptor charges and risk health loss from hypothermia.",
+          "The S-Rank route uses one disruptor charge for warmth at the entrance, then relies on the vault's internal heating ducts for the remaining cold-storage sections. The heating ducts run along the ceiling and are accessible via maintenance hatches in the vault corridor walls. Opening a heating duct hatch takes 5 seconds and provides 45 seconds of warmth coverage within a 3-metre radius. There are three heating ducts in the cold-storage section, each positioned to cover approximately 30% of the vault layout.",
+          "The vault corridor connects four cold-storage chambers. The CPU vault is the fourth and deepest chamber, accessible only after bypassing the cryo-locks on chambers two and three. Each cryo-lock is a temperature-sealed door that requires thermal disruptor activation to open (8 seconds per lock, 16 seconds total for both). If you have the extended disruptor, a single 18-second activation covers both locks — use it at the chamber two door, and the disruptor's range covers chamber three's lock as well if you move quickly between them (5-second sprint distance).",
+          "Each of the first three chambers contains one collectible opportunity. Chamber one holds an audio log from the facility's chief researcher detailing the CPU prototype's origin. Chamber two holds an intel cache with schematics for the facility's geothermal generator. Chamber three holds a weapon upgrade for the PPK (silent firing mode). All three are optional but contribute to the mission's content completion badge and provide narrative context for the final mission."
+        ],
+        "callouts": [
+          {
+            "title": "Disruptor charge management",
+            "content": "If you did the mountain approach cleanly (no exterior disruptor use), you enter cold-storage with full disruptor (18 seconds extended / 10 seconds standard). Optimal S-Rank: 1 charge for cryo-locks at chambers 2 and 3 (extended: 18s covers both; standard: 8s each = 16s total). That leaves 0 seconds of disruptor charge for the CPU vault's own cryo-system. The vault has a backup manual override that takes 30 seconds — acceptable for S-Rank if earlier phases were clean.",
+            "tone": "info"
+          }
+        ]
+      },
+      {
+        "heading": "Phase 5 — CPU Vault Heist",
+        "body": [
+          "The CPU vault is a cylindrical chamber in the centre of the fourth cold-storage chamber. The prototype CPU is housed in a transparent cryogenic containment unit suspended from the ceiling by four magnetic clamps. The containment unit is surrounded by a force field that pulses every 12 seconds with a 1-second vulnerability window. The extraction requires: disable the force field (time the pulse window), deactivate the cryo-lock (8 seconds with disruptor, or 30 seconds with manual override), disconnect the four magnetic clamps (3 seconds each = 12 seconds total), and extract the CPU core (5 seconds). Total optimal extraction time: 26 seconds with disruptor, 48 seconds without.",
+          "The force field pulse window is the most technically demanding sequence in the mission. The field pulses at 12-second intervals with a 1-second vulnerability window. You need to be positioned at the vault's access panel when the window opens. The access panel is on the vault's west side, 4 metres from the containment unit. The force field's vulnerability window is marked by a blue flash on the containment unit's base — a visual cue that is easy to miss in the chamber's dim lighting.",
+          "A secondary complication: the vault chamber has a single patrolling guard who enters every 60 seconds for a 15-second inspection cycle. He checks the containment unit's status console on the south wall, then the force field generator on the north wall, and exits. The inspection cycle overlaps with the force field's pulse cycle. For a clean S-Rank extraction, you must complete the entire vault sequence between two guard inspection cycles — a 45-second window. With the thermal disruptor, the vault sequence takes 26 seconds, well within the window. Without it, the 48-second manual override means you are still extracting when the guard returns, triggering a 15% stealth score penalty.",
+          "Once the CPU core is extracted, the vault's alarm system activates automatically — a 120-second extraction timer begins. The facility enters lockdown protocol. All previously used routes are locked, and you must use the emergency extraction route through the facility's geothermal tunnel system."
+        ],
+        "tips": [
+          "Count the force field pulses before attempting. A dry run of two full cycles (24 seconds) helps you internalise the 12-second rhythm.",
+          "The blue flash visual cue is subtle. Enable subtitle colour prompts in the accessibility settings to get a text cue when the vulnerability window opens.",
+          "If you are forced to use the manual override, start it immediately after a guard inspection ends — that gives you the full 45 seconds."
+        ],
+        "quote": "The CPU vault does not test your speed. It tests your patience. The players who rush are the ones who fail."
+      },
+      {
+        "heading": "Phase 6 — Geothermal Tunnel Extraction",
+        "body": [
+          "The geothermal tunnel system is the facility's emergency evacuation route — a series of maintenance tunnels following the facility's geothermal heating pipes from the lower level to a surface exit 800 metres north-east of the facility. The tunnels are unguarded but have environmental hazards: steam vents that deal damage if crossed without timing, falling ice from the tunnel ceiling, and a single section where the tunnel floor crosses a geothermal pool (instant death on contact).",
+          "The extraction route has three segments. Segment one (0-300 metres): a straight tunnel with three steam vents at 100, 200, and 280 metres. Each vent cycles on a 20-second pattern (10 seconds active, 10 seconds inactive). Wait for the inactive window and cross each in sequence. Total segment time: approximately 40 seconds.",
+          "Segment two (300-600 metres): an angled tunnel with falling ice hazards. The ice falls on a randomised but low-density pattern (one strike every 8-12 seconds). Stay close to the tunnel walls — the ice falls primarily along the central 2-metre band. If the extraction timer is above 60 seconds remaining, you can afford to move carefully. Below 60 seconds, you need to sprint and risk a hit (each hit costs 15% health and slows you for 2 seconds).",
+          "Segment three (600-800 metres): the geothermal pool crossing. A metal catwalk crosses the pool, but 40% of the catwalk's planks are missing. The remaining planks are safe but require precise platforming. Missing a plank means instant death and mission restart from the vault checkpoint. Use the Q Lens to highlight safe planks before stepping onto the catwalk. The crossing takes 15 seconds on a clean run.",
+          "The surface exit opens into a forested ravine 800 metres north-east of the facility. A snowmobile is pre-positioned at the exit — mount it and ride 2 kilometres to the extraction point to complete the mission. The snowmobile sequence is a straight corridor with no enemy contact; your completion score is locked at vault exit, so the extraction sequence only affects your final time bonus."
+        ],
+        "callouts": [
+          {
+            "title": "Difficult extraction cutscene trigger",
+            "content": "If you cross the geothermal pool catwalk and exit to the surface with more than 60 seconds remaining on the extraction timer, a bonus cutscene plays showing the CPU prototype's activation sequence, providing critical story information for Mission 9. Missing this cutscene loses narrative context but does not affect the gameplay.",
+            "tone": "success"
+          }
+        ]
+      },
+      {
+        "heading": "All Collectibles In All the Time in the World",
+        "body": [
+          "The mission contains four collectibles: one audio log, one intel cache, one weapon upgrade, and one Golden Gun piece. None are hidden behind forced combat, but two require route deviations from the S-Rank path. Collect them during free play if pursuing the content completion badge.",
+          "Audio log (Chamber One): found on the desk of the chief researcher's station in cold-storage chamber one. The log details the CPU prototype's origin story — it was reverse-engineered from alien technology discovered in the Tunguska event of 1908. This log is part of a five-part narrative thread that culminates in Mission 9's final revelation. The route deviation cost is approximately 45 seconds from the S-Rank route.",
+          "Intel cache (Chamber Two): a locked file cabinet in the north-east corner of chamber two. Contains schematics for the facility's geothermal generator, providing intel that opens an alternative approach in Mission 9. The file cabinet requires a standard lockpick (3 seconds). Low route deviation cost (30 seconds from the S-Rank path).",
+          "Weapon upgrade — PPK Silent Mode (Chamber Three): housed in a wall-mounted security box on the chamber's western wall. The security box requires a 4-digit code (4792), found on a sticky note inside the chamber's maintenance log book (on the central workbench). The upgrade adds a silent firing mode to the PPK that eliminates muzzle report within 15 metres. High-value upgrade for the combat sections of Mission 9. Moderate route deviation cost (60 seconds).",
+          "Golden Gun Part 4 (CPU Vault periphery): the fourth piece of the Golden Gun is located in a maintenance alcove 10 metres east of the CPU vault entrance, behind a loose ventilation grate. The grate can be removed without tools (2 seconds). The alcove contains a workbench with the Golden Gun barrel assembly. This is the penultimate Golden Gun piece. The final piece is in Mission 9 (Out of the Ashes). Zero route deviation cost — the alcove is on the direct path from the cold-storage corridor to the vault.",
+          "For the Golden Gun integration and combat strategy across the entire campaign, refer to our [Boss Fight Strategies](/guides/boss-fight-strategies) guide. For loadout alternatives and gadget optimisation, see the [All Gadgets Guide](/guides/all-gadgets-guide). For additional context on the facility and the CPU prototype, read our [Mission 7 Knightfall Walkthrough](/guides/mission-7-knightfall), which reveals the transaction records that led Bond to Slovakia."
+        ]
+      },
+      {
+        "heading": "Score Notes And S-Rank Requirements",
+        "body": [
+          "All the Time in the World's S-Rank scoring breakdown: objective efficiency (35%), stealth quality (30%), zone transitions (20%), and time (15%). The high objective efficiency weight reflects the mission's focus on the CPU vault heist as the primary challenge — clean execution of the vault sequence is the single largest contributor to your grade.",
+          "An S-Rank requires: clean mountain approach (no guard contact, eastern ridge traverse route), zero suspicion on the admin floor (server room upload without interruption), camera blackout crossing within 120 seconds (you have 180 seconds of blackout but must preserve 60 for lab work), clean cold-storage passage (thermal disruptor covering both cryo-locks, zero hypothermia damage), vault extraction within the 45-second guard inspection window, and extraction timer completion under 120 seconds (surface exit before the countdown reaches zero).",
+          "The most forgiving S-Rank threshold allows exactly one minor mistake: one cancelled server room upload OR one guard investigation during the vault heist OR a 135-second extraction timer (15 seconds over par). Two mistakes knock the score below S-Rank. Three mistakes drop it to A-Rank. The thermal disruptor usage bonus (8% stealth quality) compensates for exactly one minor mistake — meaning players who used the thermal disruptor optimally can afford one mistake and still achieve S-Rank.",
+          "The CPU prototype core extraction carries forward into Mission 9 (Out of the Ashes), where the prototype's analysis reveals the villain's final stronghold location. The Golden Gun Part 4 also carries forward — full Golden Gun assembly is required for a special Mission 9 mid-game sequence. For the full collectible strategy across all missions, see our [Achievements and Trophies Guide](/guides/achievements-trophies-guide). For the facility's schematics and security layout, IO Interactive provides official mission briefings at their game portal: https://www.ioi.dk/007-first-light/"
+        ],
+        "callouts": [
+          {
+            "title": "S-Rank safety margin",
+            "content": "If you enter the CPU vault with full health, no suspicion penalties, and the extended thermal disruptor, you can afford exactly one minor mistake (e.g., one guard investigation at any phase) and still achieve S-Rank. The 8% thermal disruptor bonus is your insurance policy.",
+            "tone": "success"
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is the thermal disruptor upgrade chip from Mission 7 required for S-Rank?",
+        "answer": "Technically no, but practically yes. The manual override for the CPU vault takes 48 seconds instead of 26, which means you overlap with the guard inspection cycle and lose 15% stealth score. One minor mistake anywhere before the vault makes S-Rank impossible without the upgrade."
+      },
+      {
+        "question": "Can I skip the camera blackout in Phase 2?",
+        "answer": "Yes, but the alternative involves disabling 12 individual cameras across the central atrium and research labs using the Q Lens EMP attachment. This takes approximately 4 minutes and accrues a 20% stealth score penalty from device usage noise."
+      },
+      {
+        "question": "Does the Golden Gun Part 4 affect Mission 9?",
+        "answer": "Yes. The full Golden Gun is required for a special sequence in Mission 9: Out of the Ashes. If you miss Part 4, you must revisit Mission 8 during free play before starting the final mission to unlock the sequence."
+      },
+      {
+        "question": "What happens if my hypothermia meter reaches zero?",
+        "answer": "Health drains at 5% per second once the hypothermia timer expires. You can survive approximately 20 additional seconds before dying. Use the facility's heating ducts or a disruptor survival mode activation to reset the timer."
+      }
+    ]
+  }
+
 ];
