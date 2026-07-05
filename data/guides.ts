@@ -85,7 +85,7 @@ export const guides: GuideArticle[] = [
           {
             title: "High priority muscle memory",
             content:
-              "Practice crouch, cover enter, cover exit, and gadget swap in the tutorial area until you can do them without reading the HUD.",
+              "Practice crouch, cover enter, cover exit, and gadget swap in the tutorial area until you can do them without reading the HUD. For reference, the <a href="https://store.steampowered.com/">Steam store page</a> has a detailed breakdown of the mechanics mentioned here.",
             tone: "info",
           },
         ],
