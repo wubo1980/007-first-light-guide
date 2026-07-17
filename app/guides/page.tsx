@@ -16,8 +16,8 @@ export const metadata: Metadata = buildMetadata({
 /**
  * 渲染全部攻略列表页，展示首批全部内容入口。
  */
-export default function GuidesPage() {
-  const articles = getAllGuides();
+export default async function GuidesPage() {
+  const articles = await getAllGuides();
 
   return (
     <div className="space-y-12">

@@ -1,0 +1,119 @@
+{
+  "slug": "mission-5-exchange",
+  "title": "Mission 5 — The Exchange S-Rank Walkthrough",
+  "seoTitle": "Mission 5 — The Exchange S-Rank Walkthrough — 007 First Light Guide",
+  "excerpt": "A complete S-Rank route for Mission 5: The Exchange. Covers the Prague financial district infiltration, the server room gauntlet, Advanced Hacking Device integration, Golden Gun Part 2, and every hidden intel drop across the data centre.",
+  "category": "missions",
+  "readTime": "15 min",
+  "metaDescription": "Master 007 First Light Mission 5 The Exchange with our S-Rank walkthrough. Learn the Prague financial district infiltration, server room stealth route, Advanced Hacking Device strategies, Golden Gun Part 2 location, and all collectibles.",
+  "keywords": [
+    "mission 5 the exchange",
+    "007 first light walkthrough",
+    "s-rank route",
+    "the exchange prague",
+    "advanced hacking device mission 5",
+    "golden gun part 2"
+  ],
+  "publishedAt": "2026-06-28",
+  "featured": true,
+  "relatedSlugs": [
+    "mission-4-the-vault",
+    "all-gadgets-guide",
+    "tacsim-advanced-leaderboard-guide"
+  ],
+  "sections": [
+    {
+      "heading": "The Exchange Overview: Device Deployment",
+      "body": [
+        "Mission 5, The Exchange, is the first mission where your loadout decisions from Mission 4 pay off directly. The Advanced Hacking Device you extracted from the Zurich vault (see our [Mission 4 — The Vault guide](/guides/mission-4-the-vault)) is not just a collectible. It is the mission-critical tool that defines every S-Rank route in this level. If you did not extract it, the recommended stealth path is significantly harder and you will need twice as many gadget uses to compensate.",
+        "The mission takes place in a Prague financial district data exchange centre. Your objective is to infiltrate the facility, locate the encrypted server cluster that stores the villain’s transaction records, deploy the Advanced Hacking Device to extract the data, and exfiltrate before the building’s automated security locks isolate every floor. The three zones — the street-level plaza, the office mezzanine, and the basement server farm — create a vertical descent pattern that rewards players who maintain momentum while respecting each floor’s unique threat profile.",
+        "For S-Rank, The Exchange demands a clean transition between the outdoor and indoor environments. The par time is approximately 13 minutes, but the outdoor section alone can eat 4 minutes if you do not use the delivery entrance shortcut. The biggest time loss comes from players treating the office mezzanine as a stealth puzzle instead of a timing puzzle. You do not need to avoid the office staff. You need to pass through them before they finish their current task rotations.",
+        "The Advanced Hacking Device changes everything here because it can create 8-second camera blind spots on demand and override the server farm’s electronic locks in a single interaction. Without it, you need separate tools for each of those problems, cutting your gadget flexibility by 50%."
+      ],
+      "tips": [
+        "If you have the Advanced Hacking Device equipped, you can save one entire gadget slot compared to players who do not. Use that slot for a mobility or extraction tool.",
+        "The delivery entrance shortcut is on the east side of the plaza. Look for the service road behind the catering van. The driver takes a smoke break every four minutes."
+      ],
+      "quote": "The Exchange is the first mission that assumes you have earned your tools. Use them."
+    },
+    {
+      "heading": "Zone 1 — Street-Level Plaza",
+      "body": [
+        "The plaza is an open public space wrapped around the exchange centre facade. Four guard posts, a vehicle checkpoint, two roaming security pairs, and a half-dozen civilian NPCs create a dynamic space that punishes slow movement. The civilians do not trigger alarms, but they do react to suspicious behaviour by staring, and that stare catches guard attention.",
+        "From the starting position at the metro exit, move north-east along the planter line. The first security pair crosses the plaza on a 55-second patrol cycle. Time your movement so you reach the eastern planter row just as they turn toward the west entrance. Once at the planter, use Q Lens to identify the catering van and the service road behind it.",
+        "The service road is your entry point, but the security gate is monitored by a fixed camera. If you have the Advanced Hacking Device, use it to disable the camera for 8 seconds — more than enough time to slip through the service door. Without it, you need to reach the roof access via the exterior fire escape, which adds 90 seconds and exposes you to the snipers on the adjacent construction crane.",
+        "The delivery entrance leads to a short service corridor with a security guard at a desk. He is watching a terminal, not the door. Crouch-walk past his line of sight — the desk’s monitor stack creates a natural blind spot — and enter the maintenance stairwell. This stairwell takes you directly to the office mezzanine, bypassing the lobby entirely."
+      ],
+      "callouts": [
+        {
+          "title": "S-Rank checkpoint",
+          "content": "If you use the Advanced Hacking Device on the camera, you complete the plaza in under 90 seconds without any suspicion events. This sets a clean foundation for the rest of the mission.",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "heading": "Zone 2 — Office Mezzanine",
+      "body": [
+        "The office mezzanine is an open-plan floor with cubicles, meeting rooms, and a central atrium. Unlike the bank’s structured security layout, this space feels organic. Office workers move between desks, fetch coffee, and hold impromptu conversations. Guard presence is lighter here — two uniformed security personnel — but the civilian density means any unusual movement draws attention and starts a slow but cumulative suspicion spiral.",
+        "The cleanest S-Rank path uses the ceiling crawlspace. A maintenance hatch is located in the east stairwell landing. Climb into the crawlspace and navigate by following the ventilation duct markers. The crawlspace runs above the cubicle area and drops you into a janitorial closet directly adjacent to the executive corridor. This route avoids every guard and all civilian sightlines.",
+        "Inside the executive corridor, you will find the data centre access elevator. It requires a keycard held by the floor manager, who is in the glass-walled corner office at the north end. Do not take the keycard by force. Instead, use a distraction gadget outside his office window. When he steps out to investigate, slip into his office, grab the keycard from his desk drawer, and exit through the opposite door. The entire interaction takes 12 seconds if you time the distraction correctly.",
+        "One optional intel pickup is in the HR office on the west side. It contains personnel files that reveal a company insider who becomes a contact in Mission 7. The pickup is entirely optional for S-Rank but valuable for the overall narrative continuity."
+      ],
+      "tips": [
+        "The ceiling crawlspace has one weak panel near the executive corridor that creaks when you cross. Identify it with Q Lens and crawl past it slowly to avoid noise.",
+        "Do not take down the floor manager. A missing executive triggers a building-wide security review that locks the elevator for 60 seconds."
+      ]
+    },
+    {
+      "heading": "Zone 3 — Server Farm And Data Extraction",
+      "body": [
+        "The basement server farm is the mission’s core challenge. A climate-controlled room with raised floors, ceiling-mounted cooling units, and server racks arranged in concentric rows. Two guards patrol the perimeter, and a third is stationed at the central monitoring station. The server racks themselves provide excellent cover, but the cooling units create temperature gradients that the guards’ motion sensors can detect if you stay stationary too long in the wrong spot.",
+        "Your target server rack is Rack 7-C, located near the centre of the room. The data extraction requires connecting the Advanced Hacking Device to the rack’s diagnostic port and waiting 25 seconds for the download to complete. During this window, one of the perimeter guards passes through the central aisle on a 30-second patrol loop.",
+        "The S-Rank solution uses the cooling system. Each cooling unit has a manual override panel that triggers a 20-second defrost cycle. During defrost, the unit’s fans spin up loudly, masking your noise and creating a 5-degree temperature shift that negates motion sensor detection in a 3-metre radius. Activate the cooling unit closest to Rack 7-C, wait for the fans to reach full speed, then begin the data extraction. The guard’s patrol will pass within 2 metres of you but the thermal cover keeps you invisible.",
+        "If you do not have the Advanced Hacking Device, the data extraction requires a manual bypass cable (found in the monitoring station) and a 45-second stationary hack. This longer window makes the cooling cover timing much tighter and often forces one guard takedown to complete safely. For full gadget recommendations, refer to our [All Gadgets Guide](/guides/all-gadgets-guide)."
+      ],
+      "callouts": [
+        {
+          "title": "S-Rank habit",
+          "content": "The cooling unit defrost cycle runs for exactly 20 seconds. Start it, count to five, then begin your hack. The unit’s fan noise peaks at the 8-second mark and gives you the best acoustic and thermal cover through the hack window.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "All Collectibles In The Exchange",
+      "body": [
+        "The Exchange contains four collectibles: one intel cache, two audio logs, and the Golden Gun Part 2. Finding all three parts across Missions 4, 6, and 8 unlocks the legendary Golden Gun, the most powerful stealth weapon in 007 First Light.",
+        "Intel cache: located in the secured record room off the office mezzanine’s west corridor. The door requires a keycard from the floor manager’s office. The cache contains encrypted wire transfer records that tie the Prague exchange to the villain’s global network.",
+        "Audio log 1: found in the service corridor near the delivery entrance. A security guard’s personal recorder is on the desk next to the terminal. It contains a conversation about suspicious activity at the construction site across the street, foreshadowing a future mission location.",
+        "Audio log 2: located on a shelf in the server farm’s monitoring station, next to the coffee machine. Listen to it for clues about the insider contact in Mission 7.",
+        "Golden Gun Part 2: the most important collectible in this mission. It is inside a climate-controlled weapons case bolted to the wall in the server farm’s break room (small room off the south-east corner). Opening the case requires a cutting tool and a 10-second interaction. Time it during the cooling unit defrost cycle to mask the noise of the cutting tool. The part completes the barrel assembly of the Golden Gun."
+      ]
+    },
+    {
+      "heading": "Extraction And Score Notes",
+      "body": [
+        "After the data extraction completes, the building’s automated security system detects the unauthorised data transfer within 30 seconds. A 90-second extraction timer begins. The exit route is straightforward: return through the server farm to the maintenance stairwell, climb to the roof, and signal the extraction helicopter.",
+        "The critical detail is that the security system isolates each floor sequentially — ground floor first, then office mezzanine, then basement. If you reach the stairwell before the 45-second mark, you will beat the office floor lockdown and have a clean sprint to the roof. The stairwell doors remain unlocked from inside during the lockdown sequence.",
+        "For S-Rank scoring, The Exchange weights stealth at 40%, objective completion (data extraction + optional intel) at 35%, and time at 25%. The lower time weight reflects the mission’s emphasis on precise gadget deployment rather than raw speed. A clean extraction with the Advanced Hacking Device and Golden Gun Part 2 earns maximum objective efficiency score.",
+        "The extracted data carries forward into Mission 6, where it reveals the location of a hidden research facility. This is the first mission where your progression choices directly influence the next level’s starting conditions. For what comes next, see our [Mission 3 Silo Break guide](/guides/mission-3-silo-break) for context on where the villain’s plan originated."
+      ],
+      "quote": "The Advanced Hacking Device was the key to the vault. The data you extracted here is the key to everything after."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I complete The Exchange without the Advanced Hacking Device?",
+      "answer": "Yes, but it is significantly harder. You need separate tools for camera disabling and electronic lock override, reducing your gadget flexibility. The server farm hack also takes nearly twice as long."
+    },
+    {
+      "question": "What is the minimum gadget loadout for The Exchange?",
+      "answer": "If you have the Advanced Hacking Device, bring a distraction gadget and a cutting tool. If you do not have it, add a camera disable tool and a lock override device"
+    },
+    {
+      "question": "Is the Golden Gun Part 2 missable?",
+      "answer": "No. The break room remains accessible during free play. Use the mission select to return and collect it at any time."
+    }
+  ]
+}

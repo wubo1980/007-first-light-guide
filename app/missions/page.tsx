@@ -16,8 +16,8 @@ export const metadata: Metadata = buildMetadata({
 /**
  * 渲染任务栏目页，聚合与 mission route 相关的攻略内容。
  */
-export default function MissionsPage() {
-  const articles = getGuidesByCategory("missions");
+export default async function MissionsPage() {
+  const articles = await getGuidesByCategory("missions");
 
   return (
     <div className="space-y-12">

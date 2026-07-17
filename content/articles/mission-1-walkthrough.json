@@ -1,0 +1,86 @@
+{
+  "slug": "mission-1-walkthrough",
+  "title": "Mission 1 Walkthrough",
+  "seoTitle": "Mission 1 Walkthrough — 007 First Light Guide",
+  "excerpt": "A room-by-room route for the opening mission with silent openings, safe intel pickups, hidden collectibles, and the cleanest path to an early S-Rank clear.",
+  "category": "missions",
+  "readTime": "16 min",
+  "metaDescription": "Use this Mission 1 walkthrough for 007 First Light to learn the tutorial route, S-Rank pacing, safe takedowns, and hidden collectible locations.",
+  "keywords": [
+    "mission 1 walkthrough",
+    "007 first light mission 1",
+    "s rank route"
+  ],
+  "publishedAt": "2026-05-28",
+  "featured": true,
+  "relatedSlugs": [
+    "new-agent-briefing",
+    "best-loadout-for-beginners",
+    "all-gadgets-guide"
+  ],
+  "sections": [
+    {
+      "heading": "Opening Infiltration",
+      "body": [
+        "Mission 1 is a tutorial only on the surface. Underneath, it quietly teaches how the game wants you to think about angle control, patrol delay, and clean evidence management. At spawn, do not sprint immediately to the marked path. Move left into the partial shadow, let the first outer patrol complete its turn, and use that downtime to confirm the camera sweep on the upper railing.",
+        "Your first checkpoint for an S-Rank mentality is to avoid solving the opening with force. Instead, wait for the patrolling guard to expose his back near the service crate, then slip past to the drainage channel. This route is faster over repeated runs because it avoids body cleanup and keeps the entire front cone neutral. New players often take the takedown because it feels safer, but the safer play is actually invisibility.",
+        "Once inside the service lane, use Q Lens to confirm the climb point and one optional intel pickup tucked near the maintenance cart. Grab it only if the upper camera has finished its outward sweep. That timing preserves a clean climb and costs less than three seconds."
+      ],
+      "tips": [
+        "Ignore the first obvious takedown temptation and route around it.",
+        "Watch the upper camera once before moving to the climb point.",
+        "The maintenance cart intel is free if you enter on the correct camera cycle."
+      ]
+    },
+    {
+      "heading": "Training Block To Server Wing",
+      "body": [
+        "The midsection teaches two guard manipulation fundamentals: one guard can be moved by sound, and another can be bypassed simply by respecting his turn radius. Use a single low-intensity distraction to pull the static sentry off the server door line, then enter before the moving patrol returns from the glass corridor. The window is longer than it looks, which is why panic usually creates the failure here.",
+        "Inside the training block, do not cross the center floor. Stay on the outer edge, hugging the equipment banks so the elevated observer never gets a full silhouette read. This is a classic First Light lesson: the shortest path is not the fastest path if it forces detection risk or a stop-start recovery.",
+        "There is one hidden collectible in the locker row behind the inactive drone frame. Pick it up only after the observer turns to inspect the far monitor bank. If you are aiming for a first clear rather than a score route, you can skip the collectible and keep the rhythm, but advanced players should learn the turn because it stays consistent across repeats."
+      ]
+    },
+    {
+      "heading": "Objective Room Clean Route",
+      "body": [
+        "The objective room is where most early S-Rank attempts die. The mistake is entering too early and standing upright during the interaction. Instead, wait outside until both the inner technician and roaming guard separate. Once the technician looks toward the console wall, slide in low, interact from the protected side of the desk, and immediately back out along the same line rather than improvising a new exit.",
+        "If you brought a lock override or mild lure gadget, this room becomes much easier. Use the tool before exposing your full body. A clean objective is about reducing the seconds you spend visible, not about performing a dramatic sequence. You want the room to remain in the same narrative state after you leave as before you entered.",
+        "If something goes wrong and the roaming guard starts to fill suspicion, retreat to the side partition and wait. Do not sprint to the next checkpoint. The room is surprisingly forgiving if you let it cool, and surprisingly punishing if you carry half-alert state forward."
+      ],
+      "callouts": [
+        {
+          "title": "S-Rank habit",
+          "content": "Enter, interact, exit on the same safe line. Extra improvisation inside the objective room usually costs more than it gains.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "Hidden Collectibles",
+      "body": [
+        "Mission 1 contains a handful of beginner-friendly collectibles meant to teach observation. The easiest are near the maintenance cart outside the first climb, the locker row in the training block, and the vent shelf near the server wing escape ladder. None of them require combat, but two of them punish greedy timing.",
+        "The vent shelf collectible is the one most players miss because they are already thinking about the extraction. Before dropping to the lower escape lane, turn right and climb the half-height service box. The shelf above contains the file. The key is to do this only after the lower patrol has moved under the floodlight and begun its outward path, giving you enough time to climb and drop safely.",
+        "If you are learning the route, collect items on separate runs until the base movement pattern feels natural. Once the route is stable, fold each pickup back in one by one and confirm that your extraction timing still holds."
+      ]
+    },
+    {
+      "heading": "Extraction And Score Notes",
+      "body": [
+        "The final stretch is not about speed but about preserving the mission's clean state. Use the outer shadows instead of the brighter central lane, ignore unnecessary loot, and do not overtake patrols that are already moving away from you. Patience in the last thirty seconds protects more score than aggression creates.",
+        "For S-Rank routing, your score comes from low exposure, minimal disturbance, and efficient objective flow. Mission 1 does not demand a flashy gadget chain. It rewards quiet discipline. If your first clear takes a minute longer but keeps every awareness state low, that run is far closer to repeatable S-Rank than a fast but chaotic clear.",
+        "Once you can clear Mission 1 cleanly three times in a row, begin trimming downtime. Remove only one wait point at a time, verify the camera and patrol cycles still line up, and rebuild the route gradually. That is the safest path from tutorial competence to speed mastery."
+      ],
+      "quote": "Mission 1 teaches the whole game in miniature: route first, ego second."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Mission 1 be S-Ranked without takedowns?",
+      "answer": "Yes. In fact, routing around the early takedown opportunity often produces a cleaner and more repeatable clear."
+    },
+    {
+      "question": "Which collectible is easiest to miss?",
+      "answer": "The vent shelf collectible near the escape ladder is the most commonly missed because players rush to extraction."
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-07-17",
+  "articles": [
+    {
+      "slug": "new-agent-briefing",
+      "title": "New Agent Briefing",
+      "category": "briefing",
+      "excerpt": "A full onboarding dossier covering controls, detection states, Q Lens reads, Instinct use, and the habits that separate a clean infiltrator from a noisy tourist.",
+      "publishedAt": "2026-05-28",
+      "readTime": "14 min",
+      "featured": true
+    },
+    {
+      "slug": "stealth-vs-combat-decision-guide",
+      "title": "Stealth vs Combat Decision Guide",
+      "category": "guides",
+      "excerpt": "Learn when to stay invisible, when to commit to force, and how to choose upgrades that support both survival and score instead of locking yourself into bad habits.",
+      "publishedAt": "2026-05-28",
+      "readTime": "13 min",
+      "featured": true
+    },
+    {
+      "slug": "all-gadgets-guide",
+      "title": "All Gadgets Guide",
+      "category": "gadgets",
+      "excerpt": "A practical guide to all eight core gadgets, how they unlock, where they shine, and which combinations create the most consistent mission control.",
+      "publishedAt": "2026-05-28",
+      "readTime": "15 min",
+      "featured": true
+    },
+    {
+      "slug": "mission-1-walkthrough",
+      "title": "Mission 1 Walkthrough",
+      "category": "missions",
+      "excerpt": "A room-by-room route for the opening mission with silent openings, safe intel pickups, hidden collectibles, and the cleanest path to an early S-Rank clear.",
+      "publishedAt": "2026-05-28",
+      "readTime": "16 min",
+      "featured": true
+    },
+    {
+      "slug": "best-loadout-for-beginners",
+      "title": "Best Loadout for Beginners",
+      "category": "gadgets",
+      "excerpt": "A stable early-game loadout that reduces mistakes, improves scouting, and gives beginners a recoverable route when timing slips or detection starts to climb.",
+      "publishedAt": "2026-05-28",
+      "readTime": "11 min",
+      "featured": false
+    },
+    {
+      "slug": "tacsim-mode-guide",
+      "title": "TacSim Mode Guide",
+      "category": "tacsim",
+      "excerpt": "A deep guide to Tactical Simulation mode, including how the score system rewards tempo, route compression, clean execution, and leaderboard-friendly repetition.",
+      "publishedAt": "2026-05-28",
+      "readTime": "15 min",
+      "featured": true
+    },
+    {
+      "slug": "common-beginner-mistakes",
+      "title": "Common Beginner Mistakes",
+      "category": "guides",
+      "excerpt": "Ten mistakes new players make in 007 First Light, why they happen, and how to fix them before they become habits that ruin stealth routes and TacSim progress.",
+      "publishedAt": "2026-05-28",
+      "readTime": "12 min",
+      "featured": false
+    },
+    {
+      "slug": "first-light-patch-101-and-sales",
+      "title": "Patch 1.01 & 1.5M Sales Milestone",
+      "category": "briefing",
+      "excerpt": "007 First Light sold 1.5 million copies in 24 hours, earned an 87 Metacritic rating, and IO Interactive has already shipped Patch 1.01 with performance and stability improvements ahead of the first co",
+      "publishedAt": "2026-05-30",
+      "readTime": "8 min",
+      "featured": true
+    },
+    {
+      "slug": "mission-2-deep-water",
+      "title": "Mission 2 — Deep Water S-Rank Walkthrough",
+      "category": "missions",
+      "excerpt": "A complete S-Rank route for Mission 2: Deep Water. Covers the underwater infiltration, the first dual-region map split, all collectible locations, and the stealth route that avoids every forced engage",
+      "publishedAt": "2026-06-21",
+      "readTime": "12 min",
+      "featured": true
+    },
+    {
+      "slug": "mission-3-silo-break",
+      "title": "Mission 3 — Silo Break S-Rank Walkthrough",
+      "category": "missions",
+      "excerpt": "S-Rank Silo Break with our comprehensive route guide covering the outdoor compound, three-layer silo interior, mini-boss confrontation, and all hidden intel pickups along the way.",
+      "publishedAt": "2026-06-21",
+      "readTime": "14 min",
+      "featured": true
+    },
+    {
+      "slug": "tacsim-advanced-leaderboard-guide",
+      "title": "TacSim Advanced Leaderboard Guide",
+      "category": "tacsim",
+      "excerpt": "Advanced TacSim scoring strategies for leaderboard chasers. Learn how the scoring weights time, stealth, and combo chains, and discover the routing principles that top-ranked players use to dominate e",
+      "publishedAt": "2026-06-21",
+      "readTime": "10 min",
+      "featured": true
+    },
+    {
+      "slug": "mission-4-the-vault",
+      "title": "Mission 4 — The Vault S-Rank Walkthrough",
+      "category": "missions",
+      "excerpt": "A complete S-Rank route for Mission 4: The Vault. Covers the Swiss Bank three-zone infiltration, the underground vault corridor gauntlet, the Advanced Hacking Device unlock, and every hidden collectib",
+      "publishedAt": "2026-06-26",
+      "readTime": "14 min",
+      "featured": true
+    },
+    {
+      "slug": "mission-5-exchange",
+      "title": "Mission 5 — The Exchange S-Rank Walkthrough",
+      "category": "missions",
+      "excerpt": "A complete S-Rank route for Mission 5: The Exchange. Covers the Prague financial district infiltration, the server room gauntlet, Advanced Hacking Device integration, Golden Gun Part 2, and every hidd",
+      "publishedAt": "2026-06-28",
+      "readTime": "15 min",
+      "featured": true
+    },
+    {
+      "slug": "mission-6-cold-storage",
+      "title": "Mission 6 — Cold Storage S-Rank Walkthrough",
+      "category": "missions",
+      "excerpt": "A complete S-Rank route for Mission 6: Cold Storage. Covers the Norwegian Arctic facility infiltration, multi-temperature zone navigation, the prototype weapon vault, collectibles, and the fastest ste",
+      "publishedAt": "2026-06-28",
+      "readTime": "16 min",
+      "featured": true
+    },
+    {
+      "slug": "achievements-trophies-guide",
+      "title": "All Achievements & Trophies Guide",
+      "category": "guides",
+      "excerpt": "Every achievement and trophy in 007 First Light, including story unlocks, collection milestones, skill challenges, and hidden requirements. Learn the fastest path to Platinum and 100% completion.",
+      "publishedAt": "2026-06-28",
+      "readTime": "18 min",
+      "featured": true
+    },
+    {
+      "slug": "boss-fight-strategies",
+      "title": "Boss Fight Strategies — Complete Guide",
+      "category": "guides",
+      "excerpt": "Every boss and elite enemy encounter in 007 First Light, analysed for both stealth and combat approaches. Learn attack patterns, environmental weaknesses, optimal gadget loadouts, and S-Rank scoring s",
+      "publishedAt": "2026-06-28",
+      "readTime": "15 min",
+      "featured": true
+    },
+    {
+      "slug": "mission-7-knightfall",
+      "title": "Mission 7 — Knightfall S-Rank Walkthrough",
+      "category": "missions",
+      "excerpt": "A complete S-Rank route for Mission 7: Knightfall. Covers the Kensington penthouse infiltration, rooftop perch approach, multi-floor gala security bypass, prototype data extraction, Golden Gun Part 3 ",
+      "publishedAt": "2026-07-01",
+      "readTime": "16 min",
+      "featured": true
+    },
+    {
+      "slug": "mission-8-all-the-time-in-the-world",
+      "title": "Mission 8 — All the Time in the World S-Rank Walkthrough",
+      "category": "missions",
+      "excerpt": "A complete S-Rank route for Mission 8: All the Time in the World. Covers the frozen Slovakia facility infiltration, thermal disruptor usage optimization, CPU vault heist, dual-floor security matrix by",
+      "publishedAt": "2026-07-04",
+      "readTime": "15 min",
+      "featured": true
+    },
+    {
+      "slug": "007-first-light-complete-guide-walkthrough-tips-weapons-secrets",
+      "title": "007 First Light Complete Guide: Walkthrough, Tips, Weapons & Hidden Secrets",
+      "category": "guides",
+      "excerpt": "Master 007 First Light with our complete guide. Includes full walkthrough, 10 beginner tips, weapon stats table, all achievements, and hidden secrets. Updated f",
+      "publishedAt": "2026-07-15",
+      "readTime": "6 min read",
+      "featured": false
+    },
+    {
+      "slug": "from-n64-to-ps5-25-years-007-video-games",
+      "title": "From N64 to PS5: 25 Years of 007 Video Games",
+      "category": "guides",
+      "excerpt": "从GoldenEye到First Light，回顾007游戏25年演变。销量、逆编译运动、平台更迭全解析。附完整时间线与新作测评。",
+      "publishedAt": "2026-07-15",
+      "readTime": "4 min read",
+      "featured": false
+    },
+    {
+      "slug": "goldeneye-007-vs-first-light-gameplay-deep-dive",
+      "title": "GoldenEye 007 vs First Light: Gameplay Deep Dive — Controls, Level Design & Multiplayer Evolution",
+      "category": "guides",
+      "excerpt": "A detailed comparison of GoldenEye 007 and 007 First Light focusing on controls, level design, and multiplayer. Includes community opinions from Reddit and Stea",
+      "publishedAt": "2026-07-15",
+      "readTime": "5 min read",
+      "featured": false
+    },
+    {
+      "slug": "007-first-light-complete-guide-walkthrough-tips-weapons-secrets",
+      "title": "007 First Light Complete Guide: Walkthrough, Tips, Weapons & Hidden Secrets",
+      "category": "guides",
+      "excerpt": "Master 007 First Light with our complete guide. Includes full walkthrough, 10 beginner tips, weapon stats table, all achievements, and hidden secrets. Updated f",
+      "publishedAt": "2026-07-15",
+      "readTime": "6 min read",
+      "featured": false
+    },
+    {
+      "slug": "from-n64-to-ps5-25-years-007-video-games",
+      "title": "From N64 to PS5: 25 Years of 007 Video Games",
+      "category": "guides",
+      "excerpt": "从GoldenEye到First Light，回顾007游戏25年演变。销量、逆编译运动、平台更迭全解析。附完整时间线与新作测评。",
+      "publishedAt": "2026-07-15",
+      "readTime": "4 min read",
+      "featured": false
+    },
+    {
+      "slug": "goldeneye-007-vs-first-light-gameplay-deep-dive",
+      "title": "GoldenEye 007 vs First Light: Gameplay Deep Dive — Controls, Level Design & Multiplayer Evolution",
+      "category": "guides",
+      "excerpt": "A detailed comparison of GoldenEye 007 and 007 First Light focusing on controls, level design, and multiplayer. Includes community opinions from Reddit and Stea",
+      "publishedAt": "2026-07-15",
+      "readTime": "5 min read",
+      "featured": false
+    }
+  ]
+}

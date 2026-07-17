@@ -1,0 +1,137 @@
+{
+  "slug": "mission-6-cold-storage",
+  "title": "Mission 6 — Cold Storage S-Rank Walkthrough",
+  "seoTitle": "Mission 6 — Cold Storage S-Rank Walkthrough — 007 First Light Guide",
+  "excerpt": "A complete S-Rank route for Mission 6: Cold Storage. Covers the Norwegian Arctic facility infiltration, multi-temperature zone navigation, the prototype weapon vault, collectibles, and the fastest stealth path through sub-zero environments.",
+  "category": "missions",
+  "readTime": "16 min",
+  "metaDescription": "Master 007 First Light Mission 6 Cold Storage with our S-Rank walkthrough. Arctic facility infiltration strategies, multi-temperature zone stealth, prototype weapon vault route, Advanced Hacking Device shortcuts, and all collectible locations.",
+  "keywords": [
+    "mission 6 cold storage",
+    "007 first light walkthrough",
+    "s-rank route",
+    "cold storage arctic",
+    "prototype weapon vault",
+    "golden gun part 3"
+  ],
+  "publishedAt": "2026-06-28",
+  "featured": true,
+  "relatedSlugs": [
+    "mission-5-exchange",
+    "mission-4-the-vault",
+    "stealth-vs-combat-decision-guide"
+  ],
+  "sections": [
+    {
+      "heading": "Cold Storage Overview: Environmental Stealth",
+      "body": [
+        "Mission 6, Cold Storage, introduces a mechanic that changes how you approach every movement decision: temperature-based detection. The Norwegian Arctic facility is divided into heated interior zones and sub-zero exterior corridors. In the cold zones, your body heat creates a visible thermal signature that enhanced guard optics can detect through thin cover. In heated zones, standard stealth rules apply, but the temperature transition points themselves are the most dangerous parts of the level.",
+        "The data you extracted from the Prague Exchange (see our [Mission 5 guide](/guides/mission-5-exchange)) reveals this facility’s coordinates and purpose: a research outpost where the villain’s prototype weapons are developed and stored. Your objective is to infiltrate the facility, locate the prototype weapon vault, photograph the stored prototypes for MI6 intelligence, and exfiltrate before a scheduled supply convoy arrives with reinforcements.",
+        "The facility has four distinct zones: the exterior perimeter and hangar, the heated habitation block, the sub-zero research corridor, and the deep-freeze prototype vault. Each zone requires a different loadout approach. Critical to note: the Advanced Hacking Device from Zurich is less useful in the cold zones because low temperatures drain its battery faster. Use it sparingly and only in heated interior spaces.",
+        "S-Rank par time is approximately 14 minutes. The biggest time sink is the temperature acclimation mechanic — transitioning between cold and heated zones requires a 30-second cooldown period. Plan your route to minimise these transitions. Group cold-zone objectives together and heated-zone objectives together rather than ping-ponging between temperatures."
+      ],
+      "tips": [
+        "Thermal cloaking devices do not exist in 007 First Light. Do not expect to hide heat. Instead, stay behind thick obstacles (metal containers, concrete pillars) that block thermal optics.",
+        "The Advanced Hacking Device lasts about 60 seconds of active use in cold zones versus 120 seconds in heated zones. Plan your gadget windows accordingly."
+      ],
+      "quote": "Cold Storage does not just test your stealth. It tests your awareness of how the environment changes the rules."
+    },
+    {
+      "heading": "Zone 1 — Exterior Perimeter And Hangar",
+      "body": [
+        "The exterior perimeter is an arctic compound surrounded by a chain-link fence with motion sensors. Four watchtowers, two patrol vehicles, and a central hangar building create a wide-open approach that is nearly impossible to cross without being seen unless you use the drainage culvert.",
+        "The drainage culvert runs under the fence line on the north-west corner. It is partially frozen but passable. Enter from the snowfield behind the rock formation, crouch through the culvert (15 seconds), and emerge inside the compound behind the fuel storage tanks. This approach bypasses every motion sensor and watchtower sightline.",
+        "From the fuel tanks, move to the hangar’s side service door. The door is locked with a keypad. If you have the data decryption upgrade from completing the Prague Exchange with full intel, the keypad code is already in your mission notes. Otherwise, use the Q Lens to spot the code written on a maintenance clipboard visible through the hangar window. Enter the hangar and immediately move behind the stacked cargo crates on the left.",
+        "Inside the hangar, two mechanics work on a snowmobile near the far wall. They are the only personnel in this zone. Crouch-walk along the crates to the interior door leading to the habitation block. Do not interact with the mechanics or the snowmobile — touching either triggers a conversation that delays your entry by 45 seconds."
+      ],
+      "callouts": [
+        {
+          "title": "S-Rank checkpoint",
+          "content": "Clean entry through the culvert with zero alerts on the perimeter is worth 15% of your total stealth score for this mission. The exterior is weighted heavily because most players fail here.",
+          "tone": "warning"
+        }
+      ]
+    },
+    {
+      "heading": "Zone 2 — Heated Habitation Block",
+      "body": [
+        "The habitation block is the facility’s living quarters and the first heated zone. Standard stealth rules apply here: patrols, cameras, and room-by-room clearance. Three guards patrol the corridor network, and two more are stationed in the common room. Your objective in this zone is to reach the stairwell leading to the sub-zero research corridor below.",
+        "The fastest route through the habitation block avoids the central corridor entirely. Enter through the kitchen service door, cross the empty mess hall, and exit through the laundry room into the east stairwell. This route exposes you to exactly one guard — the kitchen patrol who checks the freezer every three minutes. Time your kitchen crossing to his freezer inspection cycle.",
+        "One optional objective exists in the habitation block: the facility director’s office on the second floor. Inside is a security access upgrade that unlocks all doors in the research corridor without the need for keycards. The office is guarded by a camera and a stationary guard. Use a visual disruption gadget to pull the guard to the window, then slip in, grab the upgrade from the desk drawer, and exit. Adding this objective costs about 90 seconds but saves twice that in the research corridor.",
+        "The temperature acclimation room is adjacent to the east stairwell. Enter it, wait the full 30-second warm-up cycle, then proceed to the cold research corridor. Do not skip this step. Entering the cold zone without acclimation triggers an immediate health warning that alerts every guard in the research corridor."
+      ],
+      "tips": [
+        "The facility director’s office upgrade is worth the detour. It eliminates every keycard requirement in Zone 3 and Zone 4, making the rest of the mission dramatically smoother.",
+        "Use the 30-second acclimation window to check your gadget cooldowns and plan the research corridor route on your HUD map."
+      ]
+    },
+    {
+      "heading": "Zone 3 — Sub-Zero Research Corridor",
+      "body": [
+        "The research corridor is where Cold Storage’s temperature mechanic becomes a real obstacle. The corridor is maintained at -15°C. Your thermal signature is visible through thin cover. Guard patrols here are equipped with thermal optics that can detect you through desks, partitions, and most interior walls unless you are behind solid thermal mass.",
+        "The corridor is laid out as a straight passage with branching labs on either side. Two guards patrol the corridor itself, and one stationary guard monitors a thermal camera feed in the security booth at the far end. The security booth has a thermal camera sweep that covers the entire corridor. Unlike standard cameras, this one cannot be turned off — it has a backup battery system isolated from the facility’s main power.",
+        "The S-Rank solution uses the facility’s own coolant system. Three coolant distribution valves are located along the corridor. Activating each valve releases a 30-second coolant spray that drops the local temperature by another 10 degrees, temporarily masking your thermal signature in a 5-metre radius. Activate valve 1 near the entrance, move to the first branching lab, activate valve 2 at the midpoint, photograph the lab equipment (primary objective sample collection), and activate valve 3 to reach the far end near the security booth.",
+        "When you reach the far end, the security booth guard will be focused on his thermal feed. Crouch past the booth’s blind spot on the left side — there is a 4-inch gap between the booth wall and the coolant pipe where the camera sweep does not reach. Use it to slip past into the deep-freeze vault antechamber without triggering a detection event."
+      ],
+      "callouts": [
+        {
+          "title": "S-Rank habit",
+          "content": "Coolant valve timing is the hardest part of this zone. Practice the sequence in free play until you can activate all three valves without checking the HUD timer. The interval should be exactly 25 seconds between valve 1 and valve 3.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "Zone 4 — Deep-Freeze Prototype Vault",
+      "body": [
+        "The final zone is a -30°C vault where the facility’s prototype weapons are stored. The extreme cold means your thermal signature is visible through all cover except solid metal crates and the vault’s structural pillars. Two guards patrol the vault floor, and a third operates a remote weapon scanning station in the observation booth above.",
+        "Your primary objective is to photograph three prototype weapons stored in glass display cases along the vault’s east wall. Each photograph takes 5 seconds and requires a clear line of sight to the case. The scanning station guard has a visual feed that covers the east wall, so you must either disable the scanning station or time your photo sequence to his sightline rotation.",
+        "The S-Rank solution disables the scanning station first. A maintenance panel is located behind the station on the observation booth’s exterior wall. Climb the ladder near the vault entrance to reach the booth’s access catwalk, wait for the scanning guard to turn toward his secondary terminal, and short-circuit the panel with the Advanced Hacking Device (8-second interaction). This disables the scanning feed for 90 seconds — enough time to photograph all three prototypes and begin the extraction.",
+        "Once the scanning station is down, drop back to the vault floor and move along the east wall behind the metal crate line. Photograph prototypes in order from north to south: the thermal rifle (closest to entrance), the sonic disruptor prototype (centre case), and the compact railgun (south case). Each photo triggers a faint shutter sound that the floor guards cannot hear over the cooling unit noise if you stay behind the crates.",
+        "If the scanning station cannot be disabled, the fallback is to photograph each prototype during the guard’s secondary terminal rotation window (12 seconds every 45 seconds, accessible only from the vault floor’s south-east corner). This approach takes longer and requires precise timing, but still achieves S-Rank with no score penalty if no guard is alerted."
+      ],
+      "callouts": [
+        {
+          "title": "S-Rank checkpoint",
+          "content": "Disabling the scanning station is the single most important action in Mission 6. Without it, the photo sequence takes 90 seconds longer and requires two additional timing windows. Every S-Rank run should prioritise this disable.",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "heading": "All Collectibles In Cold Storage",
+      "body": [
+        "Cold Storage contains four collectibles: one intel cache, one audio log, Golden Gun Part 3, and a prototype weapon schematic. The Golden Gun Part 3 completes the weapon assembly when combined with Part 1 (Mission 4) and Part 2 (Mission 5).",
+        "Intel cache: located in the facility director’s office safe (Zone 2, second floor). The safe combination is written on a sticky note inside his desk drawer. Collect the note first, then input the code 71-34-86 to open the safe. Contains encrypted transport manifests.",
+        "Audio log: found on a workbench in the hangar (Zone 1), next to the snowmobile. It contains a mechanic’s recording about unusual crate markings on the supply convoy’s cargo. Easy to grab on entry without any detour.",
+        "Golden Gun Part 3: the most important collectible in this mission. It is inside a cryogenic storage container in the deep-freeze vault (Zone 4), behind the thermal rifle display case. Opening the container requires a thermal cutting tool — standard lockpicks will not work. The extraction takes 8 seconds and should be done immediately after photographing the thermal rifle, while you are already behind the crate line. This part completes the barrel assembly of the Golden Gun.",
+        "Prototype weapon schematic: found on a terminal in the scanning station observation booth (Zone 4). Downloading the schematic takes 6 seconds. It unlocks a bonus crafting recipe for the thermal disruptor, a gadget that carries into Mission 7."
+      ]
+    },
+    {
+      "heading": "Extraction And Score Notes",
+      "body": [
+        "After photographing all three prototypes, a 120-second extraction timer begins as the facility’s automated alarm detects the unauthorised data upload. The exit route is a sprint through the habitation block and hangar back to the exterior perimeter.",
+        "The critical challenge is that the supply convoy arrives at the 90-second mark. If you are still inside the facility when the convoy arrives, the compound becomes significantly more dangerous with an additional six armed guards patrolling the perimeter. Prioritise reaching the exterior before the 90-second mark.",
+        "The return route reverses the Zone 2 path: exit the deep-freeze vault, pass through the research corridor (the coolant system is still active from Zone 3, providing thermal cover), ascend through the habitation block stairwell, cross the mess hall, and exit through the hangar’s side service door. Do not attempt to hide in the hangar — the mechanics trigger an alarm if they see you, and there is no alternative exit.",
+        "For S-Rank scoring, Cold Storage weights environmental control at 40%, stealth at 30%, and objective completion at 30%. The high environmental weight reflects the unique temperature mechanics. A run that uses the coolant system for thermal masking and disables the scanning station earns maximum environmental efficiency points regardless of slight timing deviations.",
+        "The prototype photographs and weapon schematic carry forward into Mission 7, where they reveal the location of the villain’s main research headquarters. The Golden Gun assembly completes after Mission 8, providing the most powerful stealth weapon in the game for the final mission."
+      ],
+      "quote": "Cold Storage tests whether you can adapt to rules that change every zone. The best agents do not fight the environment — they become part of it."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I complete Cold Storage without the Advanced Hacking Device?",
+      "answer": "Yes, but the scanning station disable becomes much harder. You will need a manual short-circuit kit found in the hangar’s toolbox, which adds a 10-second interaction and requires you to carry an extra gadget slot."
+    },
+    {
+      "question": "Is the Golden Gun Part 3 missable?",
+      "answer": "No. The cryogenic container remains accessible during free play. Return via mission select and collect it with a thermal cutting tool at your convenience."
+    },
+    {
+      "question": "What happens if the supply convoy arrives while I am still inside?",
+      "answer": "The compound becomes heavily reinforced with six additional guards. Extraction is still possible but you will lose significant stealth score. Reset or fight through depending on your score goals."
+    }
+  ]
+}

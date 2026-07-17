@@ -1,0 +1,86 @@
+{
+  "slug": "stealth-vs-combat-decision-guide",
+  "title": "Stealth vs Combat Decision Guide",
+  "seoTitle": "Stealth vs Combat Decision Guide — 007 First Light Guide",
+  "excerpt": "Learn when to stay invisible, when to commit to force, and how to choose upgrades that support both survival and score instead of locking yourself into bad habits.",
+  "category": "guides",
+  "readTime": "13 min",
+  "metaDescription": "A deep decision guide for 007 First Light covering stealth versus combat choices, threat assessment, escalation control, and the best early upgrade path.",
+  "keywords": [
+    "stealth vs combat",
+    "007 first light strategy",
+    "skill upgrades"
+  ],
+  "publishedAt": "2026-05-28",
+  "featured": true,
+  "relatedSlugs": [
+    "new-agent-briefing",
+    "tacsim-mode-guide",
+    "common-beginner-mistakes"
+  ],
+  "sections": [
+    {
+      "heading": "Why The Real Question Is Commitment, Not Preference",
+      "body": [
+        "Most players frame the choice as personality: stealth players sneak, action players shoot. The game does not really care about that label. What matters is whether you commit to the logic of the current encounter. A stealth route fails when you hesitate and start half-fighting from a bad position. A combat route fails when you take too long to break the room open and allow reinforcements to surround you.",
+        "The decision should come from space, objective pressure, and available exits. If the room has layered cover, multiple flank lines, and a short objective interaction, stealth is usually stronger because the reward for remaining unseen is massive. If the room is already semi-alert, if your approach angle is compromised, or if the objective sits inside a high-density guard knot, committing to fast force may actually be safer than trying to salvage a dead infiltration line.",
+        "Good players are not attached to one style. They choose the path that preserves control."
+      ]
+    },
+    {
+      "heading": "Signals That Favor Stealth",
+      "body": [
+        "Choose stealth when the level offers controllable patrol timing, clear vertical or lateral cover, isolated guards, and enough downtime to reset between interactions. Objectives involving intel retrieval, silent sabotage, disguised movement windows, or optional collectibles strongly favor stealth because noise taxes your cleanup cost and makes return paths harder.",
+        "Stealth also dominates when your loadout includes tools that convert one solved angle into a chain of safe spaces. The classic example is using a distraction gadget to pivot a two-guard choke into a single-file corridor. Once the first angle is solved, the rest of the room becomes predictable.",
+        "Finally, stealth is the higher-value choice for players pursuing S-Rank or learning a mission for the first time. It reveals the geometry of the level and teaches patrol logic, which remains useful even if you later route a faster hybrid or combat clear."
+      ],
+      "tips": [
+        "Stealth is strongest when you can isolate a single problem guard instead of the whole room.",
+        "Favor stealth if the objective interaction itself is noisy or slow.",
+        "Use stealth to learn the map, then optimize from there."
+      ]
+    },
+    {
+      "heading": "Signals That Favor Combat",
+      "body": [
+        "Combat becomes the correct answer when the level has already denied you the conditions needed for silent play. If multiple enemies have partial awareness, if your last safe anchor is gone, or if a chokepoint can be held more easily than it can be bypassed, then controlled aggression is often the cleanest recovery plan.",
+        "The key phrase is controlled aggression. Do not interpret combat as emotional panic. It means choosing a strong angle, breaking the first wave, moving before the second wave settles, and ending the engagement before the alarm state spreads. You still want tempo, information, and an exit route. The best combat sequences in First Light feel like decisive corrections, not desperate improvisation.",
+        "Combat also has value in boss or elite phases where the room is designed around mobility, pressure, and environment use. In those cases, insisting on pure stealth often wastes resources and extends exposure time."
+      ],
+      "callouts": [
+        {
+          "title": "Combat trigger test",
+          "content": "If your stealth recovery would require two perfect timings and a blind corner guess, take the fight on your terms now instead of losing it on the game's terms later.",
+          "tone": "warning"
+        }
+      ]
+    },
+    {
+      "heading": "Best Early Upgrade Path",
+      "body": [
+        "The safest early progression route is hybrid utility. Prioritize upgrades that improve information, reposition speed, and route forgiveness before raw damage. Better recon, faster gadget access, larger margin on detection decay, or cleaner takedown windows all make both stealth and combat stronger.",
+        "Your second tier should focus on encounter conversion tools. These are upgrades that allow one solved opening to snowball into a stable advantage, such as quicker follow-up after a distraction, smoother cover transitions, or better recovery when an enemy reaches curiosity. Those systems support every mission type and help you avoid over-specializing too early.",
+        "Pure offense upgrades are still useful, but they should come after you can consistently preserve control. Damage is strongest when you already know where and when you want to fight. Until then, utility beats burst."
+      ]
+    },
+    {
+      "heading": "How To Reassess Mid-Mission",
+      "body": [
+        "The best players revisit the stealth-versus-combat decision after every major interaction. Did the room become emptier or more alert? Did you spend the gadget that made your previous route safe? Did your exit path survive? Reassessment matters because the correct answer can flip after one mistake or one successful takedown.",
+        "Use a short checklist: current awareness state, nearest hard cover, next objective distance, available crowd-control tool, and fallback line. If three of those are weak, stop pretending the original plan still exists. Reset the plan.",
+        "Mid-mission honesty prevents cascade failures. Most bad runs collapse because the player defends a route that has already expired."
+      ],
+      "quote": "Do not stay loyal to a plan that no longer controls the room."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is combat always worse for score?",
+      "answer": "No, but uncontrolled combat usually is. Fast, contained fights can still produce good outcomes when stealth conditions are already gone."
+    },
+    {
+      "question": "What upgrades help both playstyles the most?",
+      "answer": "Information tools, gadget readiness, cleaner cover movement, and detection recovery upgrades usually provide the best value early."
+    }
+  ]
+}

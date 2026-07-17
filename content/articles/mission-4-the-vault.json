@@ -1,0 +1,125 @@
+{
+  "slug": "mission-4-the-vault",
+  "title": "Mission 4 — The Vault S-Rank Walkthrough",
+  "seoTitle": "Mission 4 — The Vault S-Rank Walkthrough — 007 First Light Guide",
+  "excerpt": "A complete S-Rank route for Mission 4: The Vault. Covers the Swiss Bank three-zone infiltration, the underground vault corridor gauntlet, the Advanced Hacking Device unlock, and every hidden collectible in Zurich.",
+  "category": "missions",
+  "readTime": "14 min",
+  "metaDescription": "Master 007 First Light Mission 4 The Vault with our S-Rank walkthrough. Learn the Swiss Bank three-zone infiltration route, vault corridor gauntlet, Advanced Hacking Device unlock, Golden Gun Part 1, and all collectibles.",
+  "keywords": [
+    "mission 4 the vault",
+    "007 first light walkthrough",
+    "s-rank route",
+    "the vault zurich",
+    "advanced hacking device",
+    "golden gun part 1"
+  ],
+  "publishedAt": "2026-06-26",
+  "featured": true,
+  "relatedSlugs": [
+    "mission-3-silo-break",
+    "all-gadgets-guide",
+    "best-loadout-for-beginners"
+  ],
+  "sections": [
+    {
+      "heading": "The Vault Overview: Zurich's Three-Zone Architecture",
+      "body": [
+        "Mission 4, The Vault, is where 007 First Light introduces its first true gauntlet design. The Swiss Bank compound splits into three tightly-connected zones — the public lobby and security checkpoint, the underground vault corridor, and the vault core itself. Each zone has a distinct threat profile, and more importantly, each zone's alert state carries forward into the next. Getting S-Rank here means routing all three zones as a single continuous problem rather than three isolated rooms.",
+        "The mission is set in a private Zurich banking facility that houses a prototype MI6-requested asset: the Advanced Hacking Device. Your objective is to infiltrate the bank, bypass three security layers, extract the device from the vault core, and exfiltrate without triggering a single alarm. The complication comes from the bank's layered security architecture — each zone has overlapping camera coverage, patrolling armed guards, and timed security door cycles that punish hesitation.",
+        "For S-Rank, the mission rewards zone transition speed more than individual room perfection. The stealth penalty for resetting between zones is steeper than in previous missions, which means you need a stable rhythm from the first step to the vault core. The par time is approximately 12 minutes for a clean S-Rank clear, with the largest time losses occurring during the vault corridor section if you pause to assess each new camera arc.",
+        "Key reference: The Swiss Bank level design reflects IO Interactive's documented attention to layered security architecture, consistent with their approach in [Hitman's bank levels](https://www.ioi.dk). Our S-Rank routing builds on these design principles with community-verified timing windows."
+      ],
+      "tips": [
+        "Bring exactly one visual disruption tool and one access tool. The third slot should be a lockpick or override device — do not bring noise-making combat gadgets.",
+        "Your loadout decision matters more here than in any previous mission because the bank corridor has no environmental gadgets to pick up mid-mission."
+      ],
+      "quote": "The Vault is the first mission where perfect zone transitions matter more than perfect individual rooms."
+    },
+    {
+      "heading": "Zone 1 — Bank Lobby And Security Checkpoint",
+      "body": [
+        "The lobby is designed to feel deceptively open. A grand marble floor, two reception desks, a security checkpoint with metal detector gates, and three patrolling guards create a space that looks easier than it actually is. The S-Rank path avoids the entire central floor area and uses the mezzanine balcony on the east wall.",
+        "From the start position, move immediately to the east service corridor. At spawn, the lobby guard closest to you is facing away — take the right-angle turn into the corridor before he completes his 12-second patrol cycle. At the end of the corridor, climb the maintenance ladder to the mezzanine level. This ladder is your key transition point: it is in a blind spot for all three lobby guards.",
+        "On the mezzanine, you will find a security terminal. Disabling it is optional but strongly recommended — it controls the lobby camera network, and turning it off prevents camera detection from the checkpoint area. The disable takes 6 seconds. Begin it only after the mezzanine guard completes his loop toward the west end. This timing ensures you finish before he returns to the east section.",
+        "After the terminal, cross the mezzanine bridge. The metal detector gates below are inactive if the terminal is disabled — otherwise they trigger a silent alert. Drop down at the far end of the mezzanine into the corridor leading to Zone 2. Total time for a clean Zone 1 pass: approximately 90 seconds."
+      ],
+      "callouts": [
+        {
+          "title": "S-Rank checkpoint",
+          "content": "If you cannot disable the security terminal within the mezzanine guard's patrol window, skip it. The camera penalty is smaller than the time lost waiting for another full cycle. Prioritize transition momentum over perfection here.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "Zone 2 — Underground Vault Corridor",
+      "body": [
+        "The vault corridor is the mission's hardest section and the most common S-Rank killer. It is a long, narrow underground passage with alternating camera coverage and two patrolling guards who move on independent cycles. The corridor is divided into three segments by security doors that cycle open and closed on a 25-second timer.",
+        "The S-Rank approach treats each segment as a beat. Segment 1 (entry to first door): wait for patrol guard A to enter the right-side monitoring alcove, then sprint-crouch to the first door. Segment 2 (first to second door): use a distraction gadget on the far end of the segment to pull guard B away from the second door line, slip through while he investigates. Segment 3 (second door to vault entrance): this is a straight dash into the vault antechamber during the 8-second window after the door opens and before guard A's patrol returns.",
+        "The key insight is that the two guards' cycles converge every 90 seconds. If you time your entry into the corridor to hit this convergence, you get an extended 12-second window at the end where both guards are simultaneously in their alcove inspection states. This is the cleanest route and the one used by top leaderboard runs.",
+        "If you have the Advanced Hacking Device blueprint from Mission 3's prototype gadget part (see our [Silo Break guide](/guides/mission-3-silo-break)), you can use a sonic disruptor here to short-circuit the corridor cameras for 15 seconds — this gives you a completely uninterrupted run through all three segments."
+      ],
+      "tips": [
+        "Count camera sweeps, not guard footsteps. The cameras are on a fixed 8-second sweep cycle. Time your movement to the camera blind spots, not the guard moments.",
+        "If you need to pause, use the shadow pockets near the corridor's support pillars. They are small but camera-proof."
+      ],
+      "callouts": [
+        {
+          "title": "Route compression tip",
+          "content": "The 90-second guard convergence is the single most important timing node in Mission 4. Learn to identify it by sound: both alcove doors have distinct hydraulic hisses that synchronize at the convergence point.",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "heading": "Zone 3 — The Vault Core And Advanced Hacking Device",
+      "body": [
+        "The vault core is a circular room with a central pedestal holding the Advanced Hacking Device prototype. Two stationary guards flank the pedestal, and a rotating camera sweep covers the entire room. The guards do not patrol — they stand and observe, which makes traditional misdirection harder.",
+        "The S-Rank solution uses the vault's own security system. To the left of the entrance is an environmental control panel that triggers a 20-second maintenance alarm cycle. Activating it causes a pre-recorded announcement that pulls both guards to the side inspection windows for 14 seconds. During this window, use a lock override or your access tool to open the pedestal case, extract the device (completes in 5 seconds), and retreat to the entrance shadow.",
+        "The extraction cutscene begins automatically after the device is collected. If you complete the extraction before the guards return from inspection (you have a 9-second buffer), your S-Rank stealth score remains at 100% for this zone. If the guards see the open case but not your face, you incur a small investigation penalty but can still achieve S-Rank with strong earlier zone scores.",
+        "For loadout suggestions, refer to our [All Gadgets Guide](/guides/all-gadgets-guide) for recommended tools that support this vault core approach. The lock override or visual disruption tool discussed in the [Best Loadout for Beginners](/guides/best-loadout-for-beginners) guide is particularly effective here."
+      ],
+      "callouts": [
+        {
+          "title": "S-Rank insurance",
+          "content": "Keep a smoke pellet or EMP grenade in your third slot as insurance. If the timing on the maintenance alarm cycle is off, the EMP gives you a 10-second safe window to complete the extraction.",
+          "tone": "warning"
+        }
+      ]
+    },
+    {
+      "heading": "All Collectibles In The Vault",
+      "body": [
+        "The Vault contains three collectibles: one intel cache, one audio log, and the Golden Gun Part 1. The Golden Gun Part is the most significant find in the mid-game — collecting all three parts across Missions 4, 6, and 8 unlocks the legendary Golden Gun, the most powerful stealth weapon in the game.",
+        "Intel cache: located in the bank manager's office on the mezzanine level (Zone 1). The office door requires a keycard drop from the security checkpoint guard. The cache contains encrypted transaction records that unlock a bonus TacSim contract upon full collection. Best collected during free play rather than an S-Rank attempt.",
+        "Audio log: found in the vault corridor maintenance alcove (Zone 2, Segment 2 interior). It is on a shelf inside the alcove where guard B performs his inspection cycle. Grab it only during his 14-second inspection window — reaching into the alcove while he is present triggers immediate suspicion. This log provides backstory on how MI6 arranged the device extraction.",
+        "Golden Gun Part 1: the most important collectible in the mission. It is inside a thermal-protected weapons crate in the vault core, to the right of the central pedestal. Opening the crate requires a cutting tool (not a standard lockpick). The crate is between the two guard positions, so you need to time the extraction during the maintenance alarm window. If you miss the window, the Golden Gun part is still accessible during free play with a more generous timing allowance."
+      ]
+    },
+    {
+      "heading": "Extraction, Score Notes, And Next Steps",
+      "body": [
+        "After extracting the Advanced Hacking Device from the vault core, the mission transitions to a timed extraction sequence. You have exactly 60 seconds from device collection to reach the roof extraction point. The return route through the vault corridor is now alarm-active — the security doors remain open, but both guards are in high-alert mode. Do not attempt stealth takedowns here. Sprint from cover to cover, using the now-open doors as straight-line corridors.",
+        "For S-Rank score calculation, The Vault weights stealth quality at approximately 50% of the final grade, time at 30%, and objective efficiency (clean device extraction + collectible discovery) at 20%. A clean extraction with the Golden Gun Part 1 gives you the maximum objective efficiency score.",
+        "Your new Advanced Hacking Device carries forward into Missions 5 and 6, where it unlocks alternate stealth routes that are impossible without it. The device creates 8-second camera blind spots on demand and can override most electronic locks in a single interaction. It is the best gadget unlock you will get in the mid-game, and this mission walkthrough ensures you start Mission 5 with it fully upgraded.",
+        "For what comes next, see our [Mission 3 Silo Break guide](/guides/mission-3-silo-break) for the full walkthrough that precedes this mission, and the [TacSim Advanced Leaderboard Guide](/guides/tacsim-advanced-leaderboard-guide) for applying your new device in TacSim mode."
+      ],
+      "quote": "The Advanced Hacking Device is not a reward for clearing the vault. It is the key that unlocks every path forward."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I get S-Rank without disabling the lobby security terminal?",
+      "answer": "Yes, but it costs you about 10% stealth score. The lobby cameras add suspicion events that accumulate. Skip the terminal only if your timing on the mezzanine guard is off and the delay would be significant."
+    },
+    {
+      "question": "What is the minimum gadget loadout for The Vault?",
+      "answer": "A lock override tool (for the pedestal case) and a visual disruption device (for the vault corridor). The third slot should be a cutting tool if you want the Golden Gun Part 1, or an EMP grenade for safety."
+    },
+    {
+      "question": "Is the Golden Gun Part 1 missable?",
+      "answer": "No. You can replay the mission via chapter select at any time. The Golden Gun Part 1 crate is always accessible during free play with no time pressure."
+    }
+  ]
+}

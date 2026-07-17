@@ -1,0 +1,160 @@
+{
+  "slug": "boss-fight-strategies",
+  "title": "Boss Fight Strategies — Complete Guide",
+  "seoTitle": "Boss Fight Strategies — 007 First Light Guide",
+  "excerpt": "Every boss and elite enemy encounter in 007 First Light, analysed for both stealth and combat approaches. Learn attack patterns, environmental weaknesses, optimal gadget loadouts, and S-Rank scoring strategies for each encounter.",
+  "category": "guides",
+  "readTime": "15 min",
+  "metaDescription": "Master every boss fight in 007 First Light with our complete strategies guide. Learn stealth approaches, combat fallbacks, environmental weaknesses, recommended loadouts, and S-Rank scoring for Lieutenant Korr, Commander Voss, Agent Blackwood, biomechanical units, and the final confrontation.",
+  "keywords": [
+    "007 first light bosses",
+    "boss fight strategies",
+    "lieutenant korr",
+    "commander voss",
+    "agent blackwood",
+    "elite enemies",
+    "final boss"
+  ],
+  "publishedAt": "2026-06-28",
+  "featured": true,
+  "relatedSlugs": [
+    "mission-3-silo-break",
+    "stealth-vs-combat-decision-guide",
+    "all-gadgets-guide"
+  ],
+  "sections": [
+    {
+      "heading": "Boss Encounter Overview",
+      "body": [
+        "007 First Light features five distinct boss encounters spread across the campaign: Lieutenant Korr (Mission 3), Commander Voss (Mission 5), the Biomechanical Prototype (Mission 7), Agent Blackwood (Mission 8), and the Final Confrontation (Mission 9). Unlike standard patrol guards, each boss has unique AI behaviour, attack patterns, and environmental weaknesses that reward deliberate preparation over improvisation.",
+        "Every boss encounter in First Light is designed to be solvable through either stealth or combat, but the stealth route almost always yields a higher S-Rank score. The game’s scoring system weights clean resolution above speed for boss encounters, with stealth takedowns earning approximately 3x the score of combat resolutions.",
+        "The common thread across all five encounters is environmental exploitation. Every boss room contains at least two interactive elements — gas valves, electrical panels, structural weak points, or security systems — that can neutralise or weaken the boss without direct confrontation. Learning these interactions is the fastest path to consistent boss S-Ranks.",
+        "This guide covers each boss in campaign order, with a recommended loadout, stealth approach, combat fallback, and S-Rank optimization notes for each."
+      ],
+      "callouts": [
+        {
+          "title": "Core boss principle",
+          "content": "Never engage a boss in direct combat without first disabling at least one environmental advantage. Every boss has a weakness. Find it before the first shot is fired and the encounter becomes dramatically easier.",
+          "tone": "warning"
+        }
+      ]
+    },
+    {
+      "heading": "Lieutenant Korr — Silo Break (Mission 3)",
+      "body": [
+        "Lieutenant Korr is the first boss encounter, appearing in the underground research level of Mission 3. He is a heavily armoured guard equipped with a motion sensor that detects movement within 8 metres. Unlike regular guards, Korr cannot be one-shot by a standard takedown — his armour requires environmental damage before he becomes vulnerable.",
+        "Stealth approach — Gas valve strategy: The research level contains three gas valves that can flood the lower corridor with knockout gas when activated in sequence. Korr patrols through this corridor every 90 seconds. Activate valve 1 near the entrance, valve 2 at the midpoint (30 seconds after valve 1), and valve 3 near the corridor exit (30 seconds after valve 2). The corridor fills with gas at the 90-second mark. If Korr is mid-corridor when the gas reaches maximum concentration, his armour systems are neutralised and he becomes vulnerable to a single takedown. Move in quickly — the gas dissipates after 20 seconds.",
+        "Combat fallback: If the gas strategy fails or you lack the tools for it, use an EMP gadget to disable Korr’s motion sensor, then climb the elevated catwalk and perform a drop takedown. The drop inflicts enough force to bypass his armour. Follow up with two silenced pistol shots to the exposed neck area. Keep moving during the engagement — Korr’s armour absorbs the first three shots from any weapon, but his exposed sections are vulnerable.",
+        "S-Rank notes: The gas valve stealth route earns full stealth score. The EMP + catwalk approach loses approximately 15% score due to the EMP deployment. Direct combat with more than three pistol shots loses 30% score. The par time for the Korr encounter is 3 minutes. The gas route completes in about 2 minutes when executed correctly."
+      ],
+      "tips": [
+        "Pre-scout all three gas valve locations before engaging Korr. The valves are marked on your HUD only when you are within 8 metres.",
+        "The gas valve route has a single timing node: Korr must be in the corridor when the gas reaches full concentration. Trigger valve 1 only when Korr begins his patrol toward the corridor."
+      ],
+      "callouts": [
+        {
+          "title": "Recommended loadout",
+          "content": "EMP gadget (fallback security) + distraction device. The EMP is optional if using the gas route, but always keep a distraction tool for emergency disengagement.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "Commander Voss — The Exchange (Mission 5)",
+      "body": [
+        "Commander Voss is the secondary antagonist encountered in the server farm of Mission 5: The Exchange. Unlike Korr, Voss is a tactical commander who remains stationary at a central monitoring station but controls the room’s security systems. He can trigger lockdown doors, activate floor turrets, and call reinforcements. The encounter starts the moment Voss detects any unauthorised activity in the server farm.",
+        "Stealth approach — Cooling system strategy: The encounter does not need to happen at all. Voss’s monitoring station overlooks the server farm, but he relies entirely on his camera feed and motion sensors. If you complete the data extraction using the cooling unit defrost cycle (see our [Mission 5 walkthrough](/guides/mission-5-exchange)), Voss never detects the operation. The encounter is bypassed entirely, earning full stealth score for the zone.",
+        "If Voss is alerted: He triggers a 45-second lockdown sequence. During this window, he is vulnerable only while interacting with the lockdown console. The vulnerability window is 6 seconds. Use a distraction gadget on the far side of the monitoring station to pull his attention, then cross the server farm floor to the station’s rear access ladder. Climb up, perform a takedown during his console interaction, and complete the data extraction before the lockdown finishes.",
+        "Combat fallback: If forced into direct combat, Voss carries a personal shield generator that absorbs two full magazines of standard ammunition. Use an EMP grenade to disable the shield, then focus fire on the exposed chest area. The shield recharges after 15 seconds, so maintain pressure. Three precision shots from a silenced pistol drop him during the shield downtime.",
+        "S-Rank notes: Complete avoidance (data extraction without alerting Voss) earns 100% stealth score. The takedown route during lockdown earns 65% stealth score. Direct combat earns 30% or less. The optimal approach is to avoid the encounter entirely using the cooling unit strategy described in the Mission 5 walkthrough."
+      ],
+      "callouts": [
+        {
+          "title": "S-Rank optimisation",
+          "content": "Commander Voss is the only boss in the game that can be entirely skipped. If your data extraction completes before the lockdown, the encounter never triggers. Prioritise the cooling unit defrost cycle and the Advanced Hacking Device for a clean run.",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "heading": "Biomechanical Prototype — Research HQ (Mission 7)",
+      "body": [
+        "Mission 7 introduces the Biomechanical Prototype, a hybrid organic-machine enemy that combines fast ground movement with a ranged energy weapon. The prototype patrols a three-level research atrium and reacts to sound, light, and thermal signatures. It is the most mobile boss in the game and the only one that actively hunts the player.",
+        "Stealth approach — EMP cascade strategy: The prototype’s biomechanical systems are vulnerable to electromagnetic pulses. The research atrium contains four EMP emitters installed as part of the facility’s containment system. Activating all four in sequence creates a cascade that disables the prototype’s energy weapon and movement servos for 60 seconds.",
+        "The EMP emitter locations: Emitter 1 is in the security office on Floor 1 (requires keycard from the floor supervisor). Emitter 2 is on the Floor 2 catwalk, behind a locked panel (lockpick required). Emitter 3 is in the coolant pipe junction on Floor 3 (accessible via maintenance ladder). Emitter 4 is behind the prototype’s patrol zone on the Floor 2 central platform (requires timing the prototype’s patrol cycle).",
+        "Activate emitters 1-3 in sequence (each takes 6 seconds), then wait for the prototype to pass near emitter 4 on the central platform. Activate emitter 4 immediately after the prototype passes it. The cascade triggers within 3 seconds and disables the prototype. Move in for a containment override takedown (8-second interaction). The prototype is permanently disabled after the override.",
+        "Combat fallback: The prototype’s energy weapon has a 4-second charge time. Use the atrium’s structural pillars for cover. Wait for the weapon to charge, dodge the energy bolt, and close the distance during the 3-second cooldown. The prototype’s melee attack has a telegraphed wind-up — dodge sideways when it raises its arm. Three melee hits or five silenced pistol shots to the exposed organic joint area disable it. This approach takes 90-120 seconds of active combat.",
+        "S-Rank notes: The EMP cascade route earns 90% stealth score (the small penalty comes from activating security systems). Direct combat earns 40%. The EMP cascade is the recommended approach for any S-Rank attempt — the 60-second disable window is generous enough for a clean takedown without pressure."
+      ],
+      "tips": [
+        "Emitter 4 requires the most precise timing. Watch the prototype’s patrol cycle for 45 seconds before attempting it.",
+        "The containment override takedown requires a clear path to the central platform. Clear any roaming guards on Floor 2 before activating the cascade."
+      ]
+    },
+    {
+      "heading": "Agent Blackwood — Arctic Summit (Mission 8)",
+      "body": [
+        "Agent Blackwood is a rogue MI6 operative and the penultimate boss. He is equipped with the same gadget suite you have access to, including the Advanced Hacking Device and thermal vision. The encounter takes place in a multi-level arctic summit facility with heating ducts, security cameras, and environmental hazards. Blackwood patrols the facility’s upper levels and can detect the player through thermal imaging in cold zones.",
+        "Stealth approach — Heating system manipulation: The arctic summit’s heating system is the key to neutralising Blackwood’s thermal advantage. Three heating control panels are located in the facility’s maintenance tunnels. Overriding all three creates a heat surge that saturates the upper levels, making thermal vision useless. Blackwood is forced to revert to standard optics, which gives you normal stealth conditions.",
+        "Heating panel locations: Panel 1 is in the maintenance tunnel behind the kitchen (Zone 1 entry). Panel 2 is in the server room basement (Zone 2, requires lockpick). Panel 3 is on the roof access catwalk (Zone 3, exposed to Blackwood’s patrol path). Activate panels 1 and 2 before ascending to Zone 3. When you reach panel 3, wait for Blackwood’s patrol cycle to take him to the far end of the facility, activate the panel, and immediately take cover. The heat surge takes 10 seconds to propagate.",
+        "Once thermal vision is disabled, Blackwood becomes a standard heavily armed guard with two advantages: faster reaction time and a personal shield that absorbs 50% of damage. Approach from behind the server rack line in Zone 3, use a distraction gadget to pull him toward the maintenance hatch, and perform a takedown as he inspects the noise. The takedown is effective only if his shield is deactivated by the heat surge.",
+        "Combat fallback: The heat surge is not required for combat, but it helps. Without it, Blackwood’s thermal vision makes him extremely difficult to ambush. Engage from the lower level using the heating ducts as cover. Blackwood’s weapon is a silenced DMR with 6-round magazine. He fires in 3-round bursts. His reload window is 2.5 seconds — close the distance during reload and use EMP grenade to disable his shield, then heavy melee or point-blank shots. Expect to use 2-3 health packs.",
+        "S-Rank notes: The heating system manipulation route earns 100% stealth score if Blackwood is taken down without raising an alarm. The combat route earns 25% or less. Panel 3 activation timing is the single most important node — activating while Blackwood is in the same zone triggers immediate alert. Wait for his full patrol to the far end before touching panel 3."
+      ],
+      "callouts": [
+        {
+          "title": "Advanced Hacking Device use",
+          "content": "The Advanced Hacking Device can override a single heating panel remotely from 15 metres. Use this for Panel 3 — it lets you activate the heat surge from a safe distance without entering Blackwood’s patrol zone.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "Final Confrontation — The Director (Mission 9)",
+      "body": [
+        "The final boss is the Director, the mastermind behind the campaign’s events. The encounter is a multi-phase sequence in the Director’s private penthouse facility. Three phases: Phase 1 is a stealth puzzle with the Director’s elite guard squad (4 guards, each with thermal optics), Phase 2 is a gadget duel with the Director himself, and Phase 3 is an extraction sequence under sustained pursuit.",
+        "Phase 1 — Elite guard squad: The penthouse has four elite guards with thermal optics, fast detection, and personal shields. The S-Rank solution uses the penthouse’s automated light control system. A master light panel in the service corridor can cycle the penthouse through four lighting states: full bright, dim, emergency red, and total dark. Total dark lasts 30 seconds and disables the guards’ thermal optics, reducing them to standard line of sight.",
+        "Activate total dark, then use audio-based distraction gadgets to pull guards into isolated positions. Each guard has a predictable patrol zone. Lead them into the dark corners using sound lures. Once isolated, each guard can be taken down with a single standard takedown — their shields do not function in close-quarters takedown animations. Clear all four guards within the 30-second darkness window.",
+        "Phase 2 — Director gadget duel: The Director is equipped with a prototype gadget suite that mirrors your own loadout. He deploys decoys, EMP bursts, and visual disruptors. The duel is a cat-and-mouse game across the penthouse’s upper mezzanine. The Director’s gadgets have longer cooldowns than yours — exploit this by forcing him to use a gadget first, then pressing during his cooldown window.",
+        "The Director’s pattern: He opens with a visual disruptor, then deploys a decoy, then an EMP burst. The sequence repeats on a 45-second cycle. After his EMP burst, he is vulnerable for 12 seconds. Close the distance, use your lock override to disable his personal shield generator (visible on his belt, activated with a 3-second interaction), then perform the confrontation takedown. The takedown triggers a scripted sequence that transitions to Phase 3.",
+        "Phase 3 — Extraction under pursuit: After the Director is neutralised, the penthouse goes into full security lockdown. A 120-second extraction timer begins, and the facility’s automated defence systems activate. The return route uses the service elevator (locked, requires the Director’s keycard), the maintenance tunnels, and the roof helipad. Do not engage any guards in Phase 3 — sprint and use environmental cover. The extraction helicopter arrives at the 110-second mark.",
+        "S-Rank notes: The Final Confrontation weights the three phases equally. Phase 1 stealth (clearing all four guards in total dark) earns full phase score. Phase 2 gadget duel (no health loss, perfect gadget counter) earns full phase score. Phase 3 extraction (no engagement, zero damage) earns full phase score. Total S-Rank requires all three phases at maximum. The par time for the full encounter is 8 minutes."
+      ],
+      "callouts": [
+        {
+          "title": "Final encounter loadout",
+          "content": "Recommended loadout: Advanced Hacking Device (for light panel override in Phase 1), sound lure (for guard isolation in Phase 1), and lock override (for shield disable in Phase 2). The Director’s loadout mirroring means your gadgets determine the duel’s difficulty.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "General Boss Combat Tips",
+      "body": [
+        "Across all five boss encounters, a few principles apply universally. First, always scout the boss room before triggering the encounter. Every boss arena contains environmental interactables that are hidden from obvious view. Use Q Lens in a full room scan before entering the engagement zone.",
+        "Second, gadgets are more valuable than gunfire in every boss encounter except the Biomechanical Prototype’s combat fallback. A fully upgraded gadget loadout makes every boss S-Rank significantly more achievable. Prioritise gadget upgrades through the campaign.",
+        "Third, the Golden Gun, once assembled after Mission 6, bypasses shields and armour in a single shot. It is the most powerful tool for boss encounters and should be your primary weapon for Missions 7, 8, and 9. The Golden Gun’s single-shot nature means you cannot miss — aim carefully.",
+        "Finally, boss S-Ranks are forgiving of small mistakes. The game’s scoring system for boss encounters is weighted 50% on clean resolution (stealth takedown vs combat), 30% on time, and 20% on resource efficiency. A clean stealth takedown with moderate time but perfect resource use still earns a high score. Do not restart a boss run over a single minor timing deviation."
+      ],
+      "quote": "Every boss in First Light was designed with a clean solution. The director’s job is to find it. The agent’s job is to execute it."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can every boss be defeated with stealth?",
+      "answer": "Yes. Every boss encounter in 007 First Light has a viable stealth solution. Commander Voss can even be bypassed entirely without triggering the encounter at all."
+    },
+    {
+      "question": "Which boss is the hardest?",
+      "answer": "Agent Blackwood (Mission 8) is widely considered the hardest boss because of his thermal vision and gadget parity. The heating system manipulation route requires precise timing and three separate panel interactions."
+    },
+    {
+      "question": "Does the Golden Gun help with bosses?",
+      "answer": "Significantly. The Golden Gun bypasses all shields and armour in a single shot, making it the most effective weapon for Lieutenant Korr and Commander Voss in particular."
+    },
+    {
+      "question": "What is the recommended loadout for the final boss?",
+      "answer": "Advanced Hacking Device, sound lure, and lock override. This trio covers Phase 1 light control, Phase 2 shield disable, and Phase 3 extraction access."
+    }
+  ]
+}

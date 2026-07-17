@@ -16,8 +16,8 @@ export const metadata: Metadata = buildMetadata({
 /**
  * 渲染 TacSim 栏目页，聚合与战术模拟和冲榜相关的内容。
  */
-export default function TacSimPage() {
-  const articles = getGuidesByCategory("tacsim");
+export default async function TacSimPage() {
+  const articles = await getGuidesByCategory("tacsim");
 
   return (
     <div className="space-y-12">

@@ -1,0 +1,176 @@
+{
+  "slug": "mission-7-knightfall",
+  "title": "Mission 7 — Knightfall S-Rank Walkthrough",
+  "seoTitle": "Mission 7 — Knightfall S-Rank Walkthrough — 007 First Light Guide",
+  "excerpt": "A complete S-Rank route for Mission 7: Knightfall. Covers the Kensington penthouse infiltration, rooftop perch approach, multi-floor gala security bypass, prototype data extraction, Golden Gun Part 3 integration, and every hidden collectible in the luxury tower.",
+  "category": "missions",
+  "readTime": "16 min",
+  "metaDescription": "Master 007 First Light Mission 7 Knightfall with our S-Rank walkthrough. Kensington penthouse infiltration, rooftop perch approach, multi-floor security bypass, prototype data extraction route, and all collectible locations.",
+  "keywords": [
+    "mission 7 knightfall",
+    "007 first light walkthrough",
+    "s-rank route",
+    "knightfall penthouse",
+    "kensington gala",
+    "golden gun part 3"
+  ],
+  "publishedAt": "2026-07-01",
+  "featured": true,
+  "relatedSlugs": [
+    "mission-6-cold-storage",
+    "boss-fight-strategies",
+    "all-gadgets-guide"
+  ],
+  "sections": [
+    {
+      "heading": "Knightfall Overview: The Vertical Gauntlet",
+      "body": [
+        "Mission 7, Knightfall, is where 007 First Light tests everything the campaign has taught you so far. The mission is set in a Kensington luxury tower during a high-society gala hosted by the villain’s financier. Your objective: infiltrate the penthouse, extract prototype transaction data from the host’s private server, and exfiltrate before the evening’s guest list expires. The complication is that the tower is alive with attendees, security personnel, and overlapping surveillance layers that punish any mistake with irreversible escalation.",
+        "The tower is structured as a vertical gauntlet: the rooftop perch approach, the gala floor reconnaissance, the private residence floors, and the penthouse server room. Each layer has distinct patrol logic, civilian density, and security countermeasures. Unlike previous missions where each zone could be solved in isolation, Knightfall’s zones are connected by alarm propagation — an alert on the gala floor triggers increased security on every floor above, adding guards and locking doors that were previously open. Getting S-Rank here requires a single, uninterrupted run from the first entry to the final extraction.",
+        "The mission introduces two new mechanics: social blending and pressure-sensitive floor panels. Social blending lets you pass through civilian crowds at reduced movement speed without triggering suspicion, but only if your weapon is holstered and you are not in a restricted area. Pressure-sensitive floor panels in the private residence floors can detect any weight over 40 kg crossing them, forcing you to use wall-mounted traversal routes or gadget-based weight manipulation.",
+        "For S-Rank, Knightfall weights zone transitions at 40% of the final grade — the highest transition weight in any mission so far. A clean passage from the gala floor to the private residence floor is worth more than perfect stealth within either zone individually. The par time is approximately 14 minutes for a clean S-Rank clear, with the largest variable being the gala floor social blending section where civilian movement is unpredictable."
+      ],
+      "tips": [
+        "The rooftop perch approach saves 90 seconds over the main entrance but requires a grappling gadget. If you do not have one, the parking garage entrance is the next fastest alternative.",
+        "Social blending is broken by running, crouching, or carrying an unholstered weapon. Stay at walking speed and keep your weapon hidden."
+      ],
+      "quote": "Knightfall is not a test of stealth. It is a test of how well you move through spaces that are not designed for silence."
+    },
+    {
+      "heading": "Recommended Loadout For Knightfall",
+      "body": [
+        "Knightfall’s loadout demands are the most specific of any mission so far. The combination of vertical approach, social blending, pressure-sensitive floors, and electronic security creates a toolset requirement that cannot be filled by a generic three-slot build. Based on post-Mission 6 equipment, here is the recommended loadout:",
+        "Slot 1 — Grappling hook or climbing anchor: The vertical approach bypasses the entire ground-floor security screening and gives you direct rooftop access. The gala’s main entrance has metal detectors, identity verification, and a pat-down station that are impossible to bypass without detection. The grappling approach eliminates all three problems in one deployment.",
+        "Slot 2 — Advanced Hacking Device (from Mission 4): The penthouse server room has layered electronic security — a keypad lock, a biometric scanner, and a rotating camera array. The Advanced Hacking Device can override all three in sequence using a 12-second remote bypass. Without it, you need separate tools for each layer, which consumes two additional gadget slots and creates timing pressure at the objective.",
+        "Slot 3 — Sound lure: The gala floor has too many civilians for traditional takedowns. Sound lures let you create micro-corridors through crowded spaces by pulling attendees away from key paths. Unlike previous missions where lures served guard isolation, here they serve crowd manipulation — pulling a cluster of 3-4 attendees away from a pressure-plate door gives you a 6-second crossing window.",
+        "The loadout sacrifices a combat tool for maximum vertical and traversal capability. The weapon you carry into this mission should be concealed (the Walther PPK silenced pistol) rather than a long gun, because social blending requires a holstered weapon and a visible rifle breaks the disguise immediately."
+      ],
+      "callouts": [
+        {
+          "title": "Gadget note for Mission 6 players",
+          "content": "If you completed Mission 6 (Cold Storage) with the prototype weapon schematic, you can craft the thermal disruptor gadget. It replaces the sound lure in this mission and provides better crowd control at the cost of slightly shorter duration.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "Phase 1 — Rooftop Perch And Entry",
+      "body": [
+        "The rooftop perch is the safest entry point. From the adjacent building, use your grappling gadget to reach the tower’s maintenance platform, located 15 metres below the roof edge. The platform is in a camera blind spot and is not patrolled. From the platform, access the ventilation shaft that leads directly to the gala floor’s east service corridor.",
+        "The ventilation shaft has three junction points. At junction 1, you can see the gala floor below through a vent grate — use Q Lens here to tag the security room location, the two patrolling armed guards, and all three pressure-sensitive doors. At junction 2, you must make a noise-free descent using the maintenance ladder, keeping below the grate opening to avoid being seen by the chandelier cleaner below. At junction 3, the shaft opens into the gala floor’s east service corridor — check the corridor before exiting because the service staff use this route.",
+        "The service corridor is active during the gala. A catering trolley passes every 90 seconds, pushed by a staff member who checks the corridor’s supply closet on each pass. Time your shaft exit to coincide with the trolley’s entrance into the main hall, giving you 20 seconds of clear corridor before the staff member returns. During this window, move to the gala floor’s central gallery and find a quiet alcove near the north bar to observe the floor’s social blend routes.",
+        "The rooftop approach brings you into the mission with zero security escalations. If you use the main entrance or parking garage, you will trigger at least one camera log event that propagates to the penthouse security station, reducing your stealth score by 15% before the mission begins in earnest."
+      ],
+      "tips": [
+        "The ventilation shaft descent creates noise if you drop without using the maintenance ladder. Always use the ladder for the descent section, even though it adds 5 seconds.",
+        "Tag the pressure-sensitive door locations on your HUD during the vent scan. They are invisible from the gala floor itself but obvious from above."
+      ]
+    },
+    {
+      "heading": "Phase 2 — Gala Floor Social Blending",
+      "body": [
+        "The gala floor is a large open-plan space with approximately 80 civilian attendees, 6 waitstaff, 4 armed security guards, and 2 plainclothes security personnel. The floor is split into three main areas: the central gallery (main social space with bar and dance floor), the east exhibition wing (art displays and silent auction), and the west dining terrace (outdoor seating with limited cover). Your objective on this floor is to reach the private elevator that leads to the residence floors above. The elevator is in the east wing, behind a security checkpoint.",
+        "Social blending is the primary mechanic on this floor. Walk at normal speed, keep your weapon holstered, and avoid the gaze of the plainclothes security personnel who are trained to spot unusual behaviour. The blending system has a hidden awareness metre — each plainclothes officer within 10 metres adds subtle pressure to your blend status. If you spend more than 30 seconds within 10 metres of the same plainclothes officer, they begin a ‘familiarisation check’: they approach, make eye contact, and ask if they can help you. Respond by walking away calmly or interacting with a nearby object (bar, art piece, window view). Do not sprint or turn sharply — that breaks blending immediately.",
+        "The recommended route through the gala floor enters from the east service corridor, walks through the crowd along the north wall (toward the bar), uses the bar as a cover point for 10 seconds to observe the east wing’s plainclothes positions, then moves diagonally through the dining area to reach the east wing’s secondary entrance. This avoids the main checkpoint by using the east wing’s catering access door, which is unlocked during the gala and staffed only by a single guard who can be distracted with a sound lure thrown into the kitchen.",
+        "Time yourself: from shaft exit to private elevator, a clean social blend takes 3 minutes. If you are detected by a plainclothes officer (broken blend), you lose 30 seconds explaining yourself or finding a new route. If an armed guard engages (weapon drawn), the alarm propagates upstairs and every residence floor adds 2 extra guards."
+      ],
+      "callouts": [
+        {
+          "title": "S-Rank checkpoint",
+          "content": "The gala floor’s social blend score is worth 25% of the mission’s total stealth weight. A single blend break halved this score. If you break blend, reset the room state by leaving the officer’s line of sight for 20 seconds before re-entering the crowd.",
+          "tone": "warning"
+        }
+      ]
+    },
+    {
+      "heading": "Phase 3 — Private Residence Floors",
+      "body": [
+        "The residence floors are three levels of private apartments and guest suites that connect the gala floor to the penthouse. Each floor has the same layout: a central corridor with side rooms, pressure-sensitive floor panels in the main corridor, and one patrolling guard per floor. The pressure panels are the main obstacle — they cover 70% of the corridor floor area and trigger a silent alarm if stepped on.",
+        "The S-Rank route avoids the pressure panels entirely by using the maintenance access behind the wall panels. Each floor’s service corridor runs parallel to the main corridor, separated by a narrow maintenance crawlspace. Access points are located at the stairwells on each floor. Entering the crawlspace requires a panel removal interaction (3 seconds), then you crawl through the dark space to bypass the pressure panels entirely. The crawlspace ends at the stairwell leading to the next floor.",
+        "The patrolling guard on each floor has a different patrol pattern. Floor 2 (first residence level): the guard walks a figure-8 pattern that covers both ends of the corridor every 60 seconds. Floor 3 (second residence level): the guard is stationary at the central elevator bank, watching both corridor ends. Floor 4 (third residence level): two guards on alternating patrols with overlapping routes. The crawlspace avoids all guard contact on all three floors because the maintenance corridor does not intersect with any patrol path.",
+        "The pressure panel bypass costs 3 x 3-second panel removals, plus 15 seconds per floor of crawlspace traversal. Total residence floor time: approximately 70 seconds. If you use the main corridor instead, each floor requires 45-60 seconds of guard timing and panel avoidance, and detection risk is significantly higher. The crawlspace is strictly superior for S-Rank routing."
+      ],
+      "callouts": [
+        {
+          "title": "Collection opportunity",
+          "content": "Floor 3’s guest suite contains an intel cache with financier correspondence. The suite door is locked (standard lockpick). Collect it on your first pass through the crawlspace — the suite shares a wall with the maintenance corridor, and you can panel-remove directly into the suite without entering the main corridor.",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "heading": "Phase 4 — Penthouse Server Room",
+      "body": [
+        "The penthouse is a single large room with a floor-to-ceiling window wall overlooking the city skyline, a private bar, a study area, and the server room annex on the east side. The primary objective is inside the server room: a data terminal containing the transaction records for the villain’s global network. A single armed bodyguard patrols the penthouse, and the server room has triple-layered security: a keypad lock, a biometric reader, and a rotating camera array.",
+        "The Advanced Hacking Device is the recommended tool for the server room security bypass. Activate it from the penthouse’s study area (behind the desk, out of the bodyguard’s patrol path), and select the ‘remote override’ option. The device takes 12 seconds to sequence through the three layers: first the keypad (4 seconds), then the biometric reader (4 seconds), then the camera array (4 seconds). Each layer produces a distinct audio cue. If the bodyguard is near the server room during steps 2 or 3, he will hear the biometric reader’s low hum and investigate.",
+        "Timing is critical. The bodyguard’s patrol takes him from the study area to the window wall (front of the room) to the bar (back corner) and back. Total patrol loop: 60 seconds. He pauses at the window wall for 10 seconds, looking at the skyline. Start the Hacking Device sequence when he begins his window pause. The 12-second override completes just as he turns away from the window. Enter the server room during his walk from the window to the bar.",
+        "Inside the server room, the data terminal extraction takes 15 seconds. A secondary terminal contains automated security logs that reveal the location of the prototype data exfiltration point on the roof. Download both terminals in sequence (8 + 15 seconds) and exit before the bodyguard returns to the study area. If the bodyguard enters the server room while you are inside, use the server rack as cover and wait for him to complete a terminal check before exiting.",
+        "Alternative approach without the Advanced Hacking Device: The server room door can be lockpicked (18 seconds, requires two gadget slots), and the biometric reader can be fooled with a thermal print from the penthouse’s bathroom mirror (requires a capturing gadget). This approach costs an additional 4 minutes and requires three separate tool uses, making it significantly harder for S-Rank."
+      ],
+      "tips": [
+        "The secondary terminal’s roof exfiltration log is optional for mission completion but unlocks a faster extraction route. Download it if the timing window allows.",
+        "If the bodyguard investigates the server room during the hack, do not panic. Move behind the study desk and wait 30 seconds for him to return to his patrol loop. The door automatically locks again and must be re-overridden."
+      ],
+      "callouts": [
+        {
+          "title": "S-Rank checkpoint",
+          "content": "The penthouse server room sequence has the mission’s highest score density. A clean three-stage hack (keypad + biometric + camera) with zero guard interaction earns 30% of the total stealth score. If the bodyguard investigates, your score drops by 10% but the mission is still recoverable for S-Rank if earlier phases were clean.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "Phase 5 — Extraction",
+      "body": [
+        "After extracting the transaction data, a 90-second extraction timer begins as the tower’s security AI detects the unauthorised data access. The penthouse bodyguard immediately goes to high alert. The private elevator is now locked — you must use the alternative extraction route.",
+        "If you downloaded the secondary terminal’s roof exfiltration log, the extraction path is: penthouse service door (hidden behind the study bookshelf) → maintenance ladder to roof → roof helipad. This path is clear of guards but requires crossing a rooftop traverse that has 15 seconds of exposure to the street below. The traverse is safe during the gala because the street is too far for civilians to identify individuals.",
+        "If you did not download the roof log, the extraction route goes back through the residence floors (now with increased guard density: +2 guards per floor) and out through the gala floor (now in post-alarm state with 8 additional security personnel). This route is survivable but costly for S-Rank — expect a 30-40% stealth score penalty from the increased guard interactions required.",
+        "For S-Rank extraction: reach the roof helipad within 60 seconds of the extraction timer starting. The extraction helicopter arrives at the 75-second mark. Board immediately. The mission completes when the helicopter departs the roof at the 90-second mark. Your extraction score is calculated by time to roof + clean boarding (zero damage during the rooftop traverse)."
+      ],
+      "quote": "The extraction in Knightfall tests whether you read ahead. The players who downloaded the second terminal finish the mission in under 2 minutes. The rest fight through a building that is already angry at them."
+    },
+    {
+      "heading": "All Collectibles In Knightfall",
+      "body": [
+        "Knightfall contains three collectibles: one intel cache, one audio log, and one weapon upgrade. None are hidden behind forced combat, but two require detours from the S-Rank route. Collect them during free play if you are pursuing the mission’s content completion badge.",
+        "Intel cache: located in the Floor 3 guest suite (private residence floor 2). The suite is accessible from the maintenance crawlspace behind a removable wall panel, as described in Phase 3’s callout above. The cache is in the suite’s writing desk drawer and contains correspondence between the financier and an unknown contact about the prototype weapon funding. This intel piece is part of a three-part side quest that unlocks a bonus TacSim contract.",
+        "Audio log: found on the gala floor bar’s back counter, behind the bartender’s station. The bartender leaves his station for 20 seconds every 3 minutes to restock ice from the kitchen. Grab the audio log during his absence — it is a small recorder near the tip jar. The log contains a conversation between the financier and the villain about the transaction data’s purpose. Easy to grab without any gadget use.",
+        "Weapon upgrade: the thermal disruptor upgrade chip, located in the penthouse study’s safe (behind a painting on the west wall). The safe combination is 47-19-83, found on a sticky note inside the study desk’s top drawer. The upgrade chip unlocks the thermal disruptor’s extended duration mode (from 10 seconds to 18 seconds). This upgrade carries significant value in Mission 8 (All the Time in the World), where the cold Slovakia environment makes thermal disruption particularly useful."
+      ]
+    },
+    {
+      "heading": "Score Notes And S-Rank Requirements",
+      "body": [
+        "Knightfall’s S-Rank scoring breakdown: zone transitions (40%), stealth quality (30%), objective efficiency (20%), and time (10%). The unusual weight on zone transitions reflects the mission’s vertical design — the game rewards players who move cleanly between floors more than those who perfect individual rooms.",
+        "An S-Rank requires: clean rooftop entry (no security escalation on the gala floor before you arrive), zero blend breaks on the gala floor, pressure panel avoidance on all three residence floors (crawlspace route qualifies), clean server room hack (no guard investigation during the override), secondary terminal download for roof extraction route, and 75-second-or-less roof arrival after extraction timer starts.",
+        "The most forgiving S-Rank score threshold allows exactly one minor mistake: either one blend break on the gala floor OR one guard investigation during the server room hack OR a 90-second roof arrival (15 seconds over par). Two mistakes knock the score below S-Rank threshold. Three mistakes drop it to A-Rank.",
+        "The primary data terminal extraction and thermal disruptor upgrade carry forward into Mission 8 (All the Time in the World) and Mission 9 (Out of the Ashes). The transaction records reveal the villain’s next target location, providing mission context for the final campaign chapters. For the equipment used in this mission, refer to our [All Gadgets Guide](/guides/all-gadgets-guide) for alternative loadout options. For the story continuity, see our [Boss Fight Strategies](/guides/boss-fight-strategies) guide for upcoming encounters."
+      ],
+      "callouts": [
+        {
+          "title": "S-Rank threshold",
+          "content": "If you complete the server room hack cleanly (no guard investigation), you need to reach the extraction helicopter within 75 seconds. If the guard investigated, you need extraction within 60 seconds to compensate for the stealth loss.",
+          "tone": "warning"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do I need the grappling hook for the rooftop approach?",
+      "answer": "Yes, the grappling approach is strongly recommended for S-Rank. The alternative parking garage entrance triggers at least one camera log event that reduces your stealth score by 15% before you reach the gala floor."
+    },
+    {
+      "question": "Is the thermal disruptor upgrade chip missable?",
+      "answer": "No. The penthouse safe is accessible during free play at any time. The combination (47-19-83) is in the desk drawer as noted above."
+    },
+    {
+      "question": "What happens if I break social blending on the gala floor?",
+      "answer": "The plainclothes officer escorts you to the lobby (mission restarts from checkpoint with a 15% stealth penalty for the gala floor section). You can avoid this by walking away calmly and breaking line of sight for 20 seconds before re-entering the crowd."
+    },
+    {
+      "question": "Does the secondary terminal extraction log matter for the story?",
+      "answer": "It is optional for campaign completion but unlocks the easiest extraction route for S-Rank. Skipping it adds significant difficulty to the extraction phase."
+    }
+  ]
+}

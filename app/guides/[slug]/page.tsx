@@ -16,8 +16,9 @@ interface GuideDetailPageProps {
 /**
  * 生成静态参数，确保全部攻略详情页在构建时完成静态产出。
  */
-export function generateStaticParams() {
-  return getAllGuides().map((article) => ({ slug: article.slug }));
+export async function generateStaticParams() {
+  const all = await getAllGuides();
+  return all.map((article) => ({ slug: article.slug }));
 }
 
 /**
@@ -27,7 +28,7 @@ export async function generateMetadata({
   params,
 }: GuideDetailPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const article = getGuideBySlug(slug);
+  const article = await getGuideBySlug(slug);
 
   if (!article) {
     return buildMetadata({
@@ -52,13 +53,13 @@ export default async function GuideDetailPage({
   params,
 }: GuideDetailPageProps) {
   const { slug } = await params;
-  const article = getGuideBySlug(slug);
+  const article = await getGuideBySlug(slug);
 
   if (!article) {
     notFound();
   }
 
-  const relatedArticles = getRelatedGuides(article.slug);
+  const relatedArticles = await getRelatedGuides(article.slug);
   const faqSchema = buildArticleFaqSchema(article);
 
   return (

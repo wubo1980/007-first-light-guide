@@ -1,0 +1,86 @@
+{
+  "slug": "tacsim-mode-guide",
+  "title": "TacSim Mode Guide",
+  "seoTitle": "TacSim Mode Guide — 007 First Light Guide",
+  "excerpt": "A deep guide to Tactical Simulation mode, including how the score system rewards tempo, route compression, clean execution, and leaderboard-friendly repetition.",
+  "category": "tacsim",
+  "readTime": "15 min",
+  "metaDescription": "Master TacSim mode in 007 First Light with scoring principles, setup discipline, reset strategy, and route design tips for stronger leaderboard runs.",
+  "keywords": [
+    "tacsim mode guide",
+    "007 first light leaderboard",
+    "scoring strategy"
+  ],
+  "publishedAt": "2026-05-28",
+  "featured": true,
+  "relatedSlugs": [
+    "stealth-vs-combat-decision-guide",
+    "all-gadgets-guide",
+    "common-beginner-mistakes"
+  ],
+  "sections": [
+    {
+      "heading": "What TacSim Actually Measures",
+      "body": [
+        "TacSim is not simply a harder mission playlist. It is a scoring environment designed to expose inefficiency. The mode rewards route compression, low-noise execution, clean transitions between objectives, and the ability to reproduce the same high-value sequence on demand. Players who treat it like story mode with stricter enemies usually plateau fast because the scoring layer is the real opponent.",
+        "Every second you spend hesitating, re-checking a solved room, or cleaning up an unnecessary mistake competes with your score. That does not mean you should sprint blindly. It means each wait point in your route must earn its existence. If a pause prevents a costly alert or enables a guaranteed shortcut, it is good. If it exists because you have not learned the patrol well enough yet, it is temporary and should eventually be removed.",
+        "TacSim therefore rewards understanding more than raw mechanics. The best runs are planned sequences with very few emotional decisions left inside them."
+      ]
+    },
+    {
+      "heading": "Scoring Priorities For Consistent Climbing",
+      "body": [
+        "For most players, the largest score gains come from reducing disturbance and dead time rather than chasing hyper-risky hero plays. A route with fewer alerts, fewer extra takedowns, and shorter objective downtime often outranks a dramatic run that is one second faster but far messier. Consistency beats highlight value over long leaderboard sessions.",
+        "Think of score in four buckets: setup cost, execution cleanliness, transition speed, and recovery loss. Setup cost includes the time and tools needed to prepare the room. Execution cleanliness is whether the action itself raises awareness or leaves cleanup work. Transition speed is how quickly you move from solved room to next objective. Recovery loss measures how badly a small mistake damages the rest of the run.",
+        "A strong TacSim route minimizes all four, especially recovery loss. Runs that survive a minor timing slip without collapsing are the ones you can grind efficiently."
+      ],
+      "tips": [
+        "Do not sacrifice repeatability for a tiny theoretical time save.",
+        "A route with low recovery loss is more valuable than a route with one amazing split and many fragile ones.",
+        "Audit your pauses and remove only the ones that no longer protect score."
+      ]
+    },
+    {
+      "heading": "Build Design For Leaderboard Attempts",
+      "body": [
+        "TacSim builds should shorten repeated setup while preserving control. This is why surveillance suppression, access shortcuts, and reliable movement tools often outperform flashy combat gadgets on the leaderboard. If a gadget removes one awkward wait cycle every run, it may be worth more than a rare burst tool that saves time only in perfect scenarios.",
+        "When choosing between two gadgets, prefer the one that produces predictable body positioning after use. Predictability matters because TacSim is an optimization loop. You want the same opening, the same guard movement, and the same cross angle every reset. Unstable tools create variance, and variance murders grinding efficiency.",
+        "The final build decision should always answer one question: what part of the route do I repeat dozens of times, and which gadget compresses that part most cleanly?"
+      ]
+    },
+    {
+      "heading": "Reset Discipline And Practice Method",
+      "body": [
+        "High-level TacSim improvement does not come from full attempts alone. Break the route into checkpoints and test each split in isolation. Learn the opening until it feels boring. Then learn the first objective transition until it feels automatic. Only after the route's hardest split becomes stable should you start chaining full runs seriously.",
+        "Reset discipline matters too. If an early mistake invalidates the pace target or forces a high-cost cleanup, reset quickly. Grinding doomed attempts teaches frustration more than skill. On the other hand, if a run is slightly slower but still structurally sound, play it out and collect information. The art is knowing whether a run still teaches you something valuable.",
+        "Treat TacSim like lab work. Short experiments, clear hypotheses, and ruthless honesty about what is actually saving time."
+      ],
+      "callouts": [
+        {
+          "title": "Best practice structure",
+          "content": "Isolate one split, stabilize it, then merge it into the route. Full-run grinding is strongest after the route's hardest 20 percent is already solved.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "Mental Model For Top-End Improvement",
+      "body": [
+        "Once your route is clean, the next layer of improvement is transition logic. Ask how each solved room can hand off momentum to the next one. Can your exit angle naturally become the entry angle for the following space? Can one gadget solve both the tail of room A and the head of room B? Can a guard movement triggered by your first action shorten the next segment for free?",
+        "This is where advanced leaderboard play starts to look elegant. You are no longer solving isolated rooms. You are designing a chain reaction across the whole simulation. The score gain from these micro-links is often larger than any individual trick.",
+        "TacSim mastery is therefore less about bravery and more about compression. The best players remove seams from the route until the mission feels like one continuous idea."
+      ],
+      "quote": "Leaderboard speed is the by-product of route continuity."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What matters most in TacSim: speed or cleanliness?",
+      "answer": "Both matter, but clean repeatable routes usually outperform reckless speed because they reduce recovery loss and improve grind efficiency."
+    },
+    {
+      "question": "Should I finish bad runs for practice?",
+      "answer": "Finish them only if the run still teaches a useful split or recovery concept. Reset early if the pace target is already structurally dead."
+    }
+  ]
+}

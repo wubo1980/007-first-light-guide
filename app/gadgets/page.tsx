@@ -16,8 +16,8 @@ export const metadata: Metadata = buildMetadata({
 /**
  * 渲染装备栏目页，聚合与 gadget 和 loadout 相关的攻略内容。
  */
-export default function GadgetsPage() {
-  const articles = getGuidesByCategory("gadgets");
+export default async function GadgetsPage() {
+  const articles = await getGuidesByCategory("gadgets");
 
   return (
     <div className="space-y-12">

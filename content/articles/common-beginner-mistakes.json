@@ -1,0 +1,85 @@
+{
+  "slug": "common-beginner-mistakes",
+  "title": "Common Beginner Mistakes",
+  "seoTitle": "Common Beginner Mistakes — 007 First Light Guide",
+  "excerpt": "Ten mistakes new players make in 007 First Light, why they happen, and how to fix them before they become habits that ruin stealth routes and TacSim progress.",
+  "category": "guides",
+  "readTime": "12 min",
+  "metaDescription": "Avoid the most common beginner mistakes in 007 First Light, including impatience, overusing takedowns, poor gadget timing, and bad route recovery habits.",
+  "keywords": [
+    "common beginner mistakes",
+    "007 first light tips",
+    "stealth mistakes"
+  ],
+  "publishedAt": "2026-05-28",
+  "featured": false,
+  "relatedSlugs": [
+    "new-agent-briefing",
+    "stealth-vs-combat-decision-guide",
+    "tacsim-mode-guide"
+  ],
+  "sections": [
+    {
+      "heading": "Mistakes 1 Through 4",
+      "body": [
+        "The first major mistake is moving before reading the room. New players see a gap, assume it is safe, and then get surprised by a camera, a second patrol, or a sightline from above. The fix is simple: wait for one full patrol cycle before committing in unfamiliar spaces.",
+        "The second mistake is overvaluing takedowns. A guard on the ground feels like progress, but every body creates cleanup risk, route clutter, and the possibility of discovery. Many rooms are easier when you never touch the guard at all. The third mistake is trying to recover suspicion by sprinting. Fast movement through the same bad angle usually worsens the problem. Break sight first, then reset.",
+        "The fourth mistake is carrying the wrong tool in hand during traversal. It sounds minor, but it slows reactions and encourages panicked swaps at the worst moment. Finish every interaction in a neutral state."
+      ]
+    },
+    {
+      "heading": "Mistakes 5 Through 7",
+      "body": [
+        "The fifth mistake is wasting gadgets on low-value problems. If patience solves the room for free, save the tool. The sixth is crossing bright central lanes because they look shorter. First Light constantly rewards the dim edge route over the obvious middle route. The seventh is misunderstanding what clean means. Clean does not mean zero tension. It means every risky action is justified, controlled, and recoverable.",
+        "These errors usually come from wanting the route to look efficient before it actually is. Efficiency is earned through repetition. Until then, stability is the real speed."
+      ],
+      "tips": [
+        "Do not spend a gadget when a three-second wait solves the same problem.",
+        "The center path is usually faster only on paper.",
+        "A clean run feels calm because the decisions are prepared, not because nothing dangerous exists."
+      ]
+    },
+    {
+      "heading": "Mistakes 8 Through 10",
+      "body": [
+        "The eighth mistake is refusing to abandon a dead plan. If the room changed, the route changed. Continuing as if nothing happened is how small errors become mission-wide disasters. The ninth mistake is ignoring exit logic while solving entry logic. Players get into rooms elegantly, finish the objective, and then improvise the escape under pressure. Always route the exit at the same time as the entry.",
+        "The tenth mistake is reviewing failure emotionally instead of structurally. Saying my reflexes were bad does not teach much. Saying my body was exposed because I used the central lane while the upper camera was inward teaches everything. Structural review turns mistakes into upgrades.",
+        "If you fix only these ten issues, your average run quality will jump dramatically even before you touch advanced routing or leaderboard-specific tech."
+      ],
+      "callouts": [
+        {
+          "title": "Fastest improvement habit",
+          "content": "After every failed run, identify the exact room condition that made the failure possible. Do not stop at I got seen.",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "heading": "How To Build Better Habits Quickly",
+      "body": [
+        "Pick one mistake category per session. Spend fifteen minutes solving only that issue. For example, dedicate a session to not using unnecessary takedowns, or to always planning exits before entries. Improvement accelerates when the goal is narrow enough to feel obvious during play.",
+        "You can also use low-pressure story runs as habit labs. Ignore perfect score for a while and focus only on whether your body positioning, scanning rhythm, and recovery decisions are becoming more disciplined. Once the habit holds under low pressure, reintroduce score goals.",
+        "The point is not to become flawless overnight. The point is to remove self-inflicted difficulty from the game."
+      ]
+    },
+    {
+      "heading": "What Competitive Players Do Differently",
+      "body": [
+        "Competitive players look ordinary in the moment because they have already solved the drama before the run begins. They do not peek randomly, fight emotionally, or improvise exits unless the route truly collapses. They make the same good decision over and over.",
+        "That consistency is available to beginners much earlier than they think. You do not need elite reflexes to stop making beginner mistakes. You need a clearer mental checklist and the willingness to slow down long enough to let that checklist matter.",
+        "Once your mistakes become smaller and more specific, real optimization can begin."
+      ],
+      "quote": "Most beginner pain is not difficulty. It is unstructured decision-making."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the single most common beginner mistake?",
+      "answer": "Moving before reading the room is the most common mistake because it creates every other problem downstream."
+    },
+    {
+      "question": "Should new players avoid all takedowns?",
+      "answer": "No, but they should stop treating takedowns as the default solution. Many rooms are better solved through timing and pathing."
+    }
+  ]
+}

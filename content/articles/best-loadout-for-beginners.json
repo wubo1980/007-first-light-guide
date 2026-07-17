@@ -1,0 +1,80 @@
+{
+  "slug": "best-loadout-for-beginners",
+  "title": "Best Loadout for Beginners",
+  "seoTitle": "Best Loadout for Beginners — 007 First Light Guide",
+  "excerpt": "A stable early-game loadout that reduces mistakes, improves scouting, and gives beginners a recoverable route when timing slips or detection starts to climb.",
+  "category": "gadgets",
+  "readTime": "11 min",
+  "metaDescription": "Find the best beginner loadout for 007 First Light with recommended gadgets, upgrade logic, and route examples for early missions and safer stealth play.",
+  "keywords": [
+    "best beginner loadout",
+    "007 first light gadgets",
+    "early loadout"
+  ],
+  "publishedAt": "2026-05-28",
+  "featured": false,
+  "relatedSlugs": [
+    "all-gadgets-guide",
+    "new-agent-briefing",
+    "mission-1-walkthrough"
+  ],
+  "sections": [
+    {
+      "heading": "The Core Beginner Philosophy",
+      "body": [
+        "The best beginner loadout is not the one with the highest ceiling. It is the one that forgives hesitation, creates information, and keeps your route recoverable after a small mistake. In practice that means one scouting tool, one reposition tool, and one objective or access tool.",
+        "This setup works because beginners do not lose runs only to hard enemies. They lose them to uncertainty. A good early loadout removes uncertainty first and only then adds aggression or complexity. When you know where the threats are, when you can pull one guard off the line, and when you can interact without lingering, your overall mission control improves immediately.",
+        "Think in terms of room stability. Every selected item should either reveal the room, simplify the room, or let you leave the room before awareness rises."
+      ]
+    },
+    {
+      "heading": "Recommended Three-Slot Setup",
+      "body": [
+        "Slot one should go to a recon or camera control tool. This is the piece that prevents blind rotations and lets you commit to crossings with confidence. Slot two should be a distraction device such as a lure or sound utility. Its job is to create isolation, turn two-guard chokepoints into one-guard moments, and buy breathing room when you are about to lose the angle battle.",
+        "Slot three should be a clean objective enabler such as a lock override, compact shock option, or another low-profile utility that shortens interaction time. This slot is what turns your route from safe scouting into actual mission progress. Without it, many otherwise strong routes still become clumsy at the objective.",
+        "The beauty of this trio is that it scales. The exact item names may improve as you unlock better versions, but the job distribution stays excellent from the tutorial through advanced midgame missions."
+      ],
+      "callouts": [
+        {
+          "title": "Starter trio",
+          "content": "Recon control + sound lure + objective utility is the most dependable beginner package across the first several missions.",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "heading": "Why Pure Damage Builds Fail New Players",
+      "body": [
+        "Damage-heavy early builds feel strong because they shorten visible fights, but they hide the real problem: beginners are usually taking the wrong fights in the wrong places. More damage does not teach better timing, safer entry angles, or smarter recovery. It often reinforces the bad habit of solving information problems with gunfire.",
+        "A damage-first build also narrows your options after a partial mistake. If the room is not yet fully hostile, a utility-heavy setup can still cool the situation or redirect attention. A damage-focused setup pushes you toward full escalation before you have the map knowledge to sustain it.",
+        "Offense becomes more valuable later, once you recognize which rooms are designed for decisive force and which should remain invisible. Until then, utility keeps the learning curve manageable."
+      ]
+    },
+    {
+      "heading": "Upgrade Path For This Loadout",
+      "body": [
+        "First, improve scouting quality or reduce the time it takes to get actionable information. Next, strengthen the consistency of your distraction tool, either through duration, precision, or ease of deployment. Third, invest in the item that directly shortens exposure during objective interactions.",
+        "This order works because it compounds. Better information makes every other slot easier to use. More reliable distraction creates cleaner openings. Faster objective tools reduce the number of seconds your body is visible during the most dangerous part of the room. Each upgrade improves the value of the others.",
+        "Resist the urge to split resources across too many niche items early. A cohesive starter package is better than a collection of half-upgraded gimmicks."
+      ]
+    },
+    {
+      "heading": "Where This Build Struggles",
+      "body": [
+        "No loadout is universal. This beginner package is weaker in long combat chains, boss phases that force direct damage, and missions built around high-density moving threats with little cover. In those cases, keep the recon slot but consider swapping the objective tool for a stronger stabilizer like smoke or a faster shutdown option.",
+        "The important lesson is not that your first loadout must be permanent. It is that your first loadout should teach good decision-making. Once that is happening, you can adapt without losing your core habits.",
+        "If the mission feels harder than expected with this build, the answer is usually route adjustment before loadout replacement."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the safest beginner loadout shape?",
+      "answer": "One recon tool, one distraction tool, and one objective utility tool usually creates the highest stability for new players."
+    },
+    {
+      "question": "Should beginners spec into damage early?",
+      "answer": "Usually no. Utility improves both learning and mission control more consistently than raw damage in the early game."
+    }
+  ]
+}

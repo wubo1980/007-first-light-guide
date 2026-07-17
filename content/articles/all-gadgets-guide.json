@@ -1,0 +1,85 @@
+{
+  "slug": "all-gadgets-guide",
+  "title": "All Gadgets Guide",
+  "seoTitle": "All Gadgets Guide — 007 First Light Guide",
+  "excerpt": "A practical guide to all eight core gadgets, how they unlock, where they shine, and which combinations create the most consistent mission control.",
+  "category": "gadgets",
+  "readTime": "15 min",
+  "metaDescription": "See every major gadget in 007 First Light, including unlock logic, strengths, weaknesses, and recommended builds for stealth, hybrid play, and TacSim routes.",
+  "keywords": [
+    "all gadgets guide",
+    "007 first light loadout",
+    "best gadgets"
+  ],
+  "publishedAt": "2026-05-28",
+  "featured": true,
+  "relatedSlugs": [
+    "best-loadout-for-beginners",
+    "mission-1-walkthrough",
+    "tacsim-mode-guide"
+  ],
+  "sections": [
+    {
+      "heading": "The Eight Gadgets And Their Tactical Jobs",
+      "body": [
+        "The easiest way to understand gadgets is by job, not rarity. In the early game you will commonly rotate between the distraction coin emitter, micro camera loop, shock pen, lock override tool, smoke pellet, adhesive EMP, sound lure beacon, and compact dart device. Some solve information, some solve movement, and some solve timing. Your loadout gets stronger the moment you stop asking which gadget is coolest and start asking which problem your route actually needs solved.",
+        "Distraction tools create separation. Surveillance tools create certainty. Disruption tools create safe timing windows. The strongest loadouts usually carry one gadget from each category so the route can adapt if the first plan bends under pressure. A build that only distracts, for example, struggles when the room is camera-heavy or when the objective requires manipulating electronics rather than people.",
+        "When evaluating a gadget, judge it by three questions: how many seconds of control it creates, whether it leaves visible evidence, and what backup value it has if the first target area changes. Versatility wins over novelty in real missions."
+      ]
+    },
+    {
+      "heading": "Unlock Priorities And What To Chase First",
+      "body": [
+        "Beginners should prioritize unlocks that reduce uncertainty. A basic camera loop or lens-enhancing recon tool pays for itself immediately because it lets you scout safer routes and commit later. The next best unlocks are usually distraction and access tools, because many early objectives hinge on buying a small timing window or bypassing a minor barrier without escalating awareness.",
+        "The flashy trap gadgets are strong, but they become much better once you already understand enemy pathing. Without that knowledge, players often deploy them reactively, which wastes their strength. Utility unlocks are less glamorous, but they scale with your map knowledge instead of competing with it.",
+        "If you can only afford one upgrade path at the start, choose the one that improves route stability rather than kill speed. Stable clears generate more resources, and more resources let you specialize later."
+      ],
+      "tips": [
+        "First unlock target: recon or surveillance control.",
+        "Second unlock target: access or distraction control.",
+        "Delay niche traps until you understand patrol rhythm."
+      ]
+    },
+    {
+      "heading": "Best Gadget Builds By Goal",
+      "body": [
+        "For pure stealth, pair a surveillance answer with a human reposition tool and a low-profile objective enabler. A camera loop plus sound lure plus lock override is a classic beginner-friendly trio because it removes uncertainty, creates isolation, and enables clean objective access. It is not flashy, but it turns many hard rooms into readable sequences.",
+        "For hybrid play, you want one route opener and one emergency stabilizer. Smoke pellet plus shock pen plus recon support works well because it gives you a safe reset if timing slips while still preserving silent takedown and reposition options. Hybrid play is less about maximizing one perfect sequence and more about keeping the run salvageable.",
+        "For TacSim, think in repeatability and score pacing. Adhesive EMP and camera manipulation tools gain value because they shorten setup time without forcing noisy cleanups. The best leaderboard builds are those that compress downtime across many repetitions, not necessarily those with the highest peak power on a single attempt."
+      ],
+      "callouts": [
+        {
+          "title": "Beginner gold build",
+          "content": "Micro camera loop + sound lure beacon + lock override gives the highest ratio of safety to execution difficulty in early missions.",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "heading": "Common Gadget Misuse",
+      "body": [
+        "The most common mistake is using a gadget to solve the symptom instead of the room. Throwing a lure because a guard is inconvenient right now can work, but if that lure also pulls a second patrol into your escape lane you have made the space worse. Always picture the whole room after the gadget lands.",
+        "Another major error is stacking two gadgets on the same weak problem. If a single distraction already gives you the window you need, save the second tool. Many failed late-mission routes happen because players overspend early and arrive at the critical objective with no conversion tools left.",
+        "Finally, do not ignore animation and recovery time. A gadget with perfect theoretical value is still bad if it leaves you standing in a lit doorway during deployment. Route safety includes your body state during use, not only the gadget's effect after landing."
+      ]
+    },
+    {
+      "heading": "How To Practice Gadget Mastery",
+      "body": [
+        "Pick one mission room and test only a single gadget across five attempts. Learn the exact guard reaction, the duration of the opening it creates, and where your camera or crosshair needs to begin before you deploy it. This kind of controlled practice teaches timing far faster than switching tools every run.",
+        "After you understand one gadget deeply, pair it with one support gadget and rerun the same room. The question is no longer what this item does but how item A creates the exact body state that item B needs. That is when loadout design becomes route design.",
+        "Mastery comes from repetition with a narrow goal. Gadgets become powerful when they feel measured, not improvised."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Which gadget should new players unlock first?",
+      "answer": "A recon or surveillance-control gadget usually offers the best early value because it improves every mission, not just one encounter type."
+    },
+    {
+      "question": "Are niche trap gadgets worth it?",
+      "answer": "Yes, but usually after you understand patrol behavior. Their value depends heavily on precise placement and room knowledge."
+    }
+  ]
+}

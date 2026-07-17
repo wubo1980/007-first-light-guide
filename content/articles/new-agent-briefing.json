@@ -1,0 +1,100 @@
+{
+  "slug": "new-agent-briefing",
+  "title": "New Agent Briefing",
+  "seoTitle": "New Agent Briefing — 007 First Light Guide",
+  "excerpt": "A full onboarding dossier covering controls, detection states, Q Lens reads, Instinct use, and the habits that separate a clean infiltrator from a noisy tourist.",
+  "category": "briefing",
+  "readTime": "14 min",
+  "metaDescription": "Learn the fundamentals of 007 First Light with a deep beginner briefing on controls, detection, Q Lens, Instinct, cover discipline, and mission preparation.",
+  "keywords": [
+    "new agent briefing",
+    "007 first light beginner guide",
+    "q lens",
+    "instinct"
+  ],
+  "publishedAt": "2026-05-28",
+  "featured": true,
+  "relatedSlugs": [
+    "best-loadout-for-beginners",
+    "common-beginner-mistakes",
+    "stealth-vs-combat-decision-guide"
+  ],
+  "sections": [
+    {
+      "heading": "Understand The Mission Loop",
+      "body": [
+        "007 First Light rewards players who read the room before they move. Every encounter is built around a short cycle: scout the space, identify the objective, choose the safest line, execute the interaction, and reset suspicion before the next decision. If you skip the first two steps and rush straight to movement, the game becomes harder than it really is because you are always reacting to the guards instead of manipulating them.",
+        "As a beginner, the most important lesson is that time pressure is usually fake. Patrols look intimidating, but most routes are stable, cameras sweep on predictable timing, and hostile zones always contain at least one low-noise solution. Slow play creates information, and information creates clean runs. Even if you eventually want S-Rank speed, your fastest route later will still come from patient observation now.",
+        "Treat each room like an intelligence problem rather than an action encounter. Ask what the room is protecting, what audio cues reveal enemy state, which object can be used as cover, and where you can break line of sight in under two seconds. That mindset immediately makes the game feel more readable."
+      ],
+      "tips": [
+        "Pause at every new threshold and watch one full patrol loop before crossing.",
+        "Memorize your nearest hard cover before interacting with locks or terminals.",
+        "Plan an exit route at the same time you plan the entry."
+      ],
+      "quote": "You are not solving enemies one by one. You are solving the space."
+    },
+    {
+      "heading": "Controls That Matter In High-Value Situations",
+      "body": [
+        "The full control list is not equally important. For strong early performance, master only the inputs that change survival odds: crouch, lean, cover transition, silent takedown, distraction throw, quick gadget swap, and immediate re-center after aiming. These are the actions you repeat in almost every clean infiltration route.",
+        "Lean and cover transition deserve special attention because they decide whether a scouting peek costs nothing or triggers suspicion. A new player often overexposes the whole body for half a second too long. The game is generous if only the shoulder or head appears briefly, but aggressive exposure pushes the detection meter much faster than people expect.",
+        "It is also worth building the habit of swapping back to a non-threatening item after every aimed action. Even when a gadget use is legal, leaving the wrong tool in hand increases mental load and can turn a smooth chain into a clumsy one. Efficient players end each micro-action in a neutral, ready state."
+      ],
+      "callouts": [
+        {
+          "title": "High priority muscle memory",
+          "content": "Practice crouch, cover enter, cover exit, and gadget swap in the tutorial area until you can do them without reading the HUD.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "Reading Detection, Suspicion, And Recovery",
+      "body": [
+        "The detection system is best understood as a ladder, not a simple hidden or seen binary. Guards move from neutral awareness into curiosity, then suspicion, then confirmation. Your goal is not merely to avoid the final stage. It is to manage the early stages so the meter never accelerates into a situation you cannot reset.",
+        "Curiosity is often harmless if you immediately break sight and change the visual story. Suspicion becomes dangerous when your silhouette stays visible in an unusual posture such as crouch-running across a lit corridor, standing with a weapon raised, or lingering near an interacted object. Confirmation usually happens because the player chooses to freeze in place instead of decisively retreating behind the nearest obstruction.",
+        "Recovery is one of the most underrated skills in the game. When a guard begins to notice you, do not panic-turn or sprint through the same angle. Step back, lower your profile, and wait for the meter to cool. If the game gives you a suspicion warning, that is not failure. It is a signal that your current visual story is weak and needs to be rewritten."
+      ],
+      "tips": [
+        "Breaking sight is stronger than outrunning a rising suspicion meter.",
+        "Do not re-peek from the same angle immediately after a warning.",
+        "If you trigger curiosity, let the guard complete the check instead of stacking more noise."
+      ]
+    },
+    {
+      "heading": "How To Use Q Lens And Instinct Together",
+      "body": [
+        "Q Lens is your room-reading tool. It highlights interactables, traversal aids, surveillance threats, and environmental opportunities that are easy to miss in a dark palette. Use it before movement, not after you get stuck. That single habit turns scouting from vague guesswork into deliberate route-building.",
+        "Instinct is different. It is less about object discovery and more about immediate tactical clarity. Use Instinct when you already know the room but need to track enemy bodies, confirm target orientation, or time a cross through partial cover. Think of Q Lens as planning intelligence and Instinct as execution intelligence.",
+        "Players waste both systems by spamming them every few seconds without purpose. Instead, create a rhythm: Q Lens on entry, mental route selection, move to first safe node, Instinct before a risky cross, then return to raw visual play. That pattern keeps the HUD meaningful and prevents information overload."
+      ],
+      "callouts": [
+        {
+          "title": "Best beginner rhythm",
+          "content": "Scan with Q Lens at the doorway, move to a safe anchor point, then use Instinct only for timing-sensitive crossings or takedown setups.",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "heading": "First-Hour Habits That Build S-Rank Foundations",
+      "body": [
+        "If you want to grow into a high-score player, start by building repeatable habits instead of flashy plays. Always enter rooms from cover when possible. Always check camera arcs before interacting with doors or bodies. Always ask whether a takedown creates more cleanup work than simply waiting three extra seconds. Those habits feel slow at first, but they become the backbone of every efficient route later.",
+        "Another strong habit is to review every mistake as a routing failure, not a reflex failure. If a patrol caught you, look at where the route exposed you, what visual information you ignored, and whether a different timing window would remove the risk entirely. This mindset is what separates improvement from repetition.",
+        "Finally, do not chase perfection on your first clear. Chase understanding. A mission cleared with clean notes, remembered timings, and one reliable infiltration lane is far more valuable than a messy success that you cannot reproduce. Once the route is stable, speed and score improvements come naturally."
+      ],
+      "quote": "S-Rank is usually the reward for discipline long before it is the reward for speed."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Should beginners use Q Lens constantly?",
+      "answer": "No. Use Q Lens mainly when entering a new space or before a route decision. Constant scanning adds clutter and slows reaction quality."
+    },
+    {
+      "question": "Is a suspicion warning a failed stealth run?",
+      "answer": "Not by itself. Early suspicion is recoverable if you break line of sight, reset posture, and avoid stacking more suspicious behavior."
+    }
+  ]
+}

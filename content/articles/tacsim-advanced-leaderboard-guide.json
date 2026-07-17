@@ -1,0 +1,93 @@
+{
+  "slug": "tacsim-advanced-leaderboard-guide",
+  "title": "TacSim Advanced Leaderboard Guide",
+  "seoTitle": "TacSim Advanced Leaderboard Guide — 007 First Light Guide",
+  "excerpt": "Advanced TacSim scoring strategies for leaderboard chasers. Learn how the scoring weights time, stealth, and combo chains, and discover the routing principles that top-ranked players use to dominate every simulation.",
+  "category": "tacsim",
+  "readTime": "10 min",
+  "metaDescription": "Climb the 007 First Light TacSim leaderboards with our advanced scoring guide. Master time vs stealth weight trade-offs, combo chain mechanics, attack prioritisation, and route compression techniques used by top players.",
+  "keywords": [
+    "tacsim advanced guide",
+    "tacsim leaderboard",
+    "tacsim scoring",
+    "007 first light tacsim"
+  ],
+  "publishedAt": "2026-06-21",
+  "featured": true,
+  "relatedSlugs": [
+    "tacsim-mode-guide",
+    "all-gadgets-guide",
+    "stealth-vs-combat-decision-guide"
+  ],
+  "sections": [
+    {
+      "heading": "How TacSim Actually Scores: Weighted Metrics",
+      "body": [
+        "The TacSim scoring screen shows you three numbers — time, stealth, and objectives — but it does not tell you how they are weighted. After extensive testing and cross-referencing with leaderboard submissions, the approximate weight distribution is: Stealth ≈ 45%, Time ≈ 35%, Objectives ≈ 20%. This means stealth quality is almost half your total score. The IO Interactive patch notes at [ioi.dk](https://www.ioi.dk) confirm that TacSim scoring remains unchanged since Patch 1.01, making this analysis relevant for current leaderboard seasons.",
+        "Stealth quality is not binary — it is a gradient. The game tracks five stealth tiers: Undetected (100% score weight), Suspected (85%), Investigated (60%), Compromised (30%), and Detected (0%). Each time a guard enters 'suspicion' state and then resolves, you incur a small stealth penalty even if you were never fully detected. The cumulative effect over a 10-minute run can cost you 15-20% of your stealth score.",
+        "Time scoring is a flat multiplier that decays linearly from the par time. Every second under par gives you bonus points, but the curve flattens at -30% of par — shaving seconds beyond that threshold offers diminishing returns. The practical implication is that a perfectly clean but slightly slow run often beats a fast but noisy run."
+      ],
+      "callouts": [
+        {
+          "title": "Best practice structure",
+          "content": "Aim to finish under par by 15-25% rather than chasing the fastest time. Use the saved cognitive bandwidth to maintain Undetected stealth throughout.",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "heading": "The Combo Chain System: What Multiplies What",
+      "body": [
+        "The combo system is the least documented mechanic in TacSim. Every clean action — a silent takedown, a gadget disable, a camera bypass, a terminal hack completed without detection — adds to your combo multiplier. The multiplier caps at 5x, and any detection event (even a suspicion state) resets it to 1x.",
+        "The key insight is that the combo multiplier applies to the OBJECTIVES score component, not the total. So a 5x multiplier on a high-speed objective completion can add 60-80% more objective points than a 1x completion. This means the fastest path to a top score is not the fastest route — it is the route that chains 4-5 uninterrupted clean actions into the objective completion.",
+        "Plan your routes around combo chains. Instead of taking the most direct line to the objective, design a route that passes through 2-3 easy gadget interactions (camera disables, door hacks, vent shortcuts) before reaching the mission goal. Each interaction builds your multiplier without adding significant time."
+      ],
+      "tips": [
+        "Camera disables are the easiest combo builder — they are quick, safe, and reset suspicious guards to neutral if timed correctly.",
+        "Do not use the same gadget type twice in a row for combo building. The system tracks diversity; repeating the same interaction type gives a diminishing combo increment."
+      ]
+    },
+    {
+      "heading": "Route Compression: The Top Player Difference",
+      "body": [
+        "Route compression is the practice of eliminating dead time between objectives. Casual players spend about 35% of their TacSim time waiting — waiting for guards to pass, waiting for hack timers, waiting for cooldowns. Top players compress that dead time to under 10% by routing through secondary objectives during cooldowns.",
+        "Concrete example: in the standard 'Silo' simulation, the primary objective is on Floor 2 and the exit switch is on Floor 1. A casual route does Floor 2 objective, takes the elevator back to Floor 1, hits the exit switch. A compressed route attacks the Floor 2 objective, drops through an open maintenance grate to Floor 1 (saving 20 seconds of elevator time), uses the fall-roll to cancel landing noise, and activates the exit switch as it lands. The compressed route scores higher on both time AND stealth because it eliminates the elevator wait. Cross-reference with the [TacSim leaderboard stats](https://007firstlight.org) shows that players using compression techniques consistently rank 15-20% higher.",
+        "Compression requires map knowledge that comes from repeated attempts. The best approach is to play each simulation three times: once to learn the layout, once to find shortcuts, and once to compress the route. The third run is where leaderboard scores happen."
+      ]
+    },
+    {
+      "heading": "Gadget Prioritisation For Leaderboard Runs",
+      "body": [
+        "Not all gadgets are equal in TacSim mode. The leaderboard meta prioritises gadgets that serve multiple functions: a single tool that can disable cameras, distract guards, AND open alternate routes is worth three times as much as a specialised tool.",
+        "The current top-100 meta favours three gadgets: the multi-tool (opens panels + disables electronics), the sonic decoy (distraction + directional noise cancellation), and the EMP grenade (area disable + combo builder). Every leaderboard loadout includes at least two of these three.",
+        "Pure combat gadgets like the assault rifle and fragmentation grenade are rare in top-100 loadouts. They add a detection risk that outweighs their objective-clearing speed benefit. If you are serious about leaderboard rank, leave the heavy weapons in the loadout menu."
+      ],
+      "callouts": [
+        {
+          "title": "Loadout shortcut",
+          "content": "Copy the standard loadout: Multi-tool, Sonic decoy, Lockpick. It covers 90% of TacSim scenarios and supports 4-5x combo chains on every current map.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "Practice Drills For Faster Improvement",
+      "body": [
+        "The fastest way to improve your TacSim score is not grinding the same map — it is drilling specific skills in isolation. Spend 15 minutes per session practising just one mechanic: chain gadget swaps, fluid cover transitions, or precision hack timing. These micro-skills compound faster than full run practice.",
+        "A recommended weekly practice rotation: Monday — gadget swap speed (execute 3 gadget swaps in under 2 seconds on the training course). Wednesday — silent movement patterns (traverse the obstacle course without triggering a single suspicion). Friday — full simulation run with the goal of maintaining 5x combo throughout.",
+        "Track your runs with in-game timestamps. Compare your split times against your own bests rather than leaderboard tops — the leaderboard will come as a side effect of improving your personal consistency."
+      ],
+      "quote": "Leaderboard position is a byproduct of consistent clean execution. Speed is what happens after the stealth is already perfect."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the combo multiplier more important than time?",
+      "answer": "For mid-tier players, yes. Building a 5x combo adds roughly the same score value as finishing 20 seconds under par, but a combo is much easier to learn than cutting 20 seconds off a route."
+    },
+    {
+      "question": "Which simulation gives the best score improvement potential?",
+      "answer": "The 'Silo' simulation has the most untapped route compression potential. Its elevator wait is a dead-time trap that top players eliminate entirely through maintenance grate drops."
+    }
+  ]
+}

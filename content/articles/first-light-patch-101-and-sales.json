@@ -1,0 +1,87 @@
+{
+  "slug": "first-light-patch-101-and-sales",
+  "title": "Patch 1.01 & 1.5M Sales Milestone",
+  "seoTitle": "Patch 1.01 & 1.5M Sales Milestone — 007 First Light Guide",
+  "excerpt": "007 First Light sold 1.5 million copies in 24 hours, earned an 87 Metacritic rating, and IO Interactive has already shipped Patch 1.01 with performance and stability improvements ahead of the first content update.",
+  "category": "briefing",
+  "readTime": "8 min",
+  "metaDescription": "Read about 007 First Light's record 1.5 million sales in 24 hours, its 87/100 Metacritic reception, Patch 1.01 details, and the teased first content update with new TacSim missions.",
+  "keywords": [
+    "007 first light sales",
+    "patch 1.01",
+    "io interactive",
+    "content update",
+    "tacsim"
+  ],
+  "publishedAt": "2026-05-30",
+  "featured": true,
+  "relatedSlugs": [
+    "new-agent-briefing",
+    "tacsim-mode-guide",
+    "all-gadgets-guide"
+  ],
+  "sections": [
+    {
+      "heading": "A Record-Breaking Launch",
+      "body": [
+        "007 First Light launched to a spectacular reception, selling 1.5 million copies within its first 24 hours on the market. The game has settled at an aggregate 87 out of 100 on Metacritic, reflecting strong critical consensus that IO Interactive delivered on the promise of a proper Bond infiltration game built on the studio's signature stealth craft.",
+        "The sales figure places First Light among the fastest-selling new IP launches of the year, and the critical reception underscores that both fans and reviewers recognise the depth beneath the surface. The 87 Metascore is notably high for the stealth-action genre, which often polarises critics between combat pacing and infiltration purity.",
+        "For the community building around the guide, these numbers matter because a large and active player base means richer discussion, faster route discovery, and more competition on the TacSim leaderboards. The game is not a niche curiosity — it has the population to sustain a healthy long-term ecosystem."
+      ],
+      "callouts": [
+        {
+          "title": "Fast facts",
+          "content": "1.5M copies in 24 hours, 87/100 Metacritic, and a confirmed content pipeline from IO Interactive. First Light is here to stay.",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "heading": "Patch 1.01 (Ver 1.0.1) Breakdown",
+      "body": [
+        "IO Interactive shipped Patch 1.01 shortly after launch, addressing the most common technical issues flagged during the opening window. The patch focuses on three areas: overall performance optimisation, crash and stability fixes, and a handful of targeted technical improvements.",
+        "On the performance side, the team has improved frame pacing on the PC version's higher-end presets and reduced stutter on console during asset streaming in larger TacSim environments. These changes are most noticeable in the late-mission compound areas where draw distance and particle effects previously caused noticeable frame dips.",
+        "Stability fixes include a patch for a rare crash triggered by simultaneous gadget interactions in co-op TacSim sessions, a fix for a save-corruption edge case tied to mid-mission checkpoints, and general memory-management tightening across all platforms. No gameplay rebalancing was included in this patch — the changes are purely technical, which signals IO's priority on a smooth baseline before they touch the meta.",
+        "The patch was a light download and required no client-side data migration. Players who encountered any of the patched issues should see a noticeably more stable experience after updating."
+      ],
+      "tips": [
+        "If you experienced stutter in later TacSim maps, check that 1.0.1 applied correctly in the main menu version info.",
+        "The co-op crash fix makes longer TacSim sessions much safer — previously the bug was most likely to trigger around the 25-minute mark."
+      ]
+    },
+    {
+      "heading": "First Content Update Teased",
+      "body": [
+        "The most exciting development is not in the patch notes themselves. Eagle-eyed players noticed a new entry in the main menu's TacSim mission select screen that was not there at launch — a locked slot with no label but a distinct icon that suggests a new simulation scenario. IO Interactive has not officially detailed the content update yet, but the presence of the teaser slot strongly indicates the first post-launch content drop is in active development.",
+        "Given the studio's history with the Hitman series, the most likely shape of the first update is a new TacSim contract set in an unseen environment. Hitman's post-launch model frequently added escalation-style contracts and new locations, and First Light's structure maps naturally onto that approach. A new TacSim mission would give the leaderboard community fresh routing problems to solve and extend the game's replayability without requiring a narrative expansion.",
+        "Some dataminers have also found asset references in the 1.01 build that suggest a new gadget category, though these are unconfirmed and could be scrapped prototypes. IO Interactive has not yet announced a date for the content update, but the main menu teaser suggests it could arrive within weeks rather than months."
+      ],
+      "callouts": [
+        {
+          "title": "Keep watching the main menu",
+          "content": "The TacSim teaser slot appeared with Patch 1.01. If IO follows their Hitman cadence, the actual content drop may arrive within 3-6 weeks.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "What This Means For Players",
+      "body": [
+        "For new players, the strong launch and rapid patch support mean the game is in a healthy state to invest time into. The technical foundation is solid after 1.01, the community is active, and content is coming. There has never been a better moment to start learning stealth routes and gadget combinations.",
+        "For returning players and leaderboard chasers, the upcoming content update is the real story. A new TacSim mission resets the competitive landscape. Routes will need to be discovered, optimised, and compressed from scratch. The players who prepare now by sharpening their general-purpose routing skills — rather than over-optimising on the current set of maps — will have the advantage when the new content lands.",
+        "Keep an eye on the official IO Interactive communication channels for the content update announcement. In the meantime, use Patch 1.01's improved performance to grind cleaner runs and build the muscle memory that will serve you on whatever comes next."
+      ],
+      "quote": "A 1.5-million-strong community, a technical foundation that is already stable, and new content on the horizon. First Light is just getting started."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does Patch 1.01 change any gameplay mechanics?",
+      "answer": "No. 1.01 is a technical patch focused on performance optimisation, crash fixes, and stability. No gameplay balance changes were included."
+    },
+    {
+      "question": "When will the first content update arrive?",
+      "answer": "IO Interactive has not announced a date, but the main menu TacSim teaser slot and their Hitman-era release cadence suggest a window of 3-6 weeks from the patch."
+    }
+  ]
+}

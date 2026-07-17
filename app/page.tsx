@@ -10,8 +10,8 @@ import { stringifyJsonLd } from "@/lib/seo";
 /**
  * 渲染首页，聚合品牌表达、内容入口、最新文章与社区引流模块。
  */
-export default function Home() {
-  const featuredGuides = getFeaturedGuides(5);
+export default async function Home() {
+  const featuredGuides = await getFeaturedGuides(5);
   const gameSchema = buildGameSchema();
 
   return (

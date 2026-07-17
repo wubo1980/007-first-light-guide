@@ -1,0 +1,94 @@
+{
+  "slug": "mission-3-silo-break",
+  "title": "Mission 3 — Silo Break S-Rank Walkthrough",
+  "seoTitle": "Mission 3 Silo Break S-Rank Walkthrough — 007 First Light Guide",
+  "excerpt": "S-Rank Silo Break with our comprehensive route guide covering the outdoor compound, three-layer silo interior, mini-boss confrontation, and all hidden intel pickups along the way.",
+  "category": "missions",
+  "readTime": "14 min",
+  "metaDescription": "Dominate 007 First Light Mission 3 Silo Break with our complete S-Rank walkthrough. Outdoor compound strategies, three-layer silo interior routing, mini-boss tactics, and all collectible locations.",
+  "keywords": [
+    "mission 3 silo break",
+    "007 first light s-rank",
+    "silo break walkthrough",
+    "outdoor compound stealth"
+  ],
+  "publishedAt": "2026-06-21",
+  "featured": true,
+  "relatedSlugs": [
+    "mission-1-walkthrough",
+    "mission-2-deep-water",
+    "all-gadgets-guide"
+  ],
+  "sections": [
+    {
+      "heading": "Silo Break: When The Game Opens Up",
+      "body": [
+        "Mission 3, Silo Break, is the first mission that truly uses outdoor scale. The compound spans three levels: the surface perimeter, the internal silo structure (three floors), and the underground research level. Each layer has a distinct patrol logic, visibility system, and set of environmental tools. S-Rank here demands that you adapt your style layer by layer. The game's [official site](https://www.ioi.dk/007-first-light) confirms the multi-layer design philosophy, and our routing builds on these documented level principles.",
+        "Unlike the linear progression of Missions 1 and 2, Silo Break gives you multiple entry points into each layer. The fastest S-Rank route uses the west drainpipe entry, bypasses the surface guards entirely, and enters the silo directly through the maintenance shaft. This approach saves about two minutes of surface sneaking but requires precise gadget use in the silo interior.",
+        "Traps are more dangerous in this mission because outdoor sound travels further. A gunshot on the surface can alert the entire perimeter. A body discovered inside the silo triggers an alarm that locks down floors above. Clean kills matter more here than in any previous mission."
+      ],
+      "tips": [
+        "The west drainpipe is unguarded but is wired with a trip sensor. Use your Q Lens before climbing to spot the wire, then crouch-squeeze past it.",
+        "Pack a lockpick. The maintenance shaft door requires one, and there is no alternate keycard route."
+      ],
+      "quote": "Silo Break does not just add verticality — it adds consequence per floor."
+    },
+    {
+      "heading": "Surface Perimeter — The West Entry Route",
+      "body": [
+        "The surface perimeter is the widest open space you have encountered so far. Four guard towers, two roving patrol jeeps, and a central checkpoint create overlapping fields of view. The west drainpipe entry is the cleanest approach, but you need to time the jeep patrol correctly.",
+        "From the starting position, move north-west along the cliff edge. A patrol jeep passes every 45 seconds on a fixed circuit. When it clears the west wall, sprint to the large rock outcrop — this is your last piece of hard cover before the drainpipe. From the rock, wait for the jeep on its return leg to reach the east tower, then cross to the drainpipe.",
+        "The drainpipe climb has three stabilisation points. Pause at each one to let the jeep pass below. If you rush the climb, your silhouette against the sky becomes visible to the tower guard on the west corner."
+      ],
+      "callouts": [
+        {
+          "title": "Surface S-Rank key",
+          "content": "Zero takedowns on the surface. If you enter the maintenance shaft without alerting a single guard, the surface layer contributes full score weight to your grade.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "Silo Interior — Three-Floor Navigation",
+      "body": [
+        "The silo interior is the mission's centrepiece. Three floors connected by a central spiral staircase, each with different patrol routes. Floor 1 is a storage level with few guards but poor cover. Floor 2 is the operations level with high guard density and a primary objective. Floor 3 is the transit level that leads to the underground research section.",
+        "The S-Rank route skips Floor 1 almost entirely. Drop from the maintenance shaft access point directly onto the Floor 2 catwalk using the emergency ladder. This shortcut saves 90 seconds and avoids Floor 1's camera blind spots entirely.",
+        "On Floor 2, your objective is the operations terminal. A guard stands at the terminal workstation with a 50-second loop — 30 seconds at the terminal, 20 seconds walking to the coffee station and back. The hack window is tight. Use a distraction gadget to extend his coffee break by 10 seconds, giving you a clean 30-second window to complete the hack."
+      ]
+    },
+    {
+      "heading": "Underground Research — Mini-Boss Encounter",
+      "body": [
+        "The underground research level contains Silo Break's mini-boss encounter: Lieutenant Korr, a heavily armoured guard with a motion sensor. Unlike regular guards, Korr cannot be one-shot by a standard takedown. You need to use the environment to weaken him before closing in.",
+        "The recommended approach uses the gas pipe system. Three gas valves in the research level can be activated in sequence to flood the lower corridor with knockout gas. Korr patrols through this corridor every 90 seconds. Time the valve sequence so that the gas fills when he is mid-corridor. This eliminates his armour and leaves him vulnerable to a single takedown.",
+        "If the gas route fails or you lack the tool for it, the fallback is an EMP gadget to disable his motion sensor, then a two-stage takedown using the elevated catwalk drop. Both approaches score equally for S-Rank purposes as long as no alarm is triggered."
+      ],
+      "callouts": [
+        {
+          "title": "Fastest improvement habit",
+          "content": "Pre-scout the three gas valve locations before engaging Korr. The valves are marked on your HUD only when you are within 8 metres, so Q Lens scan the corridor walls before triggering any combat state.",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "heading": "All Silo Break Collectibles",
+      "body": [
+        "Silo Break contains five collectibles: two intel caches, two audio logs, and one prototype gadget part. The prototype gadget part is the most valuable find — it unlocks an early version of the sonic disruptor, a tool that carries into Missions 4 and 5. Community discussion on [007firstlight.wiki](https://007firstlight.wiki) provides additional intel cache locations that complement this guide.",
+        "Intel cache 1 is in the surface guard tower on the east corner. Access requires climbing the tower ladder and disabling the alarm panel first, which triggers a temporary alert if you are spotted. Best collected during free play.",
+        "Intel cache 2 is on Floor 3 of the silo, behind a locked door requiring a keycard from the Floor 2 patrol area. Audio log 1 is in the maintenance shaft entrance itself — easy to grab on your way in. Audio log 2 is in Korr's office after the mini-boss encounter, next to a personal terminal.",
+        "The prototype gadget part is in a weapons crate at the underground research level, near the gas pipe control panel. You need a cutting tool to open the crate. This is worth the inventory slot on your first run if you are building toward the sonic disruptor."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I clear Silo Break without the gas pipe strategy?",
+      "answer": "Yes. The EMP + catwalk drop approach works and scores identically for S-Rank. The gas pipe method is faster for speed-oriented players."
+    },
+    {
+      "question": "Should I save the prototype gadget part for later missions?",
+      "answer": "The sonic disruptor prototype is consumed when crafted. Use it in Mission 4 only if you want the unique stealth path it unlocks there — otherwise save it for free play testing."
+    }
+  ]
+}

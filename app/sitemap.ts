@@ -6,15 +6,16 @@ import { siteMeta } from "@/data/site-meta";
 /**
  * 生成站点 sitemap，覆盖首页、栏目页和全部攻略详情页。
  */
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticRoutes = ["", "/guides", "/gadgets", "/missions", "/tacsim", "/about"];
+  const allGuides = await getAllGuides();
 
   return [
     ...staticRoutes.map((path) => ({
       url: `${siteMeta.baseUrl}${path || "/"}`,
       lastModified: new Date("2026-05-28"),
     })),
-    ...getAllGuides().map((article) => ({
+    ...allGuides.map((article) => ({
       url: `${siteMeta.baseUrl}/guides/${article.slug}`,
       lastModified: new Date(article.publishedAt),
     })),

@@ -1,0 +1,98 @@
+{
+  "slug": "mission-2-deep-water",
+  "title": "Mission 2 — Deep Water S-Rank Walkthrough",
+  "seoTitle": "Mission 2 Deep Water S-Rank Walkthrough — 007 First Light Guide",
+  "excerpt": "A complete S-Rank route for Mission 2: Deep Water. Covers the underwater infiltration, the first dual-region map split, all collectible locations, and the stealth route that avoids every forced engagement.",
+  "category": "missions",
+  "readTime": "12 min",
+  "metaDescription": "Master 007 First Light Mission 2 Deep Water with our S-Rank walkthrough. Learn the underwater infiltration route, dual-region map strategy, all collectibles, and silent takedown patterns for a perfect score.",
+  "keywords": [
+    "mission 2 deep water",
+    "007 first light walkthrough",
+    "s-rank route",
+    "deep water collectibles"
+  ],
+  "publishedAt": "2026-06-21",
+  "featured": true,
+  "relatedSlugs": [
+    "mission-1-walkthrough",
+    "all-gadgets-guide",
+    "best-loadout-for-beginners"
+  ],
+  "sections": [
+    {
+      "heading": "Deep Water Overview: The Tempo Shift",
+      "body": [
+        "Mission 2, Deep Water, is where 007 First Light stops being a tutorial and starts testing your route discipline. The map splits into two distinct zones — the dock approach and the container ship interior — and each zone demands a different toolkit. Getting S-Rank here requires clean transitions between zones, zero unnecessary takedowns, and efficient use of the new water traversal mechanic.",
+        "The mission timer starts the moment you breach the security fence, not when you enter the water. That means your pre-water positioning matters more than most players expect. A good approach can save 30-45 seconds over a hesitant one, and on S-Rank timers, that buffer is the difference between Gold and Silver on the score breakdown. For reference, the official game FAQ at [IO Interactive](https://www.ioi.dk) covers general mission structure, but the S-Rank routing details shown here are based on community-proven strategies.",
+        "Understand the map arc: the first third is water infiltration with patrol boat timing, the middle third is dockyard cat-and-mouse, and the final third is the container ship interior where sound discipline becomes critical. Each section has a single clean path that satisfies all three S-Rank criteria: time, stealth, and objective efficiency."
+      ],
+      "tips": [
+        "Enter the water from the east-side ladder point — it gives the shortest line to the first objective while staying under the patrol boat blind spot.",
+        "Mark the three camera positions on your HUD before entering the first zone; you will need them for the climb onto the dock platform."
+      ],
+      "quote": "Deep Water rewards patience in the first zone and decisiveness in the last."
+    },
+    {
+      "heading": "Zone 1 — Underwater Infiltration",
+      "body": [
+        "The underwater section is a timing puzzle disguised as a stealth segment. Four patrol boats sweep overlapping arcs, and your route needs to cross them at the narrowest gap windows. The key insight is that the second patrol boat moves 15% faster than the first one, so the gap you used for the initial crossing is shorter on the return leg.",
+        "Start from the east ladder behind the fuel depot. Swim directly to the wrecked trawler hull — this is your first cover point. From the hull, wait for the first patrol boat to pass the midpoint of its arc, then swim straight to the dock pylon cluster. The pylons give you a visual break from the second boat's spotlight. Surface only at the pylon's shadow line.",
+        "Do not use gadgets underwater on your first pass — oxygen management is generous enough for a straight swim without assistance. Save your gadget uses for the dockyard section where they give more value per cooldown."
+      ],
+      "callouts": [
+        {
+          "title": "S-Rank habit",
+          "content": "Count the patrol boat passes. Two passes of boat 1 + one pass of boat 2 = the cleanest window. If you surface on pass 3, you waste time and trigger a camera check.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "Zone 2 — Dockyard Approach",
+      "body": [
+        "The dockyard is your first test of dual-angle routing. Above you is a catwalk with two patrolling guards. Below you is a cargo staging area with stationary workers who do not trigger alarms but will radio for a check if they see you. The clean path stays on the lower level, uses the shipping container line for cover, and reaches the far stairwell without climbing to the catwalk at all.",
+        "The only takedown you need in this zone is the guard near the blue container who holds the keycard for the ship access door. Every other patrol can be timed past. If you take down more than one guard in Zone 2, your S-Rank score will take a penalty from the 'minimum interference' metric.",
+        "Use a distraction gadget at the far end of the container row to pull the keycard guard away from the door. Throw it near the forklift - the noise blends with the ambient machinery audio and does not trigger a search state."
+      ],
+      "tips": [
+        "The blue container guard starts a patrol loop if you wait more than 90 seconds. Take him early or adjust your route accordingly.",
+        "You can skip the keycard entirely by lockpicking the side door, but lockpicking takes 12 seconds of standing still - usually too slow for S-Rank pace."
+      ]
+    },
+    {
+      "heading": "Zone 3 — Container Ship Interior",
+      "body": [
+        "The ship interior is one of the game's best-designed stealth spaces. Tight corridors, vertical mix, and audio cues that travel unpredictably through metal walls. The S-Rank path here is about sound discipline: never run, never use the crowbar on metal doors, and never let a body hit the deck without cushioning the fall.",
+        "Your objective is on Deck 3, in the navigation room. The fastest approach goes up through the cargo hold stairwell, across the crew quarters catwalk, and into the navigation room from the east service entrance. That route exposes you to exactly two patrol guards, both of whom can be handled with well-timed pauses rather than takedowns.",
+        "The navigation room hack takes 18 seconds. During that window, a guard enters on a 20-second patrol loop. If you started the hack within 2 seconds of his last pass, you complete it before he returns. If you mistimed, abort the hack and use a visual disruption gadget to reset his patrol timing."
+      ],
+      "callouts": [
+        {
+          "title": "S-Rank habit",
+          "content": "Use your gadget cooldown window during the ship ascent. If you have a visual disruption ready when you reach the navigation room, you have insurance against a bad hack timing.",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "heading": "All Collectibles In Deep Water",
+      "body": [
+        "Deep Water contains four collectibles: one intel cache, two audio logs, and one weapon upgrade part. None are hidden behind forced combat, but all require deviating from the straight S-Rank line. If you are running for score, skip the collectibles on your first clear and return during free play. For the full collectible tracking, refer to the [official 007 First Light wiki](https://007firstlight.wiki) for interactive maps.",
+        "Intel cache: found in the flooded cargo hold section. After climbing the first ladder onto the ship, drop back down into the partially flooded bay. The cache is on a raised pallet near the water pump. You need to use the Q Lens to spot the reflection — it is visually camouflaged against the dark water.",
+        "Audio logs: one is in the dockyard foreman's office (ground floor of the administration building, requires lockpick), the other is on the ship's bridge after you complete the primary objective. The bridge log is easy to miss because the objective completion triggers an exit timer, but the log is right next to the exit door.",
+        "Weapon upgrade: located in a weapon locker in the ship's armory, Deck 2. The armory door requires a keycard dropped by the Deck 2 patrol guard — the only takedown in the interior zone worth taking for the upgrade reward."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I get S-Rank without any takedowns in Deep Water?",
+      "answer": "Yes, but you must take the lockpick route for the keycard door instead of the keycard takedown. This requires an extra tool slot and costs the 12-second lockpick animation."
+    },
+    {
+      "question": "What is the one gadget I should bring to Deep Water?",
+      "answer": "A visual disruption tool is the single most valuable gadget for this mission. It covers your hack window, distracts the keycard guard, and creates an exit window on the final deck."
+    }
+  ]
+}
